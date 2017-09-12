@@ -13,7 +13,7 @@
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->
 	<!--header-->
 	<div class="container-fluid fix">
-		<h1 class="title">Impressum</h1>
+		<h1 class="title">Sprostredkovanie</h1>
 		<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
@@ -27,7 +27,7 @@
 		</div><!--NAVIGATION END-->
 	</div><!--header end-->
 	<section id="top">
-		<h1 class="hide">Impressum</h1>
+		<h1 class="hide">Sprostredkovanie</h1>
 		<div class="container-fluid first-content">
 			<ul data-limit-x="40" data-limit-y="20" id="scene">
 				<li class="layer" data-depth="0.00"><img alt="CARE" class="decoimg" src="scene1/1.jpg"></li>
@@ -35,95 +35,123 @@
 				<li class="layer" data-depth="0.25"><img alt="CARE" class="decoimg" src="scene1/3.png"></li>
 			</ul>
 		</div>
-		
+		<div class="menu-jano" id="sticker">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="item-a">
+							<a href="#one">Spolupráca</a>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="item-b">
+							<a href="#two">Služby</a>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="item-c">
+							<a href="#three">Hľadanie</a>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="item-d">
+							<a href="#four">Ceny</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container intro-text">
+			<h2 class="text-center">Vdaka nasmu posobeniu na trhu vo viacerych europskych krajinam dokazeme poskytovat nizke ceny nasich sluzieb. Patrime medzi najrychlejsich poskytovatelov sluzieb. Vyuzite nase sluzby, vdaka ktorym najdete vhodny personal rychlo, jednoducho a bez namahy (v sulade s pravnymi normami). </h2>
+		</div>
 	</section>
+	<section id="one">
+		<div class="green one" style="background: #222;">
+			<div class="container">
+				<h1>Spolupráca</h1>
+				<div class="row">
+					<div class="col-lg-2">
+						<i class="fa fa-handshake-o fa-5x" aria-hidden="true" style="text-align: center;display: block;"></i>
+					</div>
+					<div class="col-lg-10">
+						<p style="text-align: left">Spolupracujeme so spoločnosťami s víziou spoločného cieľa. Naši obchodní partneri oceňujú predovšetkým jednoduchosť celého procesu, minimálnu námahu a právnu istotu, ktoré poskytujeme. 
+						</p>
+					</div>
+				</div>
+				
+				<div class="article-finish"></div>
+				
+				<div class="row">
+					<div class="col-lg-2">
+						<i class="fa fa-globe fa-5x" aria-hidden="true" style="text-align: center;display: block;"></i>
+					</div>
+					<div class="col-lg-10">
+						<p style="text-align: left">Vďaka voľnému pohybu služieb v Európskej únii Vám vieme ponúknuť kompetentný a skúsený personál v súlade so zákonom. Máte k dispozícii opatrovateľský personál z celej Európy. Informujte sa o nami ponúkaných službách bližšie. </p>
+					</div>
+				</div>
+				
+				<div class="article-finish"></div>
+				
+				<div class="row">
+					<div class="col-lg-2">
+						<i class="fa fa-level-up fa-5x" aria-hidden="true" style="text-align: center;display: block;"></i>
+					</div>
+					<div class="col-lg-10">
+						<p style="text-align: left">Využite kvalitu a spoľahlivosť agentúry Slowiss a dosiahnete vždy vysoký štandard na trhu poskytovania opatrovateľských služieb. Kontaktujte nás a zoznámte sa s naším špičkovým tímom zo Švajčiarska. Sme Vám k dispozícii v prípade akýchkoľvek otázok a prianí. </p>
+					</div>
+				</div>
+				
+					<div class="article-finish"></div>
+			</div>
+		</div>
+						<img src="img/teamwork.jpg" alt="img" class="decoration">
 
+	</section>
 	<div class="green two">
-		<section id="two"><br>
-			<div class="container" style="text-align: left;">
-				<h3 style="text-align: left;">IMPRESSUM A PRÁVNE INFORMÁCIE</h3><br>
-				
-				<p style="text-align: left"><strong>Všeobecné ustanovenia</strong></p>
-				<p style="text-align: left">
-					Webová stránka www.slowiss.sk bola vytvorená za účelom poskytovania všeobecných informácií o obchodnej spoločnosti Slowiss Slovakia s.r.o., predovšetkým o jej službách.
-				</p>
-				<p style="text-align: left">
-					Spoločnosť Slowiss Slovakia s.r.o., so sídlom M. Rázusa 59, 984 01 Lučenec, IČO: 	50 047 612, zapísaná v Obchodnom registri Okresného súdu v Banskej Bystrici, Oddiel: Sro, vo vložke číslo 28841/S (ďalej len ako „prevádzkovateľ“) je prevádzkovateľom internetovej stránky www.slowiss.sk (ďalej len „webová stránka“) a poskytovateľom služieb na tejto webovej stránke. 
-				</p>
-				<p style="text-align: left">
-					Texty, obrázky a ďalšie súčasti tejto webovej stránky sú majetkom Prevádzkovateľa alebo k nim má Prevádzkovateľ užívateľské práva na základe licenčnej zmluvy. Používanie, kopírovanie, distribúcia alebo reprodukcia obsahu tejto webovej stránky akýmikoľvek prostriedkami môže byť uskutočnená iba s predchádzajúcim súhlasom Prevádzkovateľa. 
-				</p>
-				<p style="text-align: left">
-					Táto webová stránka môže obsahovať odkazy na webové stránky iných subjektov. Prevádzkovateľ nenesie zodpovednosť za obsah alebo funkčnosť týchto webových stránok.
-				</p><br>
-				
-				<p style="text-align: left"><strong>Všeobecné obchodné podmienky</strong></p>
-				<p style="text-align: left">
-					Všeobecné obchodné podmienky spoločnosti Slowiss Slovakia s.r.o. (ďalej len ako „VOP“) upravujú práva a povinnosti Prevádzkovateľa a tretích osôb pri poskytovaní a využívaní služieb Prevádzkovateľa. VOP sú neoddeliteľnou súčasťou zmluvy uzavretej s Prevádzkovateľom, sú záväzné pre všetkých užívateľov služieb. Odchýlne ustanovenia zmluvy majú prednosť pred VOP. 
-				</p>
-				<p style="text-align: left">
-					Činnosťou Prevádzkovateľa nie je sprostredkovanie zamestnania za úhradu podľa zákona č. 5/2004 Z.z. o službách zamestnanosti a o zmene a doplnení niektorých zákonov v platnom znení.
-				</p>
-				<p style="text-align: left">
-					Pre účely všeobecných obchodných podmienok a pre vznik, zmenu a zánik právneho vzťahu medzi Prevádzkovateľom a Klientom alebo Uchádzačom o prácu alebo poskytovanie služby sa uvedené pojmy interpretujú nasledovne:
-				</p>
-				<p style="text-align: left">
-					Prevádzkovateľ je osoba, ktorá sama alebo spoločne s inými vymedzí účel spracúvania osobných údajov, určí podmienky ich spracúvania a spracúva osobné údaje vo vlastnom mene. Pre účely tohto dokumentu je Prevádzkovateľom Slowiss Slovakia s.r.o.
-					Uchádzač o prácu alebo poskytovanie služby je výlučne fyzickou osobou, ktorá využíva služby na webovej stránke v záujme nájsť si vhodnú príležitosť pre prácu alebo poskytovanie služby.
-					Klient je fyzickou alebo právnickou osobou, ktorá využíva alebo plánuje využívať služby poskytované na webovej stránke, predovšetkým nájsť vhodného zamestnanca alebo poskytovateľa služby. <br>
-					Životopis uchádzača je zhrnutie údajov o záujemcovi o prácu alebo poskytovanie služby.
-					Databáza uchádzačov je databáza obsahujúca životopisy uchádzačov.
-				</p>
-				<p style="text-align: left">
-					Služby prevádzkovateľa predstavujú služby, ktoré Prevádzkovateľ poskytuje Klientom a Uchádzačom o prácu alebo službu predovšetkým prostredníctvom webovej stránky.
-					Ponuka je inzerát uverejnený Prevádzkovateľom na webovej stránke za účelom vyhľadania vhodného zamestnanca alebo poskytovateľa služby.
-				</p><br>
-				
-				<p style="text-align: left"><strong>Ochrana osobných údajov</strong></p>
-				<p style="text-align: left">
-					Prevádzkovateľ v rozsahu služieb poskytovaných Uchádzačom o prácu alebo službu eviduje reakcie odoslané Uchádzačmi na Ponuky zverejnené na webovej stránke.
-				</p>
-				<p style="text-align: left">
-					Reakcie ponuky odoslané Uchádzačmi môžu obsahovať údaje, ktoré sa podľa §4 Zákona č. 122/2013 Z.z. o ochrane osobných údajov a o zmene a doplnení niektorých zákonov v znení neskorších predpisov (ďalej len „Zákon o ochrane osobných údajov“) považujú za osobné údaje.
-				</p>
-				<p style="text-align: left">
-					Pred odoslaním alebo odoslaním reakcie na Ponuku Uchádzač vyhlasuje, že všetky ním uvedené informácie sú pravdivé.
-				</p>
-				<p style="text-align: left">
-					Kontaktný formulár Uchádzača alebo reakcia na Ponuku obsahuje predovšetkým:<br>
-					a)	Meno a priezvisko,<br>
-					b)	Minimálne jeden kontaktný údaj (e-mail alebo telefón),<br>
-					c)	Určenie pracovnej oblasti a pracovnej pozície, o ktorú má záujem,<br>
-					d)	Určenie lokality, v ktorej hľadá príležitosť pre výkon práce alebo služby.
-				</p>
-				<p style="text-align: left">
-					Uvedenie ďalších údajov v reakcii na Ponuku alebo v Životopise je na výlučnom rozhodnutí dotknutého Uchádzača. Jedná sa o nasledovné údaje, ktoré sú súčasťou Životopisu uchádzača:<br>
-					a)	Najvyššie dosiahnuté vzdelanie,<br>
-					b)	Výučný list v odbore,<br>
-					c)	Pracovné skúsenosti, certifikáty,<br>
-					d)	Jazykové a iné znalosti.
-				</p>
-				<p style="text-align: left">
-					Súčasťou Životopisu uchádzača je aj dotazník, ktorého vyplnenie je založené na dobrovoľnosti a umožňuje Prevádzkovateľovi lepšie vyhľadanie vhodnej príležitosti pre Uchádzača.
-				</p>
-				<p style="text-align: left">
-					Prevádzkovateľ v žiadnom prípade nepožaduje od Záujemcu o prácu alebo vykonávanie služby uvedenie údajov spadajúcich do osobitnej kategórie definovanej  v ustanovení §13 Zákona o ochrane osobných údajov.
-				</p>
-				<p style="text-align: left">
-					Bez poskytnutia výslovného súhlasu Uchádzača Prevádzkovateľ a Klient prevádzkovateľa nie sú oprávnení spracovať údaje Uchádzača. Pred odoslaním reakcie na Ponuku zverejnenú na webovej stránke Uchádzač preukázateľným spôsobom poskytne svoj súhlas so spracúvaním osobných údajov. Prevádzkovateľ spracuje údaje Uchádzačov výlučne za účelom poskytnutia pomoci Uchádzačom pri vyhľadaní príležitosti pre výkon práce alebo služby. Súhlas Uchádzača sa poskytuje na dobu neurčitú a Uchádzač ho môže kedykoľvek písomnou žiadosťou adresovanou Prevádzkovateľovi odvolať. 
-				</p><br>
-				
-				<p style="text-align: left"><strong>Spoločné a záverečné ustanovenia</strong></p>
-				<p style="text-align: left">
-					Prevádzkovateľ si vyhradzuje právo na zmenu a doplnenie tohto dokumentu, pričom o zmenách bezodkladne informuje užívateľov zverejnením zmien na webovej stránke. Všetky práva vyslovene neupravené v tomto dokumente sa riadia všeobecnými obchodnými podmienkami a platnými právnymi predpismi Slovenskej republiky. 
-				</p>
-				
-				
+		<section id="two">
+			<div class="container">
+				<h1>Služby</h1>
+				<h2 style="color: #222;">Nábor</h2>
+				<p>Slowiss má centrá náboru po celej strednej a východnej Európe. 
+				Jedno centrum náboru pozostáva z viac než 60 000 opatrovateliek
+				Využívame jeden z najlepších spôsobov náboru prostredníctvom technológií a inovácií</p>
+				<p>Opatrovanie seniorov - organizované so švajčiarskou precíznosťou.</p>
+				<h2 style="color: #222;">VÝBER</h2>
+				<p>Pri výbere personálu kladieme dôraz na:
+				Dobrú povesť a doterajšie pôsobenie
+				Certifikáty a referencie
+				Skúšku jazykových znalostí v súlade s medzinárodnými normami vo vyše 30 úradných jazykoch
+				Osobné stretnutie a prípravu na vycestovanie </p>
+				<p>Opatera seniorov - organizovaná so švajčiarskou precíznosťou. </p>
+				<h2 style="color: #222222">PRIEBEH</h2>
+				<p>Hladký priebeh znamená:
+				Adaptácia podmienok neustále meniacej sa legislatíve
+				Prvotriednu starostlivosť Garancia výmeny v prípade nespokojnosti</p>
+				<p>Opatera seniorov - organizovaná so švajčiarskou precíznosťou. </p>
+			
 			</div>
 			<div class="article-finish"></div>
 		</section>
 	</div>
-	
+	<div class="green three">
+		<section id="three">
+		<div class="red-med">
+			<h1 style="color:white;">Hľadanie</h1>
+			<div class="container">
+			
+			</div>
+			</div>
+			<div class="article-finish"></div>
+	</section>
+	</div>
+	<section id="four">
+		<h1 class="p">Niečo</h1><!-- AJAX LOADER -->
+		<div class="container">
+		
+		</div>
+		<div class="article-finish"></div>
+		<div class="article-finish"></div><!-- AJAX LOADER END  -->
+	</section>
 	<script src="js/jquery-1.11.3.min.js">
 	</script> 
 	<script src="js/jquery.sticky.js">

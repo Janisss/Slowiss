@@ -5,9 +5,33 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Slowiss- Healthcare</title>
+	<title>Slowiss - Healthcare</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		function MM_validateForm() { //v4.0
+		  if (document.getElementById){
+			var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+			for (i=0; i<(args.length-2); i+=3) { 
+				test=args[i+2]; 
+				val=document.getElementById(args[i]);
+			  if (val) { 
+				  nm=val.name; 
+				  if ((val=val.value)!="") {
+					if (test.indexOf('isEmail')!=-1) {
+						p=val.indexOf('@');
+						if (p<1 || p==(val.length-1)) errors+='- '+' must contain an e-mail address.\n';
+						} else if (test!='R') { 
+							num = parseFloat(val);
+						if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+						if (test.indexOf('inRange') != -1) {
+							p=test.indexOf(':');
+							min=test.substring(8,p); max=test.substring(p+1);
+							if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+			  } } } else if (test.charAt(0) == 'R') errors += '- '+' e-mail is required.\n'; }
+			} if (errors) alert('The following error(s) occurred:\n'+errors);
+			document.MM_returnValue = (errors == '');}}
+    </script>
 </head>
 <body>
 	<?php
@@ -30,6 +54,52 @@
 			<a href="./index.php#uchadzac"><i aria-hidden="true" class="fa fa-home fa-3x home"></i></a>
 		</div><!--NAVIGATION END-->
 	</div><!--header end-->
+	<!--UCHADZAT SA-->
+		<!--testovanie ci bol chceckbox zakliknuty. Ak nebol nepusti <form action=""....>-->
+			<script>
+			function testcheck(){
+    			if (!jQuery("#checkbox").is(":checked")) {
+        			alert("Consent to the processing of personal data is required!");
+        			return false;
+					}
+    			return true;
+				}
+			</script>
+				
+			<div id="Modaluchadzac" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Application</h4>
+				  </div>
+				  <div class="modal-body">
+					<form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
+						<input placeholder="Name and surname:" type="text" name="u-person"> 
+						<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
+						<input placeholder="Phone number:" type="text" name="u-tel"> 
+						<input placeholder="Position interested in:" type="text" name="u-position">
+						<input placeholder="Where do you want to work:" type="text" name="u-work">
+						<textarea placeholder="Message:" name="u-message"></textarea><hr>
+						<p style="text-align: left; font-size: .7em;">IMPORT YOUR CV</p>
+						<input type="file" name="u-file"><hr>
+						<div class="row">
+							<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
+							<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">CONSENT TO THE PROCESSING OF PERSONAL DATA</a></div>
+
+						</div>
+						<hr><br> 
+						<input value="Submit" type="submit" name="u-submit" onClick="return testcheck()">
+					</form>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+<!--KONIEC UCHADZAT SA-->
 	<section id="top">
 		<h1 class="hide">Healthcare</h1>
 		<div class="container-fluid first-content">
@@ -72,7 +142,7 @@
 			</div>
 		</div>
 		<div class="container intro-text">
-			<h2 class="text-center">Do you consider yourself to be empathetic and patient? Do you find helping others satisfying and rewarding? If you answered yes to previous questions, than working in healthcare sector is the right choice for you. Whether you prefer an elderly care, a child care or a household care, we can help you. </h2>
+			<h2 class="text-center">Do you consider yourself to be empathetic and patient? Do you find helping others satisfying and rewarding? If you answered yes to both questions, than working in healthcare sector is the right choice for you. Whether you prefer an elderly care, a child care or a household care, we can help you. </h2>
 		</div>
 	</section>
 	<section id="one">
@@ -127,7 +197,7 @@
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="1."></div>
 						<h2 style="color: #222;">Contact form</h2>
-						<p class="nmbrlist">Make the first step and complete our <a href="#foot">contact form</a>, possibly upload your CV and we will contact you.</p>
+						<p class="nmbrlist">Make the first step and complete our <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">contact form</a>, possibly upload your CV and we will contact you.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="2."></div>
@@ -187,7 +257,7 @@
 						<p>Nothing, you do not pay any intermediary or registration fees. We offer you a free use of our services. </p>
 					</div>
 					<div class="q2 answ">
-						<p>Yes, it is necessary to speak at least at a basic level of the foreign language required for the country that you want to travel to. The good lknowledge of foreign language can be a huge advantage for fast positioning as well as better salary.</p>
+						<p>Yes, it is necessary to speak at least at a basic level of the foreign language required for the country that you want to travel to. The good knowledge of foreign language can be a huge advantage for fast positioning as well as better salary.</p>
 					</div>
 					<div class="q3 answ">
 						<p>No, accredited certificate from a health care course is an advantage, but it is not essential, as well as experience with care giving, that need to be supported by references.</p>
@@ -280,7 +350,7 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote purple">
-		  <p class="text-left">"My name is Ivona Sedajova and I work as a caregiver for already 5 years in Switzerland. I have also worked in Austria for a while as a caregiver. There has been also many nice and funny moments in my work, I could have written a bestseller with things I have experienced. I would like to say some words to the Slowiss agency and that is that the employees in the agency are very supportive and helpful. Whenever any problem has occurred they were there to sort it out. I will always recommend Slowiss agency to my friends."</p>
+		  <p class="text-left">"My name is Ivona Sedajova and I have worked as a caregiver in Switzerland for 5 years already. I also worked  as a caregiver in Austria for a while. There has been also many nice and funny moments at my work, I could have written a bestseller with things I have experienced. I would like to say some words to the Slowiss agency and that is that the employees in the agency are very supportive and helpful. Whenever any problem has occurred they were there to sort it out. I will always recommend Slowiss agency to my friends."</p>
 		  <p class="text-right"><strong>- Ivona Sedajova, Caregiver</strong></p>
 		</blockquote>
 		<div class="row">
@@ -291,7 +361,7 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote purple">
-		  <p class="text-left">"Thanks to the agency Slowiss I found work in Switzerland and I was very satisfied. It is a long time to work for three months, but Slowiss made it more pleasant for me, they gave me a contact for one nice woman and we have become great friends. We were helping each other and we had share some nice moments. Compare to the other agencies, Slowiss is always available and they do care not only about families and clients but also about us, the caregivers."</p>
+		  <p class="text-left">"Thanks to the Slowiss agency I found work in Switzerland and I was very satisfied. It is a long time to work for three months, but Slowiss made it more pleasant for me, they gave me a contact for one nice woman and we have became great friends. We were helping each other and we had shared  some nice moments. Compare to the other agencies, Slowiss is always available and they do care not only about families and clients but also about us, the caregivers."</p>
 		  <p class="text-right"><strong>- Dana Gronkova, Caregiver</strong></p>
 		</blockquote>
 		<div class="row">

@@ -66,7 +66,7 @@
 			</div>
 		</div>
 		<div class="container intro-text">
-			<h2 class="text-center">Do you have difficulties to find qualified nurses, midwives or doctors? Are you searching for reliable business partner that will help you to find them? Do not worry, you have just found one. </h2>
+			<h2 class="text-center">Do you have any difficulties finding qualified nurses, midwives or doctors? Are you searching for reliable business partner that will help you to find them? Do not worry, you have just found one. </h2>
 		</div>
 	</section>
 	<section id="one">

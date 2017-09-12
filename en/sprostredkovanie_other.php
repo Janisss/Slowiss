@@ -150,6 +150,8 @@
 		<div class ="container">
 			<h1 style="color:white;">Cooperation</h1>
 			<div class="container">
+			<p style="text-align: center">Slowiss offers you many different possibilities of cooperation depending on your needs and requirements.</p>
+			<div class="article-finish"></div>
 			
 			
 			

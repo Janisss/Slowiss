@@ -8,6 +8,24 @@
 	<title>Slowiss - Iné odvetvia</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+	function MM_validateForm() { //v4.0
+	  if (document.getElementById){
+		var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+		for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+		  if (val) { nm=val.name; if ((val=val.value)!="") {
+			if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+			  if (p<1 || p==(val.length-1)) errors+='- '+' zle zadaný e-mail!\n';
+			} else if (test!='R') { num = parseFloat(val);
+			  if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+			  if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+				min=test.substring(8,p); max=test.substring(p+1);
+				if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+		  } } } else if (test.charAt(0) == 'R') errors += '- '+' zadajte e-mail!\n'; }
+		} if (errors) alert('Nasledujúce pole je povinné:\n'+errors);
+		document.MM_returnValue = (errors == '');
+	} }
+    </script>
 </head>
 <body>
 	<?php
@@ -30,6 +48,51 @@
 			<a href="./index.php#uchadzac"><i aria-hidden="true" class="fa fa-home fa-3x home"></i></a>
 		</div><!--NAVIGATION END-->
 	</div><!--header end-->
+	<!--UCHADZAT SA-->	
+		<!--testovanie ci bol chceckbox zakliknuty. Ak nebol nepusti <form action=""....>-->
+			<script>
+			function testcheck(){
+    			if (!jQuery("#checkbox").is(":checked")) {
+        			alert("Povinné pole: Súhlas so spracovaním údajov!");
+        			return false;
+					}
+    			return true;
+				}
+			</script>
+			<div id="Modaluchadzac" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Uchádzať sa</h4>
+				  </div>
+				  <div class="modal-body">
+					 <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
+						<input placeholder="Meno a priezvisko:" type="text" name="u-person"> 
+						<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
+						<input placeholder="Telefónne číslo:" type="text" name="u-tel"> 
+						<input placeholder="Záujem o pozíciu:" type="text" name="u-position">
+						<input placeholder="Kde chcete pracovať:" type="text" name="u-work">
+						<textarea placeholder="Poznámka:" name="u-message"></textarea><hr>
+						<p style="text-align: left; font-size: .7em;">VLOŽTE SVOJ ŽIVOTOPIS</p>
+						<input type="file" name="u-file"><hr>
+						<div class="row">
+							<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
+							<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SÚHLASÍM SO SPRACOVANÍM OSBNÝCH ÚDAJOV</a></div>
+						</div>
+						<hr><br> 
+						<input value="Odoslať" type="submit" name="u-submit" onClick="return testcheck()">
+					</form>
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
+				  </div>
+				</div>
+
+			  </div>
+			</div>
+<!--KONIEC UCHADZAT SA-->
 	<section id="top">
 		<h1 class="hide">Iné odvetvia</h1>
 		<div class="container-fluid first-content">
@@ -120,7 +183,7 @@
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="1."></div>
 						<h2 style="color: #222;">Formulár</h2>
-						<p class="nmbrlist">Spravte prvý krok a vyplňte <a href="#foot">kontaktný formulár</a>, poprípade k nemu nahrajte svoj štrukturovaný životopis a my Vás budeme kontaktovať.</p>
+						<p class="nmbrlist">Spravte prvý krok a vyplňte <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">kontaktný formulár</a>, poprípade k nemu nahrajte svoj štrukturovaný životopis a my Vás budeme kontaktovať.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="2."></div>

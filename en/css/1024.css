@@ -7,7 +7,7 @@
 		padding-top: 70px !important;
 	}
 	p {
-		padding: 2vh 5vw 2vh 5vw !important;
+		padding: 2px 4px !important;
 	}
 	h1 {
 		font-size: 2em !important;
@@ -68,5 +68,17 @@
 	}
 	.nivo-caption{
 		width: 100% !important;
+	}
+	footer .col-xs-4 {
+	width: 100% !important;	
+	}
+	footer .col-xs-6{
+	width: 100% !important;	
+	}
+	iframe {
+	width: 340 !important;
+	}
+	.mlang{
+		display: none;
 	}
 }

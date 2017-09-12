@@ -7,7 +7,7 @@
 		padding-top: 70px !important;
 	}
 	p {
-		padding: 2vh 5vw 2vh 5vw !important;
+		padding: 2px 4px !important;
 	}
 	h1 {
 		font-size: 2em !important;
@@ -18,7 +18,6 @@
 	}
 	h1.title {
 		font-size: 2em;
-		text-align: left;
 	}
 	.fix {
 		height: 70px !important;
@@ -71,5 +70,63 @@
 	}
 	.nivo-caption{
 		width: 100% !important;
+	}
+	.offer{
+	height: auto !important;
+	}
+	.col-xs-3.location{
+	width: 100% !important;
+	}
+	.col-xs-5.text{
+	width: 100% !important;
+	}
+	footer .col-xs-4 {
+	width: 100% !important;	
+	}
+	footer .col-xs-6 {
+	width: 100% !important;	
+	}
+	iframe {
+	width: 340 !important;
+	}
+	.mlang{
+		display: none;
+	}
+	.nivo-caption{
+		display: none;
+	}
+	.offer.hot:after{
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+	.loc-span{
+		text-align: left;
+	}
+	.col-xs-2.leftinfo{
+		width: 100% !important;
+		padding-top: 10px;
+		border: none !important;
+	}
+	.col-xs-2.leftinfo span{
+		color: #9E0B0F;
+	}
+	p.offerdata{
+		display: initial;
+		font-size: 14px;
+	}
+	.smallshow{
+		display:block;
+	}
+	.smallhide{
+		display: none;
+	}
+	.col-xs-3.location{
+		background-position: center;
+	}
+	.offer-icon{
+		width: 20px;
+	}
+	.text.biginfo, .offer.biginfo{
+		max-height: auto !important;
 	}
 }

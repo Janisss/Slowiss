@@ -131,7 +131,7 @@
 						</div>
 					</div>
 					<div class="article-finish"></div>
-					<p style="text-align: center">Kvalita a spoľahlivosť nami ponúkaných služieb nás zaraďuje medzi TOP personálne spoločnosti na európskom trhu. Vďaka voľnému pohybu služieb v Európskej únii máte k dispozícii personál z celej Európy. Pridajte sa k našim spokojným klientom a obchodným partnerom a oceníte jednoduchosť celého procesu, minimum námahy a právnu istotu, ktorú spoluprácou s nami získate. </p>
+					<p style="text-align: center">Kvalita a spoľahlivosť nami ponúkaných služieb nás zaraďuje medzi TOP personálne spoločnosti na európskom trhu. Vďaka voľnému pohybu služieb v Európskej únii máte k dispozícii opatrovateľský personál z celej Európy. Pridajte sa k našim spokojným klientom a obchodným partnerom a oceníte jednoduchosť celého procesu, minimum námahy a právnu istotu, ktorú získate spoluprácou s nami. </p>
 					
 					
 					<div class="article-finish"></div>
@@ -146,7 +146,7 @@
 			<div class="container">
 			<h1>Služby</h1>
 			<div class="container">
-			<p style="text-align: center">Spoločnosť Slowiss má centrá náboru personálu po celej strednej a východnej Európe. Jedno centrum náboru pozostáva z viac ako 60 000 opatrovateliek. Poskytneme Vám komplexné služby v oblasti sprostredkovania práce alebo služby a zabezpečenia personálu. Ak potrebujete kvalitné opatrovateľky alebo pomoc s domácnosťou, pomôžeme Vám vo všetkých personálnych otázkach a preto neváhajte a <a href="#foot">kontaktujte nás.</a></p>
+			<p style="text-align: center">Spoločnosť Slowiss má centrá náboru personálu po celej strednej a východnej Európe. Jedno centrum náboru pozostáva z viac ako 60 000 opatrovateliek. Poskytneme Vám komplexné služby v oblasti sprostredkovania práce alebo služby a zabezpečenia personálu. Ak potrebujete kvalitné opatrovateľky alebo pomoc s domácnosťou, pomôžeme Vám vo všetkých personálnych otázkach, preto neváhajte a kontaktujte nás.</a></p>
 				<p style="text-align: center">Pri výbere opatrovateliek dbáme predovšetkým na:</p>
 			
 			
@@ -199,7 +199,7 @@
 			<div class="letter">
 				<button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
 	  			<h3 style="text-align: center; color: #222;">Výhody sprostredkovania</h3><br>
-		  		<p style="text-align: center; color: #222;">Ak sa rozhodnete využiť službu sprostredkovania, vyhľadáme pre Vás vhodných kandidátov, ktorí budú spĺňať Vami indivinduálne určené požiadavky, z ktorími môžete následne uzavrieť pracovný pomer. </p><hr><br>
+		  		<p style="text-align: center; color: #222;">Ak sa rozhodnete využiť službu sprostredkovania, vyhľadáme pre Vás vhodných kandidátov, ktorí budú spĺňať Vami ndividuálne určené požiadavky a s ktorými môžete následne uzavrieť pracovný pomer.</p><hr><br>
 		  
 		 
 			  <div class="row">
@@ -236,7 +236,7 @@
 		  <div class="letter">
 		  <button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
 		  	  <h3 style="text-align: center; color: #222;">Výhody try and hire</h3><br>
-		  		<p style="text-align: center; color: #222;">Ak si chcete overiť znalosti a schopnosti zamestnancov predtým, než s nimi uzavriete pracovný pomer, táto služba je určená práce Vám. Poskytuje Vám ešte väčšiu flexibilitu a elimináciu rizika výberu nevhodného kandidáta.</p><hr><br>
+		  		<p style="text-align: center; color: #222;">AAk si chcete overiť znalosti a schopnosti zamestnancov predtým, než s nimi uzavriete pracovný pomer, táto služba je určená práve Vám. Poskytuje Vám ešte väčšiu flexibilitu a elimináciu rizika výberu nevhodného kandidáta.</p><hr><br>
 		 
 			  <div class="row">
 			  	<div class="col-lg-6 litem">
@@ -331,8 +331,8 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote blackk">
-		  <p class="text-left">“So Slowiss agentúrou sa nám podarilo nadviazať veľmi úspešnú a dlhodobú spoluprácu. Aj na základe ich pozitívnych a priateľských zákazníckych služieb môžeme túto agentúru rozhodne odporúčať. Počas celej spolupráce sú pre nás dôležitá najmä spoľahlivosť a rýchlosť služby.”</p>
-		  <p class="text-right"><strong>- Erwin Schlipf, Konateľ, Nemecko, WWW.PFLEGEVERMITTLUNG-BADE-WUERTTEMBERG.DE</strong></p>
+		  <p class="text-left">“So Slowiss agentúrou sa nám podarilo nadviazať veľmi úspešnú a dlhodobú spoluprácu. Aj na základe ich pozitívnych a priateľských zákazníckych služieb môžeme túto agentúru rozhodne odporúčať. Počas celej spolupráce je pre nás dôležitá najmä spoľahlivosť a rýchlosť služby.”</p>
+		  <p class="text-right"><strong>- Erwin Schlipf, konateľ, Nemecko, WWW.PFLEGEVERMITTLUNG-BADE-WUERTTEMBERG.DE</strong></p>
 		</blockquote>
 		<div class="row"><!--MIESTO NA FOTKY-->
 		

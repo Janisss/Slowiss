@@ -8,6 +8,25 @@
 	<title>Slowiss - HOME</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
+	<link href=".css/1024.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+	function MM_validateForm() { //v4.0
+	  if (document.getElementById){
+		var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+		for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+		  if (val) { nm=val.name; if ((val=val.value)!="") {
+			if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+			  if (p<1 || p==(val.length-1)) errors+='- '+' zle zadaný e-mail!\n';
+			} else if (test!='R') { num = parseFloat(val);
+			  if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+			  if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+				min=test.substring(8,p); max=test.substring(p+1);
+				if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+		  } } } else if (test.charAt(0) == 'R') errors += '- '+' zadajte e-mail!\n'; }
+		} if (errors) alert('Nasledujúce pole je povinné:\n'+errors);
+		document.MM_returnValue = (errors == '');
+	} }
+    </script>
 </head>
 <body>
 	<?php
@@ -221,7 +240,7 @@
 		<section id="three">
 			<h1 style="color: #222"><a id="onas" style="position: absolute; margin-top: -40px;"></a>O nás</h1>
 			<div class="container">
-						<p style="color: #222">Spoločnosť Slowiss vznikla začiatkom roku 2013, kedy ju založili bratia Martiovci a odvtedy je rýchlo rastúcou spoločnosťou. Na začiatku zameriavala všetku svoju pozornosť na oblasť opatrovania a zdravotníctva. Dopyt po zdravotníckych pracovníkoch  neustále narastal  a preto Slowiss začala nadväzovať spoluprácu s ďalšími agentúrami v Európe, čím vytvorila nové príležitosti pre svojich uchádzačov aj klientov. </p><p style="color: #222"> Postupne narastal dopyt aj po  pracovníkoch z iných odvetví a tak Slowiss začala zamestnávať personál aj v oblasti logistiky, gastronómie, hoteliérstva, stavebnícva a pod.. Slowiss spája kvalitné spoločnosti s kvalitným personálom v európskych krajinách. Ľudskosť, spoľahlivosť, inovácia a kvalita sú jej hlavnými hodnotami. </p>
+						<p style="color: #222">Spoločnosť Slowiss vznikla začiatkom roku 2013, kedy ju založili bratia Martiovci a odvtedy je rýchlo rastúcou spoločnosťou. Na začiatku zameriavala všetku svoju pozornosť na oblasť opatrovania a zdravotníctva. Dopyt po zdravotníckych pracovníkoch  neustále narastal  a preto Slowiss začala nadväzovať spoluprácu s ďalšími spoločnosťami v Európe, čím vytvorila nové príležitosti pre svojich uchádzačov aj klientov. </p><p style="color: #222"> Postupne narastal dopyt aj po  pracovníkoch z iných odvetví a tak Slowiss začala zamestnávať personál aj v oblasti logistiky, gastronómie, hoteliérstva, stavebnícva a pod.. Slowiss spája kvalitné spoločnosti s kvalitným personálom v európskych krajinách. Ľudskosť, spoľahlivosť, inovácia a kvalita sú jej hlavnými hodnotami. </p>
 						
 				<div class="article-finish"></div>		
 				<div class="row" style="text-align: center">
@@ -239,6 +258,16 @@
 		</section>
 	</div>
 <!--UCHADZAT SA-->	
+		<!--testovanie ci bol chceckbox zakliknuty. Ak nebol nepusti <form action=""....>-->
+			<script>
+			function testcheck(){
+    			if (!jQuery("#checkbox").is(":checked")) {
+        			alert("Povinné pole: Súhlas so spracovaním údajov!");
+        			return false;
+					}
+    			return true;
+				}
+			</script>
 <div id="Modaluchadzac" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
@@ -248,15 +277,21 @@
         <h4 class="modal-title" style="color:#222; text-align: center;">Uchádzať sa</h4>
       </div>
       <div class="modal-body">
-         <form action="mailsender_application.php" method="post" style="font-size:2em" enctype="multipart/form-data">
+         <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
         	<input placeholder="Meno a priezvisko:" type="text" name="u-person"> 
-			<input placeholder="E-mail:" type="text" name="u-email">  
+			<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
 			<input placeholder="Telefónne číslo:" type="text" name="u-tel"> 
 			<input placeholder="Záujem o pozíciu:" type="text" name="u-position">
 			<input placeholder="Kde chcete pracovať:" type="text" name="u-work">
-			<textarea placeholder="Poznámka:" name="u-message"></textarea>
-			<input type="file" name="u-file">
-			<input value="Odoslať" type="submit" name="u-submit">
+			<textarea placeholder="Poznámka:" name="u-message"></textarea><hr>
+			<p style="text-align: left; font-size: .7em;">VLOŽTE SVOJ ŽIVOTOPIS</p>
+			<input type="file" name="u-file"><hr>
+			<div class="row">
+	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SÚHLASÍM SO SPRACOVANÍM OSBNÝCH ÚDAJOV</a></div>
+	        </div>
+			<hr><br> 
+			<input value="Odoslať" type="submit" name="u-submit" onClick="return testcheck()">
 		</form>
       </div>
       <div class="modal-footer">

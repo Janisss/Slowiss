@@ -37,7 +37,7 @@
 			</ul>
 		</div>
 	<section id="thanks">
-		<h3 style="text-align: center;">Vďaka za Váš čas a kontaktovanie. Pokúsime sa odpovedať čo najskôr. Prajeme Vám príjemný ďeń!</h3>
+		<h3 style="text-align: center;">Vďaka za Váš čas a kontaktovanie. Pokúsime sa odpovedať čo najskôr. Prajeme Vám príjemný deň!</h3>
 		<h3 style="text-align: center"><a href="./index.php"><i class="fa fa-home" aria-hidden="true"></i>Home</a></h3>
 		<div class="article-finish"></div>
 	</section>

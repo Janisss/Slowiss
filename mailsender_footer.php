@@ -8,7 +8,7 @@ if(isset($_POST['sumbit-footer'])) {
 	.'<span style="color:Brown">Text: </span>'.$_POST['en-message']."<hr>"."<br><br><br>"
 	.'<span style="color:Gray">PHP mail-generator by Brickstone.design. If you find any problem please report at info@brickstone.design</span>';
 		
-	mail('job@slowiss.eu', '-> Slowiss Footer Formular', $emailbody ,'Content-Type: text/html; charset=UTF-8' ,'-f admin@slowiss.sk');
+	mail('yco.soltes@gmail.com', '-> Slowiss Footer Formular', $emailbody ,'Content-Type: text/html; charset=UTF-8' ,'-f admin@slowiss.eu');
 	header("Location:./mail_success.php");
 }
 ?>

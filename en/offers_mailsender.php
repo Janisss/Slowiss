@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['offer_submit'])) {
 	$emailbody = 
-	 '<img src="http://www.brickstone.design/s/slowiss.svg" width="300">'."<hr>"
+	 '<center><img src="http://slowiss.eu/slowiss.svg" width="300"></center>'."<hr>"
 	.'<span style="color:Brown">'.$_POST['ponuka']."</span><hr>"
 	.'<span style="color:Brown">Meno: </span>'.$_POST['meno']."<hr>"
 	.'<span style="color:Brown">Email: </span>'.$_POST['email']."<hr>"
@@ -9,7 +9,7 @@ if(isset($_POST['offer_submit'])) {
 	.'<span style="color:Brown">Správa: </span>'.$_POST['sprava']."<hr>"."<br><br>"
 	.'<span style="color:Gray">Mail by Janis from Brickstone<img src="http://brickstone.design/images/BRICKSTONEdesign.png" width="200">';
 		
-	mail('janis.catlos@slowiss.org', '-> Slowiss INZERÁTY', $emailbody ,'Content-Type: text/html; charset=UTF-8');
-	header("Location:./offers_en.php");
+	mail('job@slowiss.eu', '-> Slowiss Offers Formular', $emailbody ,'Content-Type: text/html; charset=UTF-8' ,'-f admin@slowiss.eu');
+	header("Location:./mail_success.php");
 }
 ?>

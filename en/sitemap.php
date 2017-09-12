@@ -61,5 +61,5 @@
 	</div>
 
 		<h3 style="text-align: center;">+421 473 211 276</h3>
-		<p>All Rights Reserved Slowiss Enterprises | Impressum | Webdesign by Brickstone.Design</p><br>
+		<p>All rights reserved Slowiss Slovakia s.r.o | <a href="impressum.php" target="_blank">Legal notice</a> | <a href="http://brickstone.design/sk/g-index.html" target="_blank">Webdesign by Brickstone Design s.r.o</a></p><br>
 </div>

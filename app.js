@@ -24,8 +24,11 @@ $("a.viac").click(function(){
 	$(this).closest(".offer").children(".text").toggleClass("biginfo");
 });
 $(".zaujem").click(function(){
-	var prd = $(this).closest(".offer").find(".loc-span").html();
-	$("#ponuka").val(prd);
+	var cisloponuky = $(this).closest(".offer").find(".loc-span").html();
+	$("#ponuka").val(cisloponuky);
+	var datumponuky = $(this).closest(".offer").find(".start-date").html();
+	$("#datum-ponuky").val(datumponuky);
+	$(".myred").addClass("active");
 });
 //esc
 $(document).keyup(function(e) {
@@ -130,7 +133,7 @@ $(".anchormenu li").click(function(){
 	});
 
 $(".small-call").click(function(){
-	location.href="tel:+1234567890";
+	location.href="tel:+421473211276";
 });
 	
 });//doc ready end

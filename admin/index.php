@@ -4,12 +4,13 @@
 <meta charset="UTF-8">
 <!-- <link href="../en/css/bootstrap.css" rel="stylesheet" type="text/css"> -->
 <link href="css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css">
 <link href="../bs_template.css" rel="stylesheet" type="text/css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="icon" href="../favicon-96x96.png">
 <link rel="apple-touch-icon-precomposed" href="../apple-icon-180x180.png">
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-  <script>tinymce.init({ selector:'textarea', toolbar: 'undo | redo', height : 350, block_formats:'Heading 1=h1;Heading 2=h2;Heading 3=h3;Heading 4=h4;Heading 5=h5;Heading 6=h6;Preformatted=pre'});</script>
+  <script>tinymce.init({ selector:'textarea',plugins:'paste', toolbar: 'undo | redo', height : 350, block_formats:'Heading 1=h1;Heading 2=h2;Heading 3=h3;Heading 4=h4;Heading 5=h5;Heading 6=h6;Preformatted=pre'});</script>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Administration - SLOWISS</title>
@@ -30,9 +31,9 @@
         	  <option value="&lt;i class=&quot;fa fa-user-md&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sestrička">Sestrička</option>
     </select></div>
         	<div><span>Popis:</span><span class="alert-danger">Nekopírovať text! Vypísať!!!</span><textarea name="offerdesc"></textarea></div>
-        	<div><span>Plat:</span><input type="text" name="offersalary" placeholder="1 766 CHF/mesaic Netto"></div>
+        	<div><span>Plat:</span><input type="text" name="offersalary" placeholder="2'100 CHF/mesiac Netto"></div>
         	<div><span>Turnus:</span><input type="text" name="offerturnus" placeholder="2 mesiace"></div>
-        	<div><span>Nástup:</span><input type="date" name="offerdate" placeholder="10.02.2017"></div>
+        	<div><span>Nástup:</span><input type="date" name="offerdate" placeholder="10.02.2017" class="datepicker"></div>
         	<div><span>Lokalita:</span>
         	<select name="offerpic">
 			  <option value="aargau">Aargau</option>
@@ -178,7 +179,12 @@ foreach($offers as $data){
         
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="../en/js/bootstrap-3.3.7.js"></script>
-<script src="https://use.typekit.net/whv1coi.js">
-</script>
+<script src="https://use.typekit.net/whv1coi.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+	<script>
+		 $('.datepicker').datepicker({
+			 dateFormat: "dd-mm-yyyy"
+		 });
+	</script>
 </body>
 </html>

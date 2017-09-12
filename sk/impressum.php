@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Slowiss- sprostredkovanie</title>
+	<title>Slowiss - Impressum</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
 </head>
@@ -23,7 +23,7 @@
 			</div>
 		</div><!--NAVIGATION-->
 		<div class="hauptmenu">
-			<a href="./index.php#sempod"><i aria-hidden="true" class="fa fa-home fa-3x home"></i></a>
+			<a href="./index.php"><i aria-hidden="true" class="fa fa-home fa-3x home"></i></a>
 		</div><!--NAVIGATION END-->
 	</div><!--header end-->
 	<section id="top">
@@ -45,10 +45,10 @@
 				
 				<p style="text-align: left"><strong>Všeobecné ustanovenia</strong></p>
 				<p style="text-align: left">
-					Webová stránka www.slowiss.sk bola vytvorená za účelom poskytovania všeobecných informácií o obchodnej spoločnosti Slowiss Slovakia s.r.o., predovšetkým o jej službách.
+					Webová stránka www.slowiss.eu bola vytvorená za účelom poskytovania všeobecných informácií o obchodnej spoločnosti Slowiss Slovakia s.r.o., predovšetkým o jej službách.
 				</p>
 				<p style="text-align: left">
-					Spoločnosť Slowiss Slovakia s.r.o., so sídlom M. Rázusa 59, 984 01 Lučenec, IČO: 	50 047 612, zapísaná v Obchodnom registri Okresného súdu v Banskej Bystrici, Oddiel: Sro, vo vložke číslo 28841/S (ďalej len ako „prevádzkovateľ“) je prevádzkovateľom internetovej stránky www.slowiss.sk (ďalej len „webová stránka“) a poskytovateľom služieb na tejto webovej stránke. 
+					Spoločnosť Slowiss Slovakia s.r.o., so sídlom M. Rázusa 59, 984 01 Lučenec, IČO: 	50 047 612, zapísaná v Obchodnom registri Okresného súdu v Banskej Bystrici, Oddiel: Sro, vo vložke číslo 28841/S (ďalej len ako „prevádzkovateľ“) je prevádzkovateľom internetovej stránky www.slowiss.eu (ďalej len „webová stránka“) a poskytovateľom služieb na tejto webovej stránke. 
 				</p>
 				<p style="text-align: left">
 					Texty, obrázky a ďalšie súčasti tejto webovej stránky sú majetkom Prevádzkovateľa alebo k nim má Prevádzkovateľ užívateľské práva na základe licenčnej zmluvy. Používanie, kopírovanie, distribúcia alebo reprodukcia obsahu tejto webovej stránky akýmikoľvek prostriedkami môže byť uskutočnená iba s predchádzajúcim súhlasom Prevádzkovateľa. 

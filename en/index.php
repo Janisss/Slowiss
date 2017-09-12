@@ -7,32 +7,33 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<title>Slowiss - HOME</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/1024.css">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
 	<link rel="icon" href="../favicon-96x96.png">
 	<link rel="apple-touch-icon-precomposed" href="../apple-icon-180x180.png">
 	<script type="text/javascript">
-function MM_validateForm() { //v4.0
-  if (document.getElementById){
-    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
-    for (i=0; i<(args.length-2); i+=3) { 
-		test=args[i+2]; 
-		val=document.getElementById(args[i]);
-      if (val) { 
-		  nm=val.name; 
-		  if ((val=val.value)!="") {
-        	if (test.indexOf('isEmail')!=-1) {
-				p=val.indexOf('@');
-          		if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
-        		} else if (test!='R') { 
-					num = parseFloat(val);
-          		if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
-          		if (test.indexOf('inRange') != -1) {
-					p=test.indexOf(':');
-            		min=test.substring(8,p); max=test.substring(p+1);
-            		if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
-    } if (errors) alert('The following error(s) occurred:\n'+errors);
-    document.MM_returnValue = (errors == '');}}}
+		function MM_validateForm() { //v4.0
+		  if (document.getElementById){
+			var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+			for (i=0; i<(args.length-2); i+=3) { 
+				test=args[i+2]; 
+				val=document.getElementById(args[i]);
+			  if (val) { 
+				  nm=val.name; 
+				  if ((val=val.value)!="") {
+					if (test.indexOf('isEmail')!=-1) {
+						p=val.indexOf('@');
+						if (p<1 || p==(val.length-1)) errors+='- '+' must contain an e-mail address.\n';
+						} else if (test!='R') { 
+							num = parseFloat(val);
+						if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+						if (test.indexOf('inRange') != -1) {
+							p=test.indexOf(':');
+							min=test.substring(8,p); max=test.substring(p+1);
+							if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+			  } } } else if (test.charAt(0) == 'R') errors += '- '+' e-mail is required.\n'; }
+			} if (errors) alert('The following error(s) occurred:\n'+errors);
+			document.MM_returnValue = (errors == '');}}
     </script>
 </head>
 <body>
@@ -93,7 +94,7 @@ function MM_validateForm() { //v4.0
 			</div>
 		</div>
 		<div class="container intro-text">
-			<p>Welcome at Slowiss, your personal recruitment company. Slowiss is a group of passionate recruiters who deliver a broad range of talent and labour solutions. We believe in sourcing the right individuals for the right roles. Wether you are a candidate searching for an opportunity or a company searching for an employee, we can help you.</p>
+			<p>Welcome at Slowiss, your personal recruitment company. Slowiss is a group of passionate recruiters who deliver a broad range of talent and labour solutions. We believe in sourcing the right individuals for the right roles. Whether you are a candidate searching for an opportunity or a company searching for an employee, we can help you.</p>
 		</div>
 	</section>
 	<!-- scroll here --><a name="fromcare"></a>
@@ -101,7 +102,7 @@ function MM_validateForm() { //v4.0
 		<div class="container">
 		<h1><a id="uchadzac" style="position: absolute; margin-top: -20px;"></a>Looking for a job</h1>
 		<br>
-		<p>We offer you many opportunities to provide jobs or services in various sectors. You can find here not just current vacancies, but also a valuable advice, which can help you to get a dream job. Please choose your profession below to find out more.</p><br>
+		<p>We offer you many opportunities to provide jobs or services in different  sectors. You can find here not just current vacancies, but also a valuable advice, which can help you to get a dream job. Please choose your profession below to find out more.</p><br>
 		
 					<div class="row">
 						<div class="col-md-3">
@@ -160,7 +161,7 @@ function MM_validateForm() { //v4.0
 						  <div class="panel-heading" style="background-color: transparent;">
 						    <h2 class="panel-title" style="color: rgba(157, 11, 15, 1); font-size: 5rem;">Other</h2>
 						  </div>	
-									<p style="text-align: justify;" class="panel-body">In case that you are a professional driver, waiter, chef, builder, etc. searching for an opportunity to provide jobs or services, we also have possibilities for you.</p>
+									<p style="text-align: justify;" class="panel-body">In case that you are a professional driver, waiter, chef, builder, etc. that is searching for an opportunity to provide jobs or services, we also have possibilities for you.</p>
 								<!--tlacitka-->
 								  <ul class="menu-x c pull-right">
 								  	  <li><a href="./WELLpro_en.php">More information</a></li>
@@ -182,7 +183,7 @@ function MM_validateForm() { //v4.0
 			<div class="container">
 				<h1><a id="zamestnavatel" style="position: absolute; margin-top: -20px;"></a>Looking for a personnel</h1>
 					<br>
-					<p>Cooperation with Slowiss offers you quality and flexibility of provided services. Over the past years we have proved to be a reliable and stable partner to many foreign and Slovak companies. Please choose below a profession of your desired personnel. Our team of recruiters will search for high quality people in accordance with your requirements.</p><br>
+					<p>Cooperation with Slowiss offers you quality and flexibility of services provided. Over the past few years we have proved to be a reliable and stable partner to many foreign and Slovak companies. Please choose below a profession of your desired personnel. Our team of recruiters will search for high quality people in accordance with your requirements.</p><br>
 					<div class="row">
 						<div class="col-md-3">
 								<img src="../main_img/AdobeStock_122549282_WM.jpeg" alt="IMG" style="width: 100%;">
@@ -251,7 +252,7 @@ function MM_validateForm() { //v4.0
 		<section id="three">
 			<h1 style="color: #222"><a id="onas" style="position: absolute; margin-top: -40px;"></a>About us</h1>
 			<div class="container">
-						<p style="color: #222">Slowiss was established at the beginning of 2013 by Marti's brothers and since than grew dynamically. Firstly it focused all its attention on health care sector. The number of required health care personnel increased considerably and Slowiss was unable to meet the high demand, thats when cooperation with other agencies across the whole of Europe started and new opportunities were created.</p><p style="color: #222"> Gradually, there was an increasing demand for highly skilled professionals in other working sectors so  company started to recruit personnel also in logistics, gastronomy, hotels, construction and so on. Slowiss is committed to connecting good companies with good employees in Eastern European countries. Humanity, reliability, innovation and quality are our main values. </p>
+						<p style="color: #222">Slowiss was established at the beginning of 2013 by Marti's brothers and since than grew dynamically. Firstly it focused all its attention on health care sector. The number of required health care personnel increased considerably and Slowiss was unable to meet the high demand, thats when cooperation with other companies across the whole of Europe started and new opportunities were created.</p><p style="color: #222"> Gradually, there was an increasing demand for highly skilled professionals in other working sectors so  company started to recruit personnel also in logistics, gastronomy, hotels, construction and so on. Slowiss is committed to connecting good companies with good employees in Eastern European countries. Humanity, reliability, innovation and quality are our main values. </p>
 						
 				<div class="article-finish"></div>		
 				<div class="row" style="text-align: center">
@@ -269,6 +270,17 @@ function MM_validateForm() { //v4.0
 		</section>
 	</div>
 <!--UCHADZAT SA-->
+		<!--testovanie ci bol chceckbox zakliknuty. Ak nebol nepusti <form action=""....>-->
+			<script>
+			function testcheck(){
+    			if (!jQuery("#checkbox").is(":checked")) {
+        			alert("Consent to the processing of personal data is required!");
+        			return false;
+					}
+    			return true;
+				}
+			</script>
+				
 <div id="Modaluchadzac" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <!-- Modal content-->
@@ -285,18 +297,21 @@ function MM_validateForm() { //v4.0
 			<input placeholder="Position interested in:" type="text" name="u-position">
 			<input placeholder="Where do you want to work:" type="text" name="u-work">
 			<textarea placeholder="Message:" name="u-message"></textarea><hr>
-			<p style="text-align: left">IMPORT YOUR CV</p>
+			<p style="text-align: left; font-size: .7em;">IMPORT YOUR CV</p>
 		    <input type="file" name="u-file"><hr>
-	        <p style="text-align: left">CONSENT TO THE PROCESSING OF PERSONAL DATA</p>
-			<input name="u-checkbox" class="cekybox" type="checkbox" style="display: block;"><hr><br> 
-		  	<input value="Submit" type="submit" name="u-submit">
+	        <div class="row">
+	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">CONSENT TO THE PROCESSING OF PERSONAL DATA</a></div>
+	        
+	        </div>
+			<hr><br> 
+		  	<input value="Submit" type="submit" name="u-submit" onClick="return testcheck()">
 		</form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
-
   </div>
 </div>
 <!--KONIEC UCHADZAT SA-->
@@ -343,7 +358,7 @@ function MM_validateForm() { //v4.0
 	<script>
 	try{Typekit.load({ async: true });}catch(e){}
 	</script>
-	<footer>
+	<footer class="foot">
 	<?php
 		include "en_footer.php";
 		include "sitemap.php";
