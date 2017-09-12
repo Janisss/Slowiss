@@ -1,0 +1,66 @@
+<div class="article-finish"></div>
+<div class="container req">
+<div class="row">
+	<div class="col-lg-3"></div>
+	<div class="col-lg-2"><img src="./img/sk.png" alt="flag" class="flag"></div>
+	<div class="col-lg-2"><img src="./img/arrow.png" alt="flag" class="flag arrow"></div>
+	<div class="col-lg-2"><img src="./img/uk.png" alt="flag" class="flag"></div>
+	<div class="col-lg-3"></div>
+</div>
+<br><br>
+<p style="text-align: justify;">Všetci lekári vo Veľkej Británii musia byť registrovaní, aby boli oprávnení vykonávať medicínsku profesiu ako aj ďalšie povinnosti, ktoré sú lekárom ustanovené zákonom. Úradné povolenie na výkon činnosti vydáva Všeobecná medicínska rada a týka sa všetkých lekárov bez ohľadu na to, či pracujú v štátnom alebo súkromnom sektore.</p>
+
+<h3>Rôzne druhy registrácie</h3>
+<p>
+ - Predbežná registrácia - táto registrácia sa udeľuje lekárom absolventom pre všeobecný klinický tréning potrebný pre úplnú registráciu. Lekári s predbežnou registráciou môžu pracovať iba na pozíciách Foundation House Officer Year One (FHO1)<br>
+ - Úplná registrácia - ak chcete vykonávať medicínsku prax  bez dohľadu v štátnom alebo súkromnom sektore, je potrebná Úplná registrácia<br>
+ - Registrácia špecialistov - musíte byť v registri špecialistov, aby ste mohli vykonávať nezávislé alebo čestné pozície odborných lekárov vo Veľkej Británii<br>
+ - Všeobecný lekári (GP) - všetci lekári v lekárskej praxi musia byť v registri všeobecných lekárov
+</p>
+<br>
+
+
+<div class="row">
+	<div class="col-lg-6">
+		<h3>Postup registrácie</h3>
+			<p>
+				- Vyplniť žiadosť<br>
+				- Zaplatiť poplatok<br>
+				- Poskytnúť požadované doklady<br>
+				- Zúčastniť sa kontroly totožnosti
+	 		</p>	
+	</div>
+	<div class="col-lg-6">
+		<h3>Užitočné informácie</h3>
+			<a href ="http://www.gmc-uk.org/doctors/registration_applications/eea_evidence_slovakia.asp" target="_blank">Evidencia získaných kvalifikácií</a><br>
+ 			<a href ="http://www.gmc-uk.org/doctors/registration_applications/24985.asp" target="_blank">Znalosť anglického jazyka</a><br>
+ 			<a href ="http://www.gmc-uk.org/doctors/registration_applications/join_the_register.asp" target="_blank">Žiadosť o členstvo v medicínskom registri</a>	
+   	</div>
+</div>
+
+<br>
+
+</div><!--containerEND-->
+
+<script type="text/javascript">
+	$("button.one").click(function(){
+		$(".country-type-one").addClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+	$("button.two").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").addClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+	$("button.three").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").addClass("opened");
+	});
+	$(".close-info").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+</script>
