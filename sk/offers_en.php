@@ -36,12 +36,9 @@
 		<div class="container-fluid first-content">
 		
 			<div id="slider" class="nivoSlider">
-<img src="slider-home/a.jpg" data-thumb="slider-home/a.jpg" alt="" title="<h2>Výpomoc v domácnosti</h2>"/>
-<img src="slider-home/b.jpg" data-thumb="slider-home/b.jpg" alt="" title="<h2>Čašníci</h2>"/>
-<img src="slider-home/c.jpg" data-thumb="slider-home/c.jpg" alt="" title="<h2>Opatrovanie detí</h2>"/>
-<img src="slider-home/d.jpg" data-thumb="slider-home/d.jpg" alt="" title="<h2>Lekári</h2>"/>
-<img src="slider-home/e.jpg" data-thumb="slider-home/e.jpg" alt="" title="<h2>Opatrovanie</h2>"/>
-<img src="slider-home/f.jpg" data-thumb="slider-home/f.jpg" alt="" title="<h2>Konštrukčné práce</h2>"/>
+
+<img src="slider-home/e.jpg" data-thumb="slider-home/e.jpg" alt=""/>
+
 			</div>
 
 		</div>
