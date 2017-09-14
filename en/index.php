@@ -118,7 +118,7 @@
 								  <ul class="menu-x pull-right">
 								  	  <li><a href="./WELLcare_en.php">More information</a></li>
 									  <!--TODO: v databaze nie je anglicka verzia udajov-->
-									  <!--   <li><a href="./offers_en.php">Offers</a></li>   -->
+									  <li><a data-toggle="modal" data-target="#offerss">Offers</a></li>
 									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Application</a></li>
 								  </ul> 
 							</div>
@@ -142,7 +142,7 @@
 								  <ul class="menu-x b pull-right">
 								  	  <li><a href="./WELLmed_en.php">More information</a></li>
 									  <!--TODO: v databaze nie je anglicka verzia udajov-->
-									  <!--   <li><a href="./offers_en.php">Offers</a></li>   -->
+									  <li><a data-toggle="modal" data-target="#offerss">Offers</a></li>
 									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Application</a></li>
 								  </ul> 			      
 							</div>							
@@ -166,7 +166,7 @@
 								  <ul class="menu-x c pull-right">
 								  	  <li><a href="./WELLpro_en.php">More information</a></li>
 									  <!--TODO: v databaze nie je anglicka verzia udajov-->
-									  <!--   <li><a href="./offers_en.php">Offers</a></li>   -->
+									  <li><a data-toggle="modal" data-target="#offerss">Offers</a></li>
 									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Application</a></li>
 								  </ul>			     	
 							</div>
@@ -344,7 +344,26 @@
   </div>
 </div>
 <!--KONIEC ZIADOSTI PRE ZAMESTNAVATELA-->
-	
+
+<!--modal na ziadosti-->	
+<div id="offerss" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title" style="color:#222; text-align: center;">Request</h4>
+			</div>
+			<div class="modal-body">
+				<p>Offers are available in languages: </p>
+				<a href="../sk/offers_en.php"><img src="../mini_flags/sk.png" alt="SK"> slovak</a>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--KONIEC modal na ziadost-->	
 	<script src="js/jquery-1.11.3.min.js">
 	</script> 
 	<script src="js/jquery.sticky.js">
