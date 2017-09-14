@@ -12,6 +12,7 @@
 <body>
 	<?php
 		include "lang_sk.php";
+		include "../scrollTop.php";
 	?>
 <!--help lang-->
 	<div class="mlang" data-toggle="modal" data-target="#langModal">

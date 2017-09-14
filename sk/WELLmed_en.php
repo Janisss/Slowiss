@@ -30,6 +30,7 @@
 <body>
 	<?php
 		include "lang_sk.php";
+		include "../scrollTop.php";
 	?>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!--LOADING-->
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->

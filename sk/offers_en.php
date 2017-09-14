@@ -78,7 +78,9 @@ foreach(array_reverse($offers) as $data){
 	echo "<div class='row offer".$hot."' style='height: auto;' id='$nr'><div class='col-xs-3 location' style='background-image: url(../kanton/".$img.".jpg);'><span class='loc-span'>Ponuka číslo ".$nr."</span></div><div class='col-xs-2 leftinfo' style='border-right:1px solid #eee'><span>Pozícia</span><p class='offerdata'>".$position."</p><br class='smallshow'><span>Krajina</span><p class='offerdata'>".$country."</p><hr><img src='../admin/icons/driving.png' alt='Vodičský preukaz' class='offer-icon' style='display:".$drive.";'><span style='display:".$drive.";font-size:14px;'>Vodičský</span><img src='../admin/icons/nosmoking.png' alt='Nefajčiar' class='offer-icon' style='display:".$smoke.";'><br class='smallhide'><br class='smallhide'><a href='#' class='viac' onclick='return false'>Viac info</a><br><a href='#mamzaujem' class='zaujem' onclick='return false'>Mám záujem</a></div><div class='col-xs-5 text' style='border-right:1px solid #eee'>".$desc."</div><br><div class='col-xs-2'><span>Nástup</span><p class='start-date'>".$date."</p><span>Plat</span><p>".$salary."</p><span>Turnus</span><p>".$turnus."</p></div></div>";
 }	
 ?>
-			
+	<?php 
+		include "../scrollTop.php";
+	 ?>	
 	</div>
 	<div class="article-finish"></div>
 	<div class="container myred">
