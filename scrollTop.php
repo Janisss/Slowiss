@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <style type="text/css">
 	#myBtn {
-	width: 60px;
-	height: 60px;	
+	width: 38px;
+	height: 38px;	
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 0px; /* Place the button at the bottom of the page */
@@ -21,8 +21,8 @@
 }
 
 	#myBtn:hover{
-	width: 80px;
-	height: 80px;
+	width: 55px;
+	height: 55px;
 	font-size: 20px;
 	-webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
