@@ -7,97 +7,24 @@
 	<title>Slowiss- sprostredkovanie</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
-<style>	
-	body {
-    margin: 0;
-}
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-  
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    font-size: 60px;
-	z-index: 1000;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-</style>
+	<script src="/lib/w3.js"></script>
 
 </head>
 <body>
-	<script>
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
 
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
+<script>
+w3.includeHTML();
 </script>
-
-	<!--mobil menu-->
-	<div id="myNav" class="overlay">
-	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <div class="overlay-content">
-	  	<h1>Uchádzači</h1>
-		<a href="#">About</a>
-		<a href="#">Services</a>
-		<a href="#">Clients</a>
-		<h1>Zamestnávatelia</h1>
-		<a href="#">Contact</a>
-		<a href="#">Contact</a>
-		<a href="#">Contact</a>
-	  </div>
-	</div>
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!--LOADING-->
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->
 	<!--header-->
 	<div class="container-fluid fix">
 		<h1 class="title">Sprostredkovanie</h1>
-		<div class="phone" onclick="openNav()" style="left: 35px;"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></div>
-		<div class="phone">
+			<?php
+				include(mobil-menu.html);
+			?>
+			<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
 			</div>
