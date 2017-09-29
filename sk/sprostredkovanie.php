@@ -7,23 +7,21 @@
 	<title>Slowiss- sprostredkovanie</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
-	<script src="/lib/w3.js"></script>
+	<script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("mobil-menu.html"); 
+    });
+    </script> 
 
 </head>
 <body>
-
-<script>
-w3.includeHTML();
-</script>
-
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!--LOADING-->
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->
 	<!--header-->
 	<div class="container-fluid fix">
 		<h1 class="title">Sprostredkovanie</h1>
-			<?php
-				include(mobil-menu.html);
-			?>
+			<div id="#includedContent"></div>
 			<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
