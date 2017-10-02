@@ -29,7 +29,8 @@
         	<div><span>Pozícia:</span><select name="offerposition">
         	  <option value="&lt;i class=&quot;fa fa-handshake-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Opatrovanie">Opatrovanie</option>
         	  <option value="&lt;i class=&quot;fa fa-user-md&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sestrička">Sestrička</option>
-    </select></div>
+        	  <option value="&lt;i class=&quot;fa fa-globe&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Iné">Iné</option>
+        </select></div>
         	<div><span>Popis:</span><span class="alert-danger">Nekopírovať text! Vypísať!!!</span><textarea name="offerdesc"></textarea></div>
         	<div><span>Plat:</span><input type="text" name="offersalary" placeholder="2'100 CHF/mesiac Netto"></div>
         	<div><span>Turnus:</span><input type="text" name="offerturnus" placeholder="2 mesiace"></div>

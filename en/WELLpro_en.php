@@ -54,6 +54,14 @@
 		<div class="hauptmenu">
 			<a href="./index.php#uchadzac"><i aria-hidden="true" class="fa fa-home fa-3x home"></i></a>
 		</div><!--NAVIGATION END-->
+		<!--MOBIL MENU-->
+		<div class="mobil-menu">
+			<script src="https://www.w3schools.com/lib/w3.js"></script>
+			<script src="mobil-menu.js"></script>
+			<div id="mobil-menu" w3-include-html="mobil-menu.html"></div> 
+			<script>w3.includeHTML();</script>
+		</div>
+		<!--MOBIL MENU END-->
 	</div><!--header end-->
 	<!--UCHADZAT SA-->
 		<!--testovanie ci bol chceckbox zakliknuty. Ak nebol nepusti <form action=""....>-->

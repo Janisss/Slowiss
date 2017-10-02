@@ -9,7 +9,9 @@ body {
 	max-width: 100%;
 	overflow-x: hidden !important;
 }
-
+#mobil-menu{
+	display: none;
+}
 footer h3{
 	text-align: left
 }

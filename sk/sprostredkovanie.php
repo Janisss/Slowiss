@@ -8,12 +8,8 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
 	<script src="jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#includedContent").load("mobil-menu.html"); 
-    });
-    </script> 
-
+    
+    
 </head>
 <body>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!--LOADING-->
@@ -21,7 +17,17 @@
 	<!--header-->
 	<div class="container-fluid fix">
 		<h1 class="title">Sprostredkovanie</h1>
-			<div id="#includedContent"></div>
+		<div class="hauptmenu">
+			<a href="./index.php#zamestnavatel"><i aria-hidden="true" class="fa fa-home fa-3x home"></i></a>
+		</div><!--NAVIGATION END-->
+		<!--MOBIL MENU-->
+		<div class="mobil-menu">
+			<script src="https://www.w3schools.com/lib/w3.js"></script>
+			<script src="mobil-menu.js"></script>
+			<div id="mobil-menu" w3-include-html="mobil-menu.html"></div> 
+			<script>w3.includeHTML();</script>
+		</div>
+		<!--MOBIL MENU END-->	
 			<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>

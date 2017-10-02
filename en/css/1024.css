@@ -1,7 +1,13 @@
 @charset "UTF-8";
 @media (max-width: 1023px) {
 	#sticker-sticky-wrapper {
-		display: none;
+		display: none;	
+	}
+	#mobil-menu{
+		display: block !important;
+	}
+	.hauptmenu{
+		display: none !important;
 	}
 	.container-fluid.first-content {
 		padding-top: 70px !important;
