@@ -57,6 +57,14 @@
 				<i aria-hidden="true" class="fa fa-phone fa-3x" data-target="#myModal" data-toggle="modal"></i>
 			</div>
 		</div>
+		<!--MOBIL MENU-->
+		<div class="mobil-menu">
+			<script src="https://www.w3schools.com/lib/w3.js"></script>
+			<script src="mobil-menu.js"></script>
+			<div id="mobil-menu" w3-include-html="mobil-menu.html"></div> 
+			<script>w3.includeHTML();</script>
+		</div>
+		<!--MOBIL MENU END-->
 	</div><!--header end-->
 	<section id="top">
 		<h1 class="hide">Home</h1>
