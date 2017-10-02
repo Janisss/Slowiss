@@ -10,7 +10,7 @@
 <link rel="icon" href="../favicon-96x96.png">
 <link rel="apple-touch-icon-precomposed" href="../apple-icon-180x180.png">
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-  <script>tinymce.init({ selector:'textarea',plugins:'paste', toolbar: 'undo | redo', height : 350, block_formats:'Heading 1=h1;Heading 2=h2;Heading 3=h3;Heading 4=h4;Heading 5=h5;Heading 6=h6;Preformatted=pre'});</script>
+  <script>tinymce.init({ selector:'textarea',plugins:'paste code', toolbar: 'undo | redo | code', height : 350, block_formats:'Heading 1=h1;Heading 2=h2;Heading 3=h3;Heading 4=h4;Heading 5=h5;Heading 6=h6;Preformatted=pre'});</script>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Administration - SLOWISS</title>

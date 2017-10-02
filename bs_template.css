@@ -1427,8 +1427,6 @@ p.limit {
 	font-size: 1.2rem !important;
 	line-height: 1 !important;
 	overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
    max-height: 220px;      /* fallback */
    -webkit-line-clamp: 7; /* number of lines to show */
    -webkit-box-orient: vertical;
@@ -1437,7 +1435,7 @@ p.limit {
 
 .text.biginfo, .offer.biginfo{
 	height: auto !important;
-	max-height: 800px !important;
+	max-height: 1800px !important;
 	transition: all .3 ease !important;
 }
 
