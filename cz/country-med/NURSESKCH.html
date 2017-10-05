@@ -1,0 +1,72 @@
+<div class="article-finish"></div>
+<div class="container req">
+<div class="row">
+	<div class="col-lg-3"></div>
+	<div class="col-lg-2"><img src="./img/sk.png" alt="flag" class="flag"></div>
+	<div class="col-lg-2"><img src="./img/arrow.png" alt="flag" class="flag arrow"></div>
+	<div class="col-lg-2"><img src="./img/ch.png" alt="flag" class="flag"></div>
+	<div class="col-lg-3"></div>
+</div>
+<br><br>
+<p style="text-align: justify;">Pre prácu zdravotnej sestry vo Švajčiarsku je potrebné pochádzať z niektorej z členských krajín EÚ alebo EFTA, mať znalosť nemeckého/francúzskeho/talianskeho jazyka na úrovni B2 a mať ukončenú požadovanú kvalifikáciu.  Zoznam zvažovaných kvalifikácií môžete nájsť tu.</p>
+<p style="text-align: justify;">Pomôžeme Vám s celým procesom žiadosti. Vy nám len zašlete dokumenty potvrdzujúce Vaše vzdelanie a my ich posunieme ďalej Švajčiarskemu Červenému Krížu, ktorý bude posudzovať rovnocennosť vzdelania a možnosť začať registračný proces vo Švajčiarsku.</p>
+
+<div class="row">
+	<div class="col-lg-6">
+		<p><strong>Výhody registrácie</strong></p>
+			<p>
+				- Spoľahlivé, bezpečné a zabezpečené povolanie<br> 
+				- Lepšie pracovné príležitosti<br>
+				- Rôzne pracovné oblasti (nemocnice, kliniky, domovy dôchodcov...)<br>
+				- Flexibilné pracovné rozvrhy<br>
+				- Vysoké platové ohodnotenie<br>
+				- Pocit zadosťučinenia<br>
+				- Dôveryhodná profesia
+	 		</p>	
+	</div>	
+
+	<div class="col-lg-6">
+		<p><strong>Aspekty posudzované Švajčiarskym Červeným Krížom</strong></p>
+			<p>
+				- Národnosť<br>
+				- Dátum ukončenia vzdelania<br>
+				- Krajina pôvodu<br>
+				- Kedy a kde bola ukončená prax
+			</p>		
+   	</div>
+</div>
+
+<div class="row">
+  	<div class="col-lg-6">
+		<p><strong>Užitočné informácie</strong></p>
+		<a href="https://www.redcross.ch/de" target="_blank">Švajčiarsky červený kríž</a><br>
+		<a href="https://www.bag.admin.ch/bag/de/home/themen/berufe-im-gesundheitswesen/anerkennungen-gesundheitsberufe.html" target="_blank">Uznanie vzdelania</a><br>
+		<a href="https://www.redcross.ch/de/srk-dienstleistungen/anerkennung-auslaendischer-ausbildungsabschluesse/das-srk-anerkennt" target="_blank">Kvalifikácie</a><br>
+	</div>
+</div>	
+
+
+</div><!--containerEND-->
+
+<script type="text/javascript">
+	$("button.one").click(function(){
+		$(".country-type-one").addClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+	$("button.two").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").addClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+	$("button.three").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").addClass("opened");
+	});
+	$(".close-info").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+</script>
