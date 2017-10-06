@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Slowiss - Opatrovanie</title>
+	<title>Slowiss - Pečovatelství</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
@@ -15,14 +15,14 @@
 		for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
 		  if (val) { nm=val.name; if ((val=val.value)!="") {
 			if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
-			  if (p<1 || p==(val.length-1)) errors+='- '+' zle zadaný e-mail!\n';
+			  if (p<1 || p==(val.length-1)) errors+='- '+' nesprávne zadanej e-mail!\n';
 			} else if (test!='R') { num = parseFloat(val);
 			  if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
 			  if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
 				min=test.substring(8,p); max=test.substring(p+1);
 				if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-		  } } } else if (test.charAt(0) == 'R') errors += '- '+' zadajte e-mail!\n'; }
-		} if (errors) alert('Nasledujúce pole je povinné:\n'+errors);
+		  } } } else if (test.charAt(0) == 'R') errors += '- '+' zadejte e-mail!\n'; }
+		} if (errors) alert('Nasledujíci pole je povinné:\n'+errors);
 		document.MM_returnValue = (errors == '');
 	} }
     </script>	
@@ -36,7 +36,7 @@
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->
 	<!--header-->
 	<div class="container-fluid fix">
-		<h1 class="title">Opatrovanie</h1>
+		<h1 class="title">Pečovatelství</h1>
 		<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
@@ -62,48 +62,48 @@
 			<script>
 			function testcheck(){
     			if (!jQuery("#checkbox").is(":checked")) {
-        			alert("Povinné pole: Súhlas so spracovaním údajov!");
+        			alert("Povinné pole: Souhlasím se zpracováním osobních údajů!");
         			return false;
 					}
     			return true;
 				}
 			</script>
-			<div id="Modaluchadzac" class="modal fade" role="dialog">
-			  <div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Uchádzať sa</h4>
-				  </div>
-				  <div class="modal-body">
-					 <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
-						<input placeholder="Meno a priezvisko:" type="text" name="u-person"> 
-						<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
-						<input placeholder="Telefónne číslo:" type="text" name="u-tel"> 
-						<input placeholder="Záujem o pozíciu:" type="text" name="u-position">
-						<input placeholder="Kde chcete pracovať:" type="text" name="u-work">
-						<textarea placeholder="Poznámka:" name="u-message"></textarea><hr>
-						<p style="text-align: left; font-size: .7em;">VLOŽTE SVOJ ŽIVOTOPIS</p>
-						<input type="file" name="u-file"><hr>
-						<div class="row">
-							<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-							<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SÚHLASÍM SO SPRACOVANÍM OSBNÝCH ÚDAJOV</a></div>
-						</div>
-						<hr><br> 
-						<input value="Odoslať" type="submit" name="u-submit" onClick="return testcheck()">
-					</form>
-				  </div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
-				  </div>
-				</div>
+<div id="Modaluchadzac" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="color:#222; text-align: center;">Ucházet se</h4>
+      </div>
+      <div class="modal-body">
+         <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
+        	<input placeholder="Jméno a příjmení:" type="text" name="u-person"> 
+			<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
+			<input placeholder="Telefonní číslo:" type="text" name="u-tel"> 
+			<input placeholder="Zájem o pozici:" type="text" name="u-position">
+			<input placeholder="Kde chcete pracovat:" type="text" name="u-work">
+			<textarea placeholder="Poznámka:" name="u-message"></textarea><hr>
+			<p style="text-align: left; font-size: .7em;">VLOŽTE SVŮJ ŽIVOTOPIS</p>
+			<input type="file" name="u-file"><hr>
+			<div class="row">
+	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SOUHLASÍM SO ZPRACOVÁNÍM OSOBNÍCH ÚDAJŮ</a></div>
+	        </div>
+			<hr><br> 
+			<input value="Odeslat" type="submit" name="u-submit" onClick="return testcheck()">
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
+      </div>
+    </div>
 
-			  </div>
-			</div>
+  </div>
+</div>
 <!--KONIEC UCHADZAT SA-->
 	<section id="top">
-		<h1 class="hide">Opatrovanie</h1>
+		<h1 class="hide">Pečovatelství</h1>
 		<div class="container-fluid first-content">
 			<ul data-limit-x="40" data-limit-y="20" id="scene">
 				<li class="layer" data-depth="0.00"><img alt="CARE" class="decoimg" src="scene3/1.jpg"></li>
@@ -117,7 +117,7 @@
 				
 					<div class="col-lg-2">
 						<div class="item-a">
-							<a href="#one">Prečo my?</a>
+							<a href="#one">Proč my?</a>
 						</div>
 					</div>
 					<div class="col-lg-2">
@@ -132,12 +132,12 @@
 					</div>
 					<div class="col-lg-2">
 						<div class="item-d">
-							<a href="#four">Požiadavky</a>
+							<a href="#four">Požadavky</a>
 						</div>
 					</div>
 					<div class="col-lg-2">
 						<div class="item-d">
-							<a href="#five">Referencie</a>
+							<a href="#five">Reference</a>
 						</div>
 					</div>
 									<div class="col-lg-1"></div>
@@ -146,48 +146,48 @@
 			</div>
 		</div>
 		<div class="container intro-text">
-			<h2 class="text-center">Ste empatická a trpezlivá? Pomáhať druhým vás napĺňa a uspokojuje? Ak ste odpovedali áno na obe predchádzajúce otázky, potom je práca opatrovateľky tou správnou voľbou pre Vás. Či už uprednostňujete starostlivosť o starších ľudí, o deti alebo o domácnosť, my Vám pomôžeme. </h2>
+			<h2 class="text-center">Jste empatická a trpělivá? Pomáhat druhým Vás naplňuje a uspokojuje? Pokud jste odpověděli na obě předchozí otázky ano, potom je práce pečovatelky tou správnou volbou pro Vás. Ať už dáváte přednost péči o seniory, děti nebo domácnost, my Vám pomůžeme.</h2>
 		</div>
 	</section>
 	<section id="one">
 		<div class="green one" style="background: rgb(107, 40, 92);">
 			<div class="container">
-				<h1>Prečo my?</h1>
+				<h1>Proč my?</h1>
 				
 				<div class="container">
 					<!-- flaticons -->
 					<div class="row icons">
 						<div class="col-md-4">
 							<i class="fa fa-thumbs-up fa-5x"></i>
-							<h3 class="text-center">Žiadne sprostredkovateľské alebo registračné poplatky</h3>
+							<h3 class="text-center">Žádné zprostředkovatelské nebo registrační poplatky </h3>
 						</div>
 						<div class="col-md-4">
 						    <i class="fa fa-user-circle-o fa-5x"></i>
-							<h3 class="text-center">Individuálny prístup</h3>
+							<h3 class="text-center">Individuální přístup</h3>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-money fa-5x"></i>
-							<h3 class="text-center">Motivujúce platové ohodnotenie</h3>
+							<h3 class="text-center">Motivujíci platové ohodnocení</h3>
 						</div>
 					</div>
 					<div class="article-finish"></div>
 					<div class="row icons">
 							<div class="col-md-4">
 							<i class="fa fa-car fa-5x"></i>
-							<h3 class="text-center">Pohodlná doprava od dverí k dverám</h3>
+							<h3 class="text-center">Pohodlná doprava od dveří ke dveřím</h3>
 
 						</div>
 						<div class="col-md-4">
 						    <i class="fa fa-cutlery fa-5x"></i>
-							<h3 class="text-center">Ubytovanie a strava zdarma</h3>
+							<h3 class="text-center">Ubytování a strava zdarma</h3>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-phone-square fa-5x"></i>
-							<h3 class="text-center"> 24-hodinová on-line zákaznícka linka v prípade núdze</h3>
+							<h3 class="text-center">24-hodinová zákaznická linka v případě nouze</h3>
 						</div>
 					</div>
 					<div class="article-finish"></div>
-					<p style="text-align: center">Pridajte sa do tímu našich nadšených opatrovateliek a presvedčte sa o kvalite našich služieb a ľudskom prístupe, ktoré nás zaraďujú medzi TOP personálne spoločnosti na európskom trhu v oblasti sprostredkovania práce alebo služieb.</p>
+					<p style="text-align: center">Připojte se do týmu našich nadšených pečovatelek a přesvědčte se o kvalitě našich služeb a lidském přístupu, který nás řadí mezi TOP personální společnosti na evropském trhu v oblasti zprostředkování příležitosti pro výkon práce nebo služeb.</p>
 					
 					
 					<div class="article-finish"></div>
@@ -203,37 +203,37 @@
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="1."></div>
-						<h2 style="color: #222;">Formulár</h2>
-						<p class="nmbrlist">Spravte prvý krok a vyplňte <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">kontaktný formulár</a>, poprípade k nemu nahrajte svoj štrukturovaný životopis a my Vás budeme kontaktovať.</p>
+						<h2 style="color: #222;">Formulář</h2>
+						<p class="nmbrlist">Udělejte první krok a vyplňte <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">kontaktní formulář</a>, popřípade k nemu nahrajte svůj strukturovaný životopis a my Vás budeme kontaktovat.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="2."></div>
 						<h2 style="color: #222;">Telefonát</h2>
-						<p class="nmbrlist">Po obdržaní kontaktného formulára Vám zatelefonujeme kvôli doplneniu potrebných údajov o Vás, ako aj prevereniu Vašich jazykových znalostí.</p>
+						<p class="nmbrlist">Po obdržení kontaktního fomuláře Vám zavoláme ohledně doplnění potřebných údajů o Vás, kde si i zároveň ověříme Vaše jazykové znalosti.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="3."></div>
-						<h2 style="color: #222;">Sprostredkovateľská zmluva</h2>
-						<p class="nmbrlist">Zmluva, ktorú Vám zašleme na podpis kvôli súhlasu so spracovaním osobných údajov pre účely sprostredkovania príležitosti pre výkon prác alebo služieb.</p>
+						<h2 style="color: #222;">Zprostředkovatelská smlouva</h2>
+						<p class="nmbrlist">Smlouva, kterou Vám zašleme k podpisu kvůli Vašemu souhlasu se zpracováním osobních údajů pro účely zprostředkování příležitosti na výkonávání práce nebo služeb.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="4."></div>
-						<h2 style="color: #222;">Ponuka</h2>
-						<p class="nmbrlist">Obdržíte popis ponuky práce alebo služieb s informáciami o klientovi spolu s podmienkami. V prípade, že prejavíte o ponuku záujem, Váš profil zašleme klientovi.</p>
+						<h2 style="color: #222;">Nabídka</h2>
+						<p class="nmbrlist">Obdržíte popis nabídky práce nebo služby s informacemi o klientovi spolu s podmínkami. V případě, že projevíte o nabídku zájem, Váš profil zašleme klientovi.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="5."></div>
-						<h2 style="color: #222;">Súhlas klienta</h2>
-						<p class="nmbrlist">Klient sa po obdržaní Vášho profilu maximálne do siedmych dní vyjadrí, či si vybral práve Vás. Ak áno, vybavíme potrebnú administratívu a v priebehu najbližších dní vycestujete. Ak nie, proces sa nekončí a hľadáme ďalej.</p>
+						<h2 style="color: #222;">Souhlas klienta</h2>
+						<p class="nmbrlist">Klient se po obdržení Vašeho profilu maximálně do sedmi dní vyjádří, zda si vybral právě Vás. Pokud ano, vybavíme potřebnou administrativu a v průběhu nejbližších dní vycestujete. Pokud ne, proces se nekončí a hledáme dál.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="6."></div>
-						<h2 style="color: #222;">Vycestovanie</h2>
-						<p class="nmbrlist">Zabezpečíme Vám pohodlnú dopravu priamo z Vášho domova ku klientovi.</p>
+						<h2 style="color: #222;">Vycestování</h2>
+						<p class="nmbrlist">Zabezpečíme Vám pohodlnou dopravu přímo z Vašeho domova ke klientovi.</p>
 					</div>
 				</div>
 			</div>
@@ -247,49 +247,49 @@
 			<div class="container">
 			
 				<div class="bubbleinfo bubble-left">
-					<a class="cstm-acor" data-id="1">Koľko ma to bude stáť?</a><br>
-					<a class="cstm-acor" data-id="2">Je znalosť cudzieho jazyka nevyhnutná?</a><br>
-					<a class="cstm-acor" data-id="3">Musím mať absolvovaný opatrovateľský kurz?</a><br>
-					<a class="cstm-acor" data-id="4">Aký je mesačný zárobok?</a><br>
-					<a class="cstm-acor" data-id="5">Máte ponuky prác alebo služieb aj pre mužov?</a><br>
-					<a class="cstm-acor" data-id="6">Aké dlhé sú turnusy?</a><br>
-					<a class="cstm-acor" data-id="7">Akou formou budem pracovať?</a><br>
-					<a class="cstm-acor" data-id="8">Ako môžem zvýšiť svoje šance na rýchle umiestnenie?</a><br>
+					<a class="cstm-acor" data-id="1">Kolik mě to bude stát?</a><br>
+					<a class="cstm-acor" data-id="2">Je znalost cizího jazyka nezbytná?</a><br>
+					<a class="cstm-acor" data-id="3">Musím mít absolvovaný pečovatelský kurz?</a><br>
+					<a class="cstm-acor" data-id="4">Jaký je měsíční výdělek?</a><br>
+					<a class="cstm-acor" data-id="5">Máte nabídky práce nebo služeb i pro muže?</a><br>
+					<a class="cstm-acor" data-id="6">Jak dlouhé jsou turnusy?</a><br>
+					<a class="cstm-acor" data-id="7">Jakou formou budu pracovat?</a><br>
+					<a class="cstm-acor" data-id="8">Jak mohu zvýšit své šance na rychlé umístění?</a><br>
 				</div>
 				<div class="bubbleinfo bubble-right pull-right">
 					<div class="q0 answ">
-						<p>Kliknite na otázku, ktorú chcete zodpovedať.</p>
+						<p>Klikněte na otázku, na kterou chcete znát odpověď.</p>
 					</div>
 					<div class="q1 answ">
-						<p>Nič, u nás neplatíte žiadne sprostredkovateľské ani registračné poplatky. Ponúkame Vám bezplatné využitie našich služieb. </p>
+						<p>Nic, u nás neplatíte žádné zprostředkovatelské ani registrační poplatky. Nabízíme Vám bezplatné využití našich služeb.</p>
 					</div>
 					<div class="q2 answ">
-						<p>Áno, je potrebné, aby ste jazyk krajiny, do ktorej chcete vycestovať, ovládali aspoň na základnej úrovni. Dobrá znalosť cudzieho jazyka môže byť veľkou výhodou pre rýchle umiestnenie a tiež pre lepšie platové ohodnotenie.</p>
+						<p>Ano, je potřeba, aby jste jazyk země, do které chcete vycestovat, ovládali alespoň na základní úrovni. Dobrá znalost cizího jazyka může být velkou výhodou pro rychlé umístění a také pro lepší platové ohodnocení.</p>
 					</div>
 					<div class="q3 answ">
-						<p>Nie, akreditovaný certifikát z opatrovateľského kurzu je výhodou, nie však podmienkou, tak ako aj skúsenosti s opatrovaním, ktoré, ak máte, je potrebné podložiť referenciami.</p>
+						<p>Ne, akreditovaný certifikát z pečovatelského kurzu je výhodou, ne však podmínkou, tak jako i zkušenosti s pečováním, které, pokud máte, je potřebné podložit referencemi.</p>
 					</div>
 					<div class="q4 answ">
-						<p>Výška Vášho platu závisí od miesta výkonu práce alebo služby, Vašich jazykových znalostí, skúseností a samozrejme aj od zdravotného stavu opatrovanej osoby, a teda aj od celkovej náročnosti jednotlivej pozície.</p>
+						<p>Výška Vašeho platu závisí od místa výkonu práce nebo služby, Vašich jazykových znalostí, zkušeností a samozřejmě i od zdravotního stavu pečované osoby, a tedy i od celkové náročnosti pozice.</p>
 					</div>
 					<div class="q5 answ">
-						<p>Áno, máme ponuky aj pre mužov, doba čakania na umiestnenie však môže byť dlhšia.</p>
+						<p>Ano, máme nabídky i pro muže, jen čekací doba na umístění může být delší.</p>
 					</div>
 					<div class="q6 answ">
-						<p>1-3 mesiace je zvyčajná dĺžka turnusov, avšak závisí od konkrétnej ponuky a individuálnych požiadaviek klienta.</p>
+						<p>1-3 měsíce je obvyklá délka turnusů, ale zavisí to od konkrétní nabídky a individulních požadavcích klienta.</p>
 					</div>
 					<div class="q7 answ">
-						<p>Druh zamestnania závisí od konkrétnej ponuky a tiež od krajiny,  kam chcete vycestovať. Bližšie informácie nájdete v časti <a href="#four">Požiadavky.</a></p>
+						<p>Druh zaměstnání závisí od konkrétní nabídky a také od krajiny, kam chcete vycestovat. Bližší informace naleznete v části <a href="#four">Požadavky.</a></p>
 					</div>
 					<div class="q8 answ">
-						<p>Dobrá znalosť požadovaného cudzieho jazyka, nefajčenie ako aj vodičský preukaz sú veľkou výhodou pri výbere kandidáta klientom.</p>
+						<p>Dobrá znalost požadovaného cizího jazyka, nekuřáctví i řidičský průkaz jsou velkou výhodou při výběru kandidáta pro klienty.</p>
 					</div>
 				</div>
 			</div>
 			</div>
 			<div class="article-finish"></div>
 			<div class="container">
-				<h2 class="text-center" style="color: white;">Máte inú otázku?
+				<h2 class="text-center" style="color: white;">Máte jinou otázku?
 				Kontaktujte nás na +421 473 211 276</h2>
 			</div>
 			<div class="article-finish"></div>
@@ -297,14 +297,14 @@
 	</section>
 	</div>
 	<section id="four">
-		<h1 class="p">Požiadavky</h1><!-- AJAX LOADER -->
+		<h1 class="p">Požadavky</h1><!-- AJAX LOADER -->
 		<div class="container">
-		<p>Ak máte záujem o výkon prác alebo služieb v oblasti opatrovania, je potrebné spĺňať určité požiadavky. Pre viac informácií, prosím, vyberte:</p>
+		<p>Pokud máte zájem o výkon práce nebo služeb v oblasti pečování, je potřebné splňovat určité požadavky. Pro více informací, prosím, vyberte:</p>
 			<div class="row country-sel">
 				<div class="col-lg-6">
 					<select class="myselect" id="from" name="from">
 						<option disabled selected value="zero">
-							Odkiaľ ste:
+							Odkud jste:
 						</option>
 						<option value="SK">
 							Slovensko
@@ -320,7 +320,7 @@
 				<div class="col-lg-6">
 					<select class="myselect" id="to" name="to">
 						<option disabled selected value="zero">
-							Kam chcete ísť:
+							Kam chcete jít:
 						</option>
 						<option value="DE">
 							Nemecko
@@ -343,12 +343,12 @@
 	</section>
 	
 	<section id="five">
-		<h1 class="p">Referencie</h1><!-- AJAX LOADER -->
+		<h1 class="p">Reference</h1><!-- AJAX LOADER -->
 		<div class="container">
 		
 		<blockquote class="blockquote purple">
-		  <p class="text-left">"S agentúrou Slowiss spolupracujem od júla 2014 a s ich službami a profesionálnym prístupom som nadmieru spokojná. Konzultantky sú nám k dispozícii 24 hodín denne, či už sa jedná o problémy alebo sa len tak porozprávať, keď nám je smutno za domovom. Vďaka agentúre Slowiss som spoznala jedno z najkrajších miest Európy, Luzern, ako aj skvelých ľudí, ktorých by som za iných okolností nestretla. Samozrejme tým v prvom rade myslím zlatú babku, jej milujúcu rodinu a veľa priateľských miestnych ľudí. Ešte chcem vysloviť "Merci" agentúre Slowiss za ich profesionalitu, ľudský prístup, ochotu pomôcť a podržanie v tažkých chvíľach. Ďakujem Vám. Prajem veľa úspechov, nech sa Vám darí a nech ste stále také milé, ochotné a nápomocné."</p>
-		  <p class="text-right"><strong>- Barbora Remperová, opatrovateľka</strong></p>
+		  <p class="text-left">"S agenturou Slowiss spolupracuju od července 2014 a s jejich službami a profesionálním přístupem jsem nadmíru spokojená. Konzultantky jsou nám k dispozici 24 hodin denně, ať už se jedná o problémy a nebo si jen tak promluvit, když nám je smutno za domovem. Díky agentuře Slowiss jsem poznala jedno z nejkrásnějších míst Evropy, Lucern, jako i skvělé lidi, které bych za jiných okolností nepotkala. Samozřejmě tím v první řadě myslím zlatou seniorku, její milující rodinu a mnoho přátelských místních lidí. Ještě chci vyslovit "Merci" agentuře Slowiss za jejich profesionalitu, lidský přístup, ochotu pomoct a podržení v těžkých chvílích. Děkuji Vám. Přeji mnoho úspěchů, ať se Vám daří a ať jste stále tak milí, ochotní a napomocní."</p>
+		  <p class="text-right"><strong>- Barbora Remperová, pečovatelka</strong></p>
 		</blockquote>
 		<div class="row">
 			<div class="col-md-4"><img src="../main_img/remperova1.jpg" alt="img" style="width:100%"></div>
@@ -358,8 +358,8 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote purple">
-		  <p class="text-left">"Volám sa Ivona Sedajová a pracujem ako opatrovateľka vo Švajčiarsku. Túto prácu vykonávam už piaty rok. Bola som aj v Rakúsku, kde som tiež odpracovala nejaký čas ako opatrovateľka. Určite mi dáte za pravdu, že v tejto práci máme aj úsmevné príbehy z opatrovania, čo sme zažili a dal by sa o tom napísať bestseller, keby každá z nás pridala nejaký príbeh. Rada by som však napísala pár viet o agentúre Slowiss. Pracovníčky v agentúre sú veľmi ústretové a nápomocné. Vždy, keď som niečo potrebovala alebo vznikol nejaký problém, boli veľmi ochotné všetko vyriešiť k mojej spokojnosti. Svojim známym by som agentúru Slowiss určite rada odporučila."</p>
-		  <p class="text-right"><strong>- Ivona Sedajová, opatrovateľka</strong></p>
+		  <p class="text-left">"Jmenuji se Ivona Sedajová a pracuji jako pečovatelka ve Švýcarsku. Tuto práci výkonávám už páty rok. Byla jsem i v Rakousku, kde jsem také odpracovala nějaký čas jako pečovatelka. Určitě mi dáte za pravdu, že v této práci máme i úsměvné příběhy z pečování, co jsme zažily a dal by se o tom napsat bestseller, kdyby každá z nás přidala nějaký příběh. Ráda bych však napsala pár vět o agentuře Slowiss. Pracovnice v agentuře jsou velmi vstřícné a nápomocné. Vždy, když jsem něco potřebovala a nebo vznikl nějaký problém, byly velmi ochotné vše vyřešit k mojí spokojenosti. Svým známým bych agenturu Slowiss určitě ráda doporučila."</p>
+		  <p class="text-right"><strong>- Ivona Sedajová, pečovatelka</strong></p>
 		</blockquote>
 		<div class="row">
 			<div class="col-md-4"><img src="../main_img/fotkasedajova.jpg" alt="img" style="width:100%"></div>
@@ -369,8 +369,8 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote purple">
-		  <p class="text-left">Vďaka agentúre Slowiss som si našla prácu vo Švajčiarsku a bola som veľmi spokojná. Nakoľko pracovať tri mesiace je dlhá doba a človek potrebuje nejakú spriaznenú dušu, požiadala som agentúru o kontakt na niekoho, kto pracuje blízko. Dali mi kontakt na istú pani. Začali sme si písať a nakoniec sa z nás stali veľmi dobré priateľky. Zažili sme spolu krásne chvíle a vzájomne sme si pomáhali. Som nadmieru spokojná. Manažérky v agentúre mi pomohli, kedykoľvek som niečo potrebovala. Na rozdiel od iných agentúr sú zastihnuteľní 24 hodín denne a zaleží im nielen na spokojnosti rodín, ale aj nás, opatrovateliek.</p>
-		  <p class="text-right"><strong>- Dana Gronková, opatrovateľka</strong></p>
+		  <p class="text-left">"Díky agentuře Slowiss jsem si našla práci ve Švýcarsku a byla jsem velmi spokojená. Pracovat tři měsíce je dlouhá doba a člověk potřebuje nějakou spřízněnou duši, tak jsem tedy požádala agenturu o kontakt na někoho, kdo pracuje poblíž. Dali mi kontakt na jednu paní. Začaly jsme si psát a nakonec se z nás staly velmi dobré přítelkyně. Zažily jsme spolu krásné chvíle a vzájemně jsme si pomáhaly. Jsem nadmíru spokojená. Manažerky v agentuře mi pomohly, kdykoliv jsem něco potřebovala. Na rozdíl od jiných agentur jsou k zastižení 24 hodin denně a záleží jim nejen na spokojenosti rodin, ale i nás pečovatelek."</p>
+		  <p class="text-right"><strong>- Dana Gronková, pečovatelka</strong></p>
 		</blockquote>
 		<div class="row">
 			<div class="col-md-4"><img src="../main_img/Fotogronkovaaa.jpg" alt="img" style="width:100%"></div>
@@ -410,14 +410,14 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktné informácie</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktní informáce</h4>
 				</div>
 				<div class="modal-body">
 					<p>Nejaké otázky? Kontaktujte nás na:</p>
 					<h2 style="text-align: center;">+421 473 211 276</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Zavrieť</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Zavřít</button>
 				</div>
 			</div>
 		</div>

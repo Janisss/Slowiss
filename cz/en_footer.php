@@ -29,11 +29,11 @@ function MM_validateForm() { //v4.0
 			<div class="col-xs-6">
 				<h3>Kontaktujte nás</h3>
 				<form action="mailsender_footer.php" method="post" name="en-form" class="offer-form" onSubmit="MM_validateForm('en-email','','RisEmail');return document.MM_returnValue">
-					<input type="text" placeholder="Meno a priezvisko" name="en-name">
+					<input type="text" placeholder="Jméno a příjmení" name="en-name">
 					<input name="en-email" type="text" id="en-email" placeholder="E-mail">
 					<input type="text" placeholder="Tel. číslo" name="en-tel">
-					<textarea name="en-message" placeholder="Správa"></textarea>
-					<input type="submit" value="Odoslať" name="submit-footer-sk">
+					<textarea name="en-message" placeholder="Zpráva"></textarea>
+					<input type="submit" value="Odeslat" name="submit-footer-sk">
 				</form>
 			</div>
 			<div class="col-xs-4">
