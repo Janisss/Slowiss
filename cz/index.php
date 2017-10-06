@@ -16,14 +16,14 @@
 		for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
 		  if (val) { nm=val.name; if ((val=val.value)!="") {
 			if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
-			  if (p<1 || p==(val.length-1)) errors+='- '+' zle zadaný e-mail!\n';
+			  if (p<1 || p==(val.length-1)) errors+='- '+' nesprávne zadanej e-mail!\n';
 			} else if (test!='R') { num = parseFloat(val);
 			  if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
 			  if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
 				min=test.substring(8,p); max=test.substring(p+1);
 				if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-		  } } } else if (test.charAt(0) == 'R') errors += '- '+' zadajte e-mail!\n'; }
-		} if (errors) alert('Nasledujúce pole je povinné:\n'+errors);
+		  } } } else if (test.charAt(0) == 'R') errors += '- '+' zadejte e-mail!\n'; }
+		} if (errors) alert('Nasledujíci pole je povinné:\n'+errors);
 		document.MM_returnValue = (errors == '');
 	} }
     </script>
@@ -63,13 +63,14 @@
 		<div class="container-fluid first-content">
 		
 			<div id="slider" class="nivoSlider">
-<img src="slider-home/a.jpg" data-thumb="slider-home/a.jpg" alt="" title="<h2>Výpomoc v domácnosti</h2><p><a href='./offers_en.php'>zobraziť ponuky</a></p>"/>
-<img src="slider-home/b.jpg" data-thumb="slider-home/b.jpg" alt="" title="<h2>Čašníci</h2><p><a href='./offers_en.php'>zobraziť ponuky</a></p>"/>
-<img src="slider-home/c.jpg" data-thumb="slider-home/c.jpg" alt="" title="<h2>Opatrovanie detí</h2><p><a href='./offers_en.php'>zobraziť ponuky</a></p>"/>
-<img src="slider-home/d.jpg" data-thumb="slider-home/d.jpg" alt="" title="<h2>Lekári</h2><p><a href='./offers_en.php'>zobraziť ponuky</a></p>"/>
-<img src="slider-home/e.jpg" data-thumb="slider-home/e.jpg" alt="" title="<h2>Opatrovanie</h2><p><a href='./offers_en.php'>zobraziť ponuky</a></p>"/>
-<img src="slider-home/f.jpg" data-thumb="slider-home/f.jpg" alt="" title="<h2>Konštrukčné práce</h2><p><a href='./offers_en.php'>zobraziť ponuky</a></p>"/>
-<img src="slider-home/h.jpg" data-thumb="slider-home/h.jpg" alt="" title="<h2>Šoféri</h2><p><a href='./offers_en.php'>zobraziť ponuky</a></p>"/>
+<img src="slider-home/a.jpg" data-thumb="slider-home/a.jpg" alt="" title="<h2>Výpomoc v domácnosti</h2><p>opatrovnice dětí, chůva</p>"/>
+<img src="slider-home/b.jpg" data-thumb="slider-home/b.jpg" alt="" title="<h2>Číšníci</h2><p>servírka, číšník, kuchař</p>"/>
+<img src="slider-home/c.jpg" data-thumb="slider-home/c.jpg" alt="" title="<h2>Hlídaní dětí</h2><p>pečovatelka, chůva</p>"/>
+<img src="slider-home/d.jpg" data-thumb="slider-home/d.jpg" alt="" title="<h2>Lékaři</h2><p>doktor, sestra, porodní asistentka</p>"/>
+<img src="slider-home/e.jpg" data-thumb="slider-home/e.jpg" alt="" title="<h2>Pečovatelství</h2><p>pečovatel, domácí péče</p>"/>
+<img src="slider-home/f.jpg" data-thumb="slider-home/f.jpg" alt="" title="<h2>Konštrukční práce</h2><p>stavební dělník
+</p>"/>
+<img src="slider-home/h.jpg" data-thumb="slider-home/h.jpg" alt="" title="<h2>Řidiči</h2><p>řidič kamionu, řidič autobusu</p>"/>
 			</div>   
 	
 		</div>
@@ -78,12 +79,12 @@
 				<div class="row">
 					<div class="col-lg-4">
 						<div class="item-a">
-							<a href="#one">Uchádzači</a>
+							<a href="#one">Uchazeči</a>
 						</div>
 					</div>
 					<div class="col-lg-4">
 						<div class="item-b">
-							<a href="#two">Zamestnávatelia</a>
+							<a href="#two">Zaměstnavatelé</a>
 						</div>
 					</div>
 					<div class="col-lg-4">
@@ -95,15 +96,15 @@
 			</div>
 		</div>
 		<div class="container intro-text">
-			<p>Vitajte na stránke Slowiss, Vašej personálnej agentúry. Slowiss tvorí skupina zanietených náborových pracovníkov, ktorí prinášajú  širokú škálu talentov a pracovných riešení. Veríme v nájdenie správnych osobností pre správne pozície. Či už ste uchádzač so záujmom o príležitosť alebo spoločnosť hľadajúca zamestnancov, pomôžeme Vám. </p>
+			<p>Vítejte na stránce Slowiss, Vaší personální agentury. Slowiss tvoří skupina zapálených náborových pracovníků, kteří přinášejí širokou škálu talentů a pracovních řešení. Věříme v nalezení správných lidí pro správné pozice. Či už jste uchazeči se zájmem o příležitost nebo společnost hledající zaměstnance, pomůžeme Vám. </p>
 		</div>
 	</section>
 	<!-- scroll here --><a name="fromcare"></a>
 	<section id="one">
 		<div class="container">
-		<h1><a id="uchadzac" style="position: absolute; margin-top: -20px;"></a>Uchádzači</h1>
+		<h1><a id="uchadzac" style="position: absolute; margin-top: -20px;"></a>Uchazeči</h1>
 		<br>
-		<p>Ponúkame Vám množstvo príležitostí pre výkon prác alebo služieb v rôznych oblastiach. Môžete tu nájsť nie len voľné pozície, ale aj cenné rady, ktoré Vám môžu napomôcť k nájdeniu Vašej vysnenej práce. Vyberte si prosím pozíciu, o ktorú máte záujem a dozviete sa viac. </p><br>
+		<p>Nabízíme Vám množství příležitostí pro výkon práce nebo služeb v různých oblastech. Můžete tu nalézt nejen volné pozice, ale i cenné rady, které Vám mohou pomoci najít Vaši vysněnou práci. Vyberte si prosím pozici, o kterou máte zájem a dozvíte se více.</p><br>
 					<div class="row">
 						<div class="col-md-3">
 								<img src="../main_img/AdobeStock_47255856_WM.jpeg" class="borderone" alt="IMG" style="width: 100%;">
@@ -111,14 +112,14 @@
 						<div class="col-md-9">
 						<div class="panel panel-default">
 						  <div class="panel-heading">
-						    <h2 class="panel-title" style="color: #6B285C; font-size: 5rem;">Opatrovanie</h2>
+						    <h2 class="panel-title" style="color: #6B285C; font-size: 5rem;">Pečovatelství</h2>
 								</div>
-									<p style="text-align: justify;" class="panel-body">Ste opatrovateľka, pestúnka alebo pomocníčka v domácnosti, ktorá hľadá príležitosť pre výkon prác alebo služieb v zahraničí? Toto je správna voľba pre Vás. </p>
+									<p style="text-align: justify;" class="panel-body">Jste pečovatelka, chůva nebo pomocnice v domácnosti, která hledá příležitost pro výkon práce nebo služeb v zahraničí? Toto je správná volba pro Vás.</p>
 								<!--tlacitka-->
 								  <ul class="menu-x pull-right">
-								  	  <li><a href="./WELLcare_en.php">Viac informácií</a></li>
-									  <li><a href="./offers_en.php">Ponuky</a></li>
-									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Uchádzať sa</a></li>
+								  	  <li><a href="./WELLcare_en.php">Víc informací</a></li>
+									  <li><a data-toggle="modal" data-target="#offerss">Nabídky</a></li>
+									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Ucházet se</a></li>
 								  </ul> 
 							</div>
 							</div>
@@ -134,14 +135,14 @@
 							<div class="col-md-9">
 						<div class="panel panel-default">
 						  <div class="panel-heading">
-						    <h2 class="panel-title" style="color: rgba(57, 122, 218, 1); font-size: 5rem;"><a name="sempod"></a>Zdravotníctvo</h2>
+						    <h2 class="panel-title" style="color: rgba(57, 122, 218, 1); font-size: 5rem;"><a name="sempod"></a>Zdravotnictví</h2>
 								</div>	
-									<p style="text-align: justify;" class="panel-body">Ak ste zdravotná sestra alebo lekár,  ktorí hľadajú príležitosť zamestnania sa v zahraničí a máte ukončené zdravotnícke vzdelanie, toto je to správne miesto pre Vás.</p>
+									<p style="text-align: justify;" class="panel-body">Pokud jste zdravotní sestra nebo lékař a hledáte příležitost uplatnit se v zahraničí, přičemž máte ukončené vzdělání v oblasti zdravotnictví, toto je to správné místo pro Vás.</p>
 								  <!--tlacitka-->
 								  <ul class="menu-x b pull-right">
-								  	  <li><a href="./WELLmed_en.php">Viac informácií</a></li>
-									  <li><a href="./offers_en.php">Ponuky</a></li>
-									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Uchádzať sa</a></li>
+								  	  <li><a href="./WELLmed_en.php">Víc informací</a></li>
+									  <li><a data-toggle="modal" data-target="#offerss">Nabídky</a></li>
+									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Ucházet se</a></li>
 								  </ul> 			      
 							</div>							
 							</div>
@@ -157,14 +158,14 @@
 							<div class="col-md-9">
 						<div class="panel panel-default">
 						  <div class="panel-heading" style="background-color: transparent;">
-						    <h2 class="panel-title" style="color: rgba(157, 11, 15, 1); font-size: 5rem;">Iné odvetvia</h2>
+						    <h2 class="panel-title" style="color: rgba(157, 11, 15, 1); font-size: 5rem;">Jiné odvětví</h2>
 						  </div>	
-									<p style="text-align: justify;" class="panel-body">V prípade, že ste profesionálny vodič, čašníčka, kuchár, a pod. a hľadáte príležitosť pre výkon prác alebo služieb, taktiež máme možnosti pre Vás.</p>
+									<p style="text-align: justify;" class="panel-body">V případě, že jste profesionální řidič, servírka, kuchař, a pod. a hledáte příležitost pro výkon práce nebo služeb, také máme možnosti pro Vás.</p>
 								<!--tlacitka-->
 								  <ul class="menu-x c pull-right">
-								  	  <li><a href="./WELLpro_en.php">Viac informácií</a></li>
-									  <li><a href="./offers_en.php">Ponuky</a></li>
-									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Uchádzať sa</a></li>
+								  	  <li><a href="./WELLpro_en.php">Víc informací</a></li>
+									  <li><a data-toggle="modal" data-target="#offerss">Nabídky</a></li>
+									  <li><a data-toggle="modal" data-target="#Modaluchadzac">Ucházet se</a></li>
 								  </ul>			     	
 							</div>
 							</div>
@@ -178,9 +179,9 @@
 	</section>
 		<section id="two">
 			<div class="container">
-				<h1><a id="zamestnavatel" style="position: absolute; margin-top: -20px;"></a>Zamestnávatelia</h1>
+				<h1><a id="zamestnavatel" style="position: absolute; margin-top: -20px;"></a>Zaměstnavatelé </h1>
 					<br>
-					<p>Spolupráca so Slowiss Vám prináša kvalitu a flexibilitu ponúkaných služieb. Počas predchádzajúcich rokov sme dokázali, že sme spoľahlivý a stabilný partner mnohým slovenským i zahraničným spoločnostiam. Prosím vyberte si profesiu Vašich žiadaných zamestnancov nižšie. Náš profesionálny tím náborových pracovníkov Vám nájde kvalitný personál v súlade s Vašimi požiadavkami.</p><br>
+					<p>Spolupráce se Slowiss Vám přináší kvalitu a flexibilitu nabízených služeb. Během předchozích let jsme dokázali, že jsme spolehlivým a stabilním partnerem mnoha slovenským i zahraničním firem. Prosím vyberte si z níže uvedených profesí pro výběr požadovaných zaměstnanců. Náš profesionální tým náborových pracovníků Vám najde kvalifikovaný personál v souladě s Vašimi požadavkami.</p><br>
 					<div class="row">
 						<div class="col-md-3">
 								<img src="../main_img/AdobeStock_122549282_WM.jpeg" alt="IMG" style="width: 100%;">
@@ -188,13 +189,13 @@
 						<div class="col-md-9">
 						<div class="panel panel-default">
 						  <div class="panel-heading">
-						    <h2 class="panel-title" style="color: #6B285C; font-size: 5rem;">Opatrovanie</h2>
+						    <h2 class="panel-title" style="color: #6B285C; font-size: 5rem;">Pečovatelství</h2>
 								</div>
-									<p style="text-align: justify;" class="panel-body">Ak hľadáte zodpovednú a kompetentnú osobu, ktorá sa postará o člena Vašej rodiny alebo klienta, poprípade o ich domácnosť, pomôžeme Vám. </p>
+									<p style="text-align: justify;" class="panel-body">Pokud hledáte zodpovědnou a kompetentní osobu, která se postará o člena Vaší rodiny nebo klienta, popřípadě o jejich domácnost, pomůžeme Vám.</p>
 							     <!--tlacitka-->
 								  <ul class="menu-x pull-right">
-								  	  <li><a href="./sprostredkovanie_care.php">Viac informácií</a></li>
-									  <li><a data-toggle="modal" data-target="#Modalziadost">Žiadosť</a></li>
+								  	  <li><a href="./sprostredkovanie_care.php">Víc informací</a></li>
+									  <li><a data-toggle="modal" data-target="#Modalziadost">Žádost</a></li>
 									  
 								  </ul>	
 							</div>
@@ -209,13 +210,13 @@
 							<div class="col-md-9">
 						<div class="panel panel-default">
 						  <div class="panel-heading">
-						    <h2 class="panel-title" style="color: rgba(57, 122, 218, 1); font-size: 5rem;">Zdravotníctvo</h2>
+						    <h2 class="panel-title" style="color: rgba(57, 122, 218, 1); font-size: 5rem;">Zdravotnictví</h2>
 								</div>	
-									<p style="text-align: justify;" class="panel-body">Ak potrebujete všeobecnú alebo špecializovanú zdravotnú sestru, pôrodnú asistentku alebo lekára, ktorí sú oddaní svojej profesii, vyhľadáme pre Vás vynikajúci personál.</p>
+									<p style="text-align: justify;" class="panel-body">Pokud potřebujete všeobecnou nebo specializovanou zdravotní sestru, porodní asistentku nebo lékaře, kteří jsou oddáni své práci, vyhledáme pro Vás vynikající personál.</p>
 							     <!--tlacitka-->
 								  <ul class="menu-x b pull-right">
-								  	  <li><a href="./sprostredkovanie_med.php">Viac informácií</a></li>
-									  <li><a data-toggle="modal" data-target="#Modalziadost">Žiadosť</a></li>
+								  	  <li><a href="./sprostredkovanie_med.php">Víc informací</a></li>
+									  <li><a data-toggle="modal" data-target="#Modalziadost">Žádost</a></li>
 								  </ul>	
 							</div>							
 							</div>
@@ -229,14 +230,14 @@
 							<div class="col-md-9">
 						<div class="panel panel-default">
 						  <div class="panel-heading">
-						    <h2 class="panel-title" style="color: rgba(157, 11, 15, 1); font-size: 5rem;">Iné odvetvia</h2>
+						    <h2 class="panel-title" style="color: rgba(157, 11, 15, 1); font-size: 5rem;">Jiné odvětví</h2>
 								</div>	
-									<p style="text-align: justify;" class="panel-body">Či už hľadáte dočasný alebo stály personál, na čiastočný alebo plný úväzok v inej oblasti ako opatrovanie alebo zdravotníctvo, my Vám pomôžeme so všetkými personálnymi záležitosťami.</p>
+									<p style="text-align: justify;" class="panel-body">Ať už hledáte dočasný nebo stálý personál, na částečný nebo plný úvazek v jiné oblasti, jako je pečovatelství nebo zdravotnictví, my Vám pomůžeme se všemi personálními záležitostmi.</p>
 							     <!--tlacitka-->
 								  <ul class="menu-x c pull-right">
-								  	  <li><a href="./sprostredkovanie_other.php">Viac informácií</a></li>
-									  <li><a data-toggle="modal" data-target="#Modalziadost">Žiadosť</a></li>
-								  </ul>	
+								  	  <li><a href="./sprostredkovanie_other.php">Víc informací</a></li>
+									  <li><a data-toggle="modal" data-target="#Modalziadost">Žádost</a></li>
+								  </ul>
 							</div>
 							</div>
 						</div><br>
@@ -249,7 +250,7 @@
 		<section id="three">
 			<h1 style="color: #222"><a id="onas" style="position: absolute; margin-top: -40px;"></a>O nás</h1>
 			<div class="container">
-						<p style="color: #222">Spoločnosť Slowiss vznikla začiatkom roku 2013, kedy ju založili bratia Martiovci a odvtedy je rýchlo rastúcou spoločnosťou. Na začiatku zameriavala všetku svoju pozornosť na oblasť opatrovania a zdravotníctva. Dopyt po zdravotníckych pracovníkoch  neustále narastal  a preto Slowiss začala nadväzovať spoluprácu s ďalšími spoločnosťami v Európe, čím vytvorila nové príležitosti pre svojich uchádzačov aj klientov. </p><p style="color: #222"> Postupne narastal dopyt aj po  pracovníkoch z iných odvetví a tak Slowiss začala zamestnávať personál aj v oblasti logistiky, gastronómie, hoteliérstva, stavebnícva a pod.. Slowiss spája kvalitné spoločnosti s kvalitným personálom v európskych krajinách. Ľudskosť, spoľahlivosť, inovácia a kvalita sú jej hlavnými hodnotami. </p>
+						<p style="color: #222">Společnost Slowiss vznikla začátkem roku 2013, kdy ji založili bratři Martiovci a od té doby je rychlo rostoucí společností. Zpočátku soustředila všechnu svoji pozornost na oblast pečovatelství a zdravotnictví. Poptávka po zdravotnických pracovnících neustále rostla, proto Slowiss začala navazovat spolupráci s dalšími společnostmi v Evropě, čímž vytvořila nové příležitosti pro svoje uchazeče i klienty.</p><p style="color: #222"> Postupně narůstala poptávka i po pracovnících z jiných odvětví, a tak Slowiss začala zaměstnávat personál i v oblasti logistiky, gastronomie, hoteliérstva, stavebnictva a pod. Slowiss spojuje kvalitní společnosti s kvalitním personálem v evropských krajinách. Lidskost, spolehlivost, inovace a kvalita jsou jejími hlavními hodnotami.</p>
 						
 				<div class="article-finish"></div>		
 				<div class="row" style="text-align: center">
@@ -259,8 +260,8 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem;">Na trhu od roku 2013</p></div>
-					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem">Tisíce spokojných klientov po celej Európe</p></div>
-					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem">Pracovné príležitosti v rôznych oblastiach</p></div>
+					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem">Tisíce spokojených klientů po celé Evropě</p></div>
+					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem">Pracovní příležitosti v různých oblastech</p></div>
 				</div>
 			</div>
 			<div class="article-finish"></div>
@@ -271,7 +272,7 @@
 			<script>
 			function testcheck(){
     			if (!jQuery("#checkbox").is(":checked")) {
-        			alert("Povinné pole: Súhlas so spracovaním údajov!");
+        			alert("Povinné pole: Souhlas se zpracováním údajů!");
         			return false;
 					}
     			return true;
@@ -283,28 +284,28 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title" style="color:#222; text-align: center;">Uchádzať sa</h4>
+        <h4 class="modal-title" style="color:#222; text-align: center;">Ucházet se</h4>
       </div>
       <div class="modal-body">
          <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
-        	<input placeholder="Meno a priezvisko:" type="text" name="u-person"> 
+        	<input placeholder="Jméno a příjme:" type="text" name="u-person"> 
 			<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
-			<input placeholder="Telefónne číslo:" type="text" name="u-tel"> 
-			<input placeholder="Záujem o pozíciu:" type="text" name="u-position">
-			<input placeholder="Kde chcete pracovať:" type="text" name="u-work">
+			<input placeholder="Telefónni číslo:" type="text" name="u-tel"> 
+			<input placeholder="Zájem o pozici:" type="text" name="u-position">
+			<input placeholder="Kde chcete pracovat:" type="text" name="u-work">
 			<textarea placeholder="Poznámka:" name="u-message"></textarea><hr>
-			<p style="text-align: left; font-size: .7em;">VLOŽTE SVOJ ŽIVOTOPIS</p>
+			<p style="text-align: left; font-size: .7em;">VLOŽTE SVŮJ ŽIVOTOPIS</p>
 			<input type="file" name="u-file"><hr>
 			<div class="row">
 	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SÚHLASÍM SO SPRACOVANÍM OSBNÝCH ÚDAJOV</a></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SOUHLASÍM SO ZPRACOVÁNÍM OSBNÍCH ÚDAJŮ</a></div>
 	        </div>
 			<hr><br> 
-			<input value="Odoslať" type="submit" name="u-submit" onClick="return testcheck()">
+			<input value="Odeslat" type="submit" name="u-submit" onClick="return testcheck()">
 		</form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
       </div>
     </div>
 
@@ -319,21 +320,21 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title" style="color:#222; text-align: center;">Žiadosť</h4>
+        <h4 class="modal-title" style="color:#222; text-align: center;">Žádost</h4>
       </div>
       <div class="modal-body">
         <form action="mailsender_request.php" method="post" style="font-size:2em">
-        	<input placeholder="Kontaktná osoba:" type="text" name="z-person"> 
-			<input placeholder="Názov spoločnosti:" type="text" name="z-title">
+        	<input placeholder="Kontaktní osoba:" type="text" name="z-person"> 
+			<input placeholder="Název společnosti:" type="text" name="z-title">
 			<input placeholder="E-mail:" type="text" name="z-email">  
-			<input placeholder="Telefónne číslo:" type="text" name="z-tel"> 
-			<input placeholder="Hľadám:" type="text" name="z-find">
-			<textarea placeholder="Správa:" name="z-message"></textarea>  
-			<input value="Odoslať" type="submit" name="z-submit">
+			<input placeholder="Telefonní číslo:" type="text" name="z-tel"> 
+			<input placeholder="Hledám:" type="text" name="z-find">
+			<textarea placeholder="Zpráva:" name="z-message"></textarea>  
+			<input value="Odeslat" type="submit" name="z-submit">
 		</form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
       </div>
     </div>
 
@@ -366,18 +367,38 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktné informácie</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktní informace</h4>
 				</div>
 				<div class="modal-body">
-					<p>Nejaké otázky? Kontaktujte nás na:</p>
+					<p>Nějaké otázky? Kontaktujte nás na:</p>
 					<h2 style="text-align: center;">+421 473 211 276</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Zavrieť</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Zavřít</button>
 				</div>
 			</div>
 		</div>
 	</div><!-- modal ends -->
+	<!--modal na ziadosti-->	
+	<div id="offerss" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title" style="color:#222; text-align: center;">Nabídky</h4>
+			</div>
+			<div class="modal-body">
+				<p>Ponuky jsou dostupné v: </p>
+				<a href="../sk/offers_en.php"><img src="../mini_flags/sk.png" alt="SK"> slovak</a>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--KONIEC modal na ziadost-->
+		
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

@@ -72,7 +72,7 @@
 		
 			<div id="slider" class="nivoSlider">
 <img src="slider-home/a.jpg" data-thumb="slider-home/a.jpg" alt="" title="<h2>Home help</h2><p>babysitter, nanny</p>"/>
-<img src="slider-home/b.jpg" data-thumb="slider-home/b.jpg" alt="" title="<h2>Waitress</h2><p>waitress, waiter, cook</p>"/>
+<img src="slider-home/b.jpg" data-thumb="slider-home/b.jpg" alt="" title="<h2>Waitress</h2><p>waitress, waiter, chef</p>"/>
 <img src="slider-home/c.jpg" data-thumb="slider-home/c.jpg" alt="" title="<h2>Babysitter</h2><p>babysitter, nanny</p>"/>
 <img src="slider-home/d.jpg" data-thumb="slider-home/d.jpg" alt="" title="<h2>Doctor</h2><p>doctor, nurse, midwife</p>"/>
 <img src="slider-home/e.jpg" data-thumb="slider-home/e.jpg" alt="" title="<h2>Caregiver</h2><p>caregiver, home care worker</p>"/>
@@ -360,7 +360,7 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal">&times;</button>
-				<h4 class="modal-title" style="color:#222; text-align: center;">Request</h4>
+				<h4 class="modal-title" style="color:#222; text-align: center;">Offers</h4>
 			</div>
 			<div class="modal-body">
 				<p>Offers are available in languages: </p>
