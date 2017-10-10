@@ -245,7 +245,7 @@
 		  <div class="letter">
 		  <button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
 		  	  <h3 style="text-align: center; color: #222;">Výhody try and hire</h3><br>
-		  		<p style="text-align: center; color: #222;">AAk si chcete overiť znalosti a schopnosti zamestnancov predtým, než s nimi uzavriete pracovný pomer, táto služba je určená práve Vám. Poskytuje Vám ešte väčšiu flexibilitu a elimináciu rizika výberu nevhodného kandidáta.</p><hr><br>
+		  		<p style="text-align: center; color: #222;">Ak si chcete overiť znalosti a schopnosti zamestnancov predtým, než s nimi uzavriete pracovný pomer, táto služba je určená práve Vám. Poskytuje Vám ešte väčšiu flexibilitu a elimináciu rizika výberu nevhodného kandidáta.</p><hr><br>
 		 
 			  <div class="row">
 			  	<div class="col-lg-6 litem">
