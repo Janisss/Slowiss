@@ -256,10 +256,6 @@
 					<div class="nmbrdiv" data-line="✪"></div>
 					<h2 style="color: #222;">Možnost výběru délky zkušební doby</h2>
 				</div>
-				<div class="col-lg-6 litem">
-					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Možnost převzít už zapracovaného zaměstnance</h2>
-			    </div>
 			  </div>
 			  <div class="row">
 				<div class="col-lg-6 litem">
@@ -269,6 +265,12 @@
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
 					<h2 style="color: #222;">Garance výměny v případě nespokojenosti</h2>
+			    </div>
+			    </div>
+			    <div class="row">
+			    <div class="col-lg-6 litem">
+					<div class="nmbrdiv" data-line="✪"></div>
+					<h2 style="color: #222;">Možnost převzít už zapracovaného zaměstnance</h2>
 			    </div>
 			    </div>
 			</div>
@@ -455,7 +457,7 @@
 	               $(".menu-jano a").css({"color":"white"});
 				   $(".hauptmenu i").css({"color":"white"});
 	              }
-	           else if($("h1.title").text() === "Spolupráca"){
+	           else if($("h1.title").text() === "Spolupráce"){
 	               $(".fix").css({"background":"#222",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});

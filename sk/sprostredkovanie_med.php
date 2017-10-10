@@ -228,10 +228,6 @@
 					<div class="nmbrdiv" data-line="✪"></div>
 					<h2 style="color: #222;">Možnosť výberu dĺžky skúšobnej doby</h2>
 				</div>
-				<div class="col-lg-6 litem">
-					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Možnosť prevziať už zapracovaného zamestnanca</h2>
-			    </div>
 			  </div>
 			  <div class="row">
 				<div class="col-lg-6 litem">
@@ -241,6 +237,12 @@
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
 					<h2 style="color: #222;">Garancia výmeny v prípade nespokojnosti</h2>
+			    </div>
+			    </div>
+			    <div class="row">
+			    <div class="col-lg-6 litem">
+					<div class="nmbrdiv" data-line="✪"></div>
+					<h2 style="color: #222;">Možnosť prevziať už zapracovaného zamestnanca</h2>
 			    </div>
 			    </div>
 			</div>

@@ -489,7 +489,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktní informácie</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktní informace</h4>
 				</div>
 				<div class="modal-body">
 					<p>Nejaké otázky? Kontaktujte nás na:</p>
@@ -519,7 +519,7 @@
 	$(window).on("scroll", function() {
 	   $("section").each(function() {
 	       if($(window).scrollTop() >= $(this).offset().top) {
-	          if($("h1.title").text() === "Prečo my?"){
+	          if($("h1.title").text() === "Proč my?"){
 	              $(".fix").css({"background":"#9d0b0f",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});

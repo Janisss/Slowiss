@@ -426,7 +426,7 @@
 	$(window).on("scroll", function() {
 	   $("section").each(function() {
 	       if($(window).scrollTop() >= $(this).offset().top) {
-	          if($("h1.title").text() === "Prečo my?") {
+	          if($("h1.title").text() === "Proč my?") {
 	              $(".fix").css({"background":"#2A8575",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});
