@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Slowiss - Iné odvetvia</title>
+	<title>Slowiss - Jiné odvětví</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
@@ -15,14 +15,14 @@
 		for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
 		  if (val) { nm=val.name; if ((val=val.value)!="") {
 			if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
-			  if (p<1 || p==(val.length-1)) errors+='- '+' zle zadaný e-mail!\n';
+			  if (p<1 || p==(val.length-1)) errors+='- '+' nesprávne zadanej e-mail!\n';
 			} else if (test!='R') { num = parseFloat(val);
 			  if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
 			  if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
 				min=test.substring(8,p); max=test.substring(p+1);
 				if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-		  } } } else if (test.charAt(0) == 'R') errors += '- '+' zadajte e-mail!\n'; }
-		} if (errors) alert('Nasledujúce pole je povinné:\n'+errors);
+		  } } } else if (test.charAt(0) == 'R') errors += '- '+' zadejte e-mail!\n'; }
+		} if (errors) alert('Nasledujíci pole je povinné:\n'+errors);
 		document.MM_returnValue = (errors == '');
 	} }
     </script>
@@ -36,7 +36,7 @@
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->
 	<!--header-->
 	<div class="container-fluid fix">
-		<h1 class="title">Iné odvetvia</h1>
+		<h1 class="title">Jiné odvětví</h1>
 		<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
@@ -62,48 +62,47 @@
 			<script>
 			function testcheck(){
     			if (!jQuery("#checkbox").is(":checked")) {
-        			alert("Povinné pole: Súhlas so spracovaním údajov!");
+        			alert("Povinné pole: Souhlasím se zpracováním osobních údajů!");
         			return false;
 					}
     			return true;
 				}
 			</script>
 			<div id="Modaluchadzac" class="modal fade" role="dialog">
-			  <div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Uchádzať sa</h4>
-				  </div>
-				  <div class="modal-body">
-					 <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
-						<input placeholder="Meno a priezvisko:" type="text" name="u-person"> 
-						<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
-						<input placeholder="Telefónne číslo:" type="text" name="u-tel"> 
-						<input placeholder="Záujem o pozíciu:" type="text" name="u-position">
-						<input placeholder="Kde chcete pracovať:" type="text" name="u-work">
-						<textarea placeholder="Poznámka:" name="u-message"></textarea><hr>
-						<p style="text-align: left; font-size: .7em;">VLOŽTE SVOJ ŽIVOTOPIS</p>
-						<input type="file" name="u-file"><hr>
-						<div class="row">
-							<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-							<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SÚHLASÍM SO SPRACOVANÍM OSBNÝCH ÚDAJOV</a></div>
-						</div>
-						<hr><br> 
-						<input value="Odoslať" type="submit" name="u-submit" onClick="return testcheck()">
-					</form>
-				  </div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
-				  </div>
-				</div>
-
+		  <div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title" style="color:#222; text-align: center;">Ucházet se</h4>
+			  </div>
+			  <div class="modal-body">
+				 <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
+					<input placeholder="Jméno a příjmení:" type="text" name="u-person"> 
+					<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
+					<input placeholder="Telefonní číslo:" type="text" name="u-tel"> 
+					<input placeholder="Zájem o pozici:" type="text" name="u-position">
+					<input placeholder="Kde chcete pracovat:" type="text" name="u-work">
+					<textarea placeholder="Poznámka:" name="u-message"></textarea><hr>
+					<p style="text-align: left; font-size: .7em;">VLOŽTE SVŮJ ŽIVOTOPIS</p>
+					<input type="file" name="u-file"><hr>
+					<div class="row">
+						<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
+						<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SOUHLASÍM SO ZPRACOVÁNÍM OSOBNÍCH ÚDAJŮ</a></div>
+					</div>
+					<hr><br> 
+					<input value="Odeslat" type="submit" name="u-submit" onClick="return testcheck()">
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Zavřít</button>
 			  </div>
 			</div>
+		</div>
+</div>
 <!--KONIEC UCHADZAT SA-->
 	<section id="top">
-		<h1 class="hide">Iné odvetvia</h1>
+		<h1 class="hide">Jiné odvětví</h1>
 		<div class="container-fluid first-content">
 			<ul data-limit-x="40" data-limit-y="20" id="scene">
 				<li class="layer" data-depth="0.00"><img alt="WELL" class="decoimg" src="scene4/1.jpg"></li>
@@ -115,7 +114,7 @@
 				<div class="row">
 					<div class="col-lg-3">
 						<div class="item-a">
-							<a href="#one">Prečo my?</a>
+							<a href="#one">Proč my?</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
@@ -130,53 +129,53 @@
 					</div>
 					<div class="col-lg-3">
 						<div class="item-d">
-							<a href="#four">Požiadavky</a>
+							<a href="#four">Požadavky</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container intro-text">
-			<h2 class="text-center">Hľadáte si uplatnenie v inej oblasti ako opatrovanie alebo zdravotníctvo? Máme pre Vás veľa príležitostí pre výkon prác alebo služieb v mnohých ďalších sektoroch. Medzi inými ponúkame príležitosť pre šoférov, čašníčky, stavbárov, lešenárov, tesárov a pod. </h2>
+			<h2 class="text-center">Hledáte si uplatnění v jiné oblasti jako pečovatelství nebo zdravotnictví? Máme pro Vás mnoho příležitostí pro výkon práce nebo služeb v mnoha dalších odvětvích. Mezi jinými nabízíme příležitost pro řidiče, číšníky, stavitele, lešenáře, tesaře apod.</h2>
 		</div>
 	</section>
 	<section id="one">
 		<div class="green one" style="background:#9d0b0f">
 			<div class="container">
-				<h1>Prečo my?</h1>
+				<h1>Proč my?</h1>
 				<div class="container">
 					<!-- flaticons -->
 					<div class="row icons">
 						<div class="col-md-4">
 							<i class="fa fa-user-circle-o fa-5x"></i>
-							<h2 class="text-center">Žiadne sprostredkovateľské alebo registračné poplatky</h2>
+							<h2 class="text-center">Žádné zprostředkovatelské nebo registrační poplatky</h2>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-money fa-5x"></i>
-							<h2 class="text-center">Individuálny prístup</h2>
+							<h2 class="text-center">Individuální přístup</h2>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-car fa-5x"></i>
-							<h2 class="text-center">Motivujúce platové ohodnotenie</h2>
+							<h2 class="text-center">Motivující platové ohodnocení</h2>
 						</div>
 					</div>
 					<div class="article-finish"></div>
 					<div class="row icons">
 						<div class="col-md-4">
 							<i class="fa fa-list-alt fa-5x"></i>
-							<h2 class="text-center">Široká škála ponúk prác alebo služieb</h2>
+							<h2 class="text-center">Široká škála nabídek práce nebo služeb</h2>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-phone-square fa-5x"></i>
-							<h2 class="text-center">Zabezpečenie pohodlnej dopravy</h2>
+							<h2 class="text-center">Zabezpečení pohodlné dopravy</h2>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-thumbs-up fa-5x"></i>
-							<h2 class="text-center">24-hodinová on-line zákaznícka linka pre prípad núdze</h2>
+							<h2 class="text-center">24-hodinová on-line zákaznická linka pro případ nouze</h2>
 						</div>
 					</div>
 					<div class="article-finish"></div>
-					<p>S nami máte možnosť uplatnenia sa v rôznych oblastiach, predovšetkým v stavebnom priemysle, logistike, gastronómii, poľnohospodárstve, ale aj v mnohých ďalších odvetviach. Vážime si ľudí, ktorí sú odborníkmi vo svojej pracovnej oblasti. Naším cieľom je nájsť pre Vás príležitosť pre výkon práce alebo služby, ktorá je primerane ohodnotená a zaručí Vám spokojnosť a radosť pri jej výkone. </p>
+					<p>S námi máte možnost uplatnit se v různých oblastech, především ve stavebním průmysle, logistice, gastronimii, zemědělství, ale také v mnoha dalších odvětvích. Vážíme si lidí, kteří jsou odborníky ve své pracovní oblasti. Naším cílem je najít pro Vás příležitost pro výkon práce nebo služby, která je přiměřeně ohodnocená a zaručí Vám spokojenost a radost při jejím výkoně. </p>
 					<div class="article-finish"></div>
 				</div>
 				<div class="article-finish"></div>
@@ -191,37 +190,37 @@
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="1."></div>
-						<h2 style="color: #222;">Formulár</h2>
-						<p class="nmbrlist">Spravte prvý krok a vyplňte <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">kontaktný formulár</a>, poprípade k nemu nahrajte svoj štrukturovaný životopis a my Vás budeme kontaktovať.</p>
+						<h2 style="color: #222;">Formulář</h2>
+						<p class="nmbrlist">Udělejte první krok a vyplňte <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">kontaktní formulář</a>, popřípade k nemu nahrajte svůj strukturovaný životopis a my Vás budeme kontaktovat.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="2."></div>
 						<h2 style="color: #222;">Telefonát</h2>
-						<p class="nmbrlist">Po obdržaní kontaktného formulára Vám zatelefonujeme kvôli doplneniu potrebných údajov o Vás, ako aj prevereniu Vašich jazykových znalostí.</p>
+						<p class="nmbrlist">Po obdržení kontaktního fomuláře Vám zavoláme ohledně doplnění potřebných údajů o Vás, kde si i zároveň ověříme Vaše jazykové znalosti.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="3."></div>
-						<h2 style="color: #222;">Sprostredkovateľská zmluva</h2>
-						<p class="nmbrlist">Zmluva, ktorú Vám zašleme na podpis kvôli súhlasu so spracovaním osobných údajov pre účely sprostredkovania príležitosti na vykonávanie prác alebo služieb.</p>
+						<h2 style="color: #222;">Zprostředkovatelská smlouva</h2>
+						<p class="nmbrlist">Smlouva, kterou Vám zašleme k podpisu kvůli Vašemu souhlasu se zpracováním osobních údajů pro účely zprostředkování příležitosti na výkonávání práce nebo služeb.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="4."></div>
-						<h2 style="color: #222;">Ponuka</h2>
-						<p class="nmbrlist">Obdržíte popis ponuky prác alebo služieb s informáciami o pozícii a podmienkami. V prípade, že prejavíte o ponuku záujem, zašleme Váš profil klientovi, s ktorým následne absolvujete pohovor.</p>
+						<h2 style="color: #222;">Nabídka</h2>
+						<p class="nmbrlist">Obdržíte popis nabídky práce nebo služeb s informacemi o pozici a podmínkách. V případě, že projevíte o nabídku zájem, zašleme Váš profil klientovi, s kterým následně absolvujete pohovor.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="5."></div>
 						<h2 style="color: #222;">Súhlas klienta</h2>
-						<p class="nmbrlist">Klient sa po obdržaní Vášho profilu maximálne do siedmych dní vyjadrí, či si vybral práve Vás.</p>
+						<p class="nmbrlist">Klient se po obdržení Vašeho profilu maximálně do sedmi dní vyjádří, zda si vybral právě Vás.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="6."></div>
-						<h2 style="color: #222;">Finálny krok</h2>
-						<p class="nmbrlist">Ak áno, vybavíme potrebnú administratívu a s výkonom môžete začať v dohodnutom termíne a na dohodnutom mieste.  Ak nie, hľadáme ďalej.</p>
+						<h2 style="color: #222;">Finální krok</h2>
+						<p class="nmbrlist">Pokud ano, vybavíme potřebnou administrativu a s výkonem můžete začít v dohodnutém termíně a na dohodnutém místě. Pokud ne, hledáme dál.</p>
 					</div>
 				</div>
 			</div>
@@ -233,58 +232,58 @@
 			<h1>Otázky</h1>
 			<div class="container">
 				<div class="bubbleinfo bubble-left">
-					<a class="cstm-acor" data-id="1">Aké druhy prác ponúkate?</a><br>
-					<a class="cstm-acor" data-id="2">Čo musím urobiť?</a><br>
-					<a class="cstm-acor" data-id="3">Koľko ma to bude stáť?</a><br>
-					<a class="cstm-acor" data-id="4">Kde môžem vykonávať práce alebo služby?</a><br>
-					<a class="cstm-acor" data-id="5">Je nevyhnutná znalosť cudzieho jazyka?</a><br>
-					<a class="cstm-acor" data-id="6">Akou formou budem pracovať?</a><br>
-					<a class="cstm-acor" data-id="7">Potrebujem odporúčania z predchádzajúcich zamestnaní?</a><br>
+					<a class="cstm-acor" data-id="1">Jaké druhy práce nabízíte?</a><br>
+					<a class="cstm-acor" data-id="2">Co musím udělat?</a><br>
+					<a class="cstm-acor" data-id="3">Kolik mě to bude stát?</a><br>
+					<a class="cstm-acor" data-id="4">Kde mohu vykonávat práci nebo služby?</a><br>
+					<a class="cstm-acor" data-id="5">Je nezbytná znalost cizího jazyka?</a><br>
+					<a class="cstm-acor" data-id="6">Jakou formou budu pracovat?</a><br>
+					<a class="cstm-acor" data-id="7">Potřebuji doporučení z předchozích zaměstnání?</a><br>
 				</div>
 				<div class="bubbleinfo bubble-right pull-right">
 					<div class="q0 answ">
-						<p>Kliknite na otázku, ktorú chcete zodpovedať.</p>
+						<p>Klikněte na otázku, na kterou chcete znát odpověď.</p>
 					</div>
 					<div class="q1 answ">
-						<p>V rôznych odvetviach, predovšetkým v stavebníctve, logistike, gastronómii a poľnohospodárstve. Pre konkrétne ponuky pozrite <a href="offers_en.php">voľné pozície.</a></p>
+						<p>V různých odvětvích, především ve stavebnictví, logistice, gastronomii a zemědělství. Pro konkrétní nabídky klikněte na<a href="offers_en.php"> volné pozice. </a></p>
 					</div>
 					<div class="q2 answ">
-						<p>V prvom rade je potrebné vyplniť kontaktný formulár. Celý proces nájdete<a href ="#two"> tu.</a></p>
+						<p>V první řadě je potřebné vyplnit kontaktní formulář. Celý proces naleznete <a href ="#two">tu.</a></p>
 					</div>
 					<div class="q3 answ">
-						<p>Nič, u nás neplatíte žiadne sprostredkovateľské ani registračné poplatky. Ponúkame Vám bezplatné využitie našich služieb.</p>
+						<p>Nic, u nás neplatíte žádné zprostředkovatelské ani registrační poplatky. Nabízíme Vám bezplatné využití našich služeb.</p>
 					</div>
 					<div class="q4 answ">
-						<p>Švajčiarsko, Nemecko, Rakúsko, Veľká Británia a Slovensko sú hlavné krajiny, v ktorých ponúkame možnosť uplatnenia.</p>
+						<p>Švýcarsko, Německo, Rakousko, Velká Británie a Slovensko jsou hlavní země, v kterých nabízíme možnost uplatnění.</p>
 					</div>
 					<div class="q5 answ">
-						<p>Áno, je nevyhnutná aspoň základná znalosť jazyka krajiny, v ktorej chcete vykonávať prácu alebo službu. Pre bližšie informácie si podrobne prečítajte Popis dopytu práce alebo služby. </p>
+						<p>Ano, je nezbytná alespoň základní znalost jazyka země, v které chcete vykonávat práci nebo službu. Pro bližší informace si podrobně přečtěte Popis poptávky práce nebo služby.</p>
 					</div>
 					<div class="q6 answ">
-						<p>Druh zamestnania závisí od konkrétnej ponuky ako aj od krajiny kam chcete vycestovať. Bližšie informácie nájdete v časti <a href="#four">Požiadavky.</a></p>
+						<p>Druh zaměstnání závisí na konkrétní nabídce i na zemi,  kam chcete vycestovat. Bližší informace naleznete v části <a href="#four">Požadavky.</a></p>
 					</div>
 					<div class="q7 answ">
-						<p>Áno, doloženie Vašich referencií z predchádzajúcich zamestnaní je vždy považované za veľkú výhodu a potenciálnym zamestnávateľom oceňované.</p>
+						<p>Ano, doložení Vašich referencí z předchozích zaměstnání je vždy považované za velkou výhodu a potenciálním zaměstnavatelem oceňované.</p>
 					</div>
 				</div>
 			</div>
 			<div class="article-finish"></div>
 			<div class="container">
-				<h2 class="text-center">Máte inú otázku? Kontaktujte nás na +421 473 211 276</h2>
+				<h2 class="text-center">Máte jinou otázku? Kontaktujte nás na +421 473 211 276</h2>
 			</div>
 			<div class="article-finish"></div>	
 		</section>
 		<img src="img/AdobeStock_133532736.jpeg" alt="img" class="decoration">
 	</div>
 	<section id="four">
-		<h1 class="p">Požiadavky</h1><!-- AJAX LOADER -->
+		<h1 class="p">Požadavky</h1><!-- AJAX LOADER -->
 		<div class="container">
-		<h3>Potrebné dokumenty pre všetky pracovné pozície:</h3>
-			<p>- Občiansky preukaz</p>
-			<p>- Európsky preukaz zdravotného poistenia</p>
-			<p>- Doklad o vzdelaní</p>
+		<h3>Požadované dokumenty pro všechny pracovní pozice:</h3>
+			<p>- Občanský průkaz</p>
+			<p>- Evropský průkaz zdravotního pojištění</p>
+			<p>- Doklad o vzdělání</p>
 			<div class="article-finish"></div>
-		<p><strong>Existuje viacero možností, prostredníctvom ktorých môžete vykonávať práce alebo služby v závislosti od konkrétnej ponuky a klientom individuálne určených požiadaviek.</strong></p>	
+		<p><strong>Existuje několik možností, prostřednictvím kterých můžete vykonávat práce nebo služby v závislosti od konkrétní nabídky a klientem individuálně stanovených podmínek.</strong></p>	
 			
 	<div class="btn-group btn-group-justified" role="group">
   <div class="btn-group" role="group">
@@ -490,14 +489,14 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktné informácie</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktní informácie</h4>
 				</div>
 				<div class="modal-body">
 					<p>Nejaké otázky? Kontaktujte nás na:</p>
 					<h2 style="text-align: center;">+421 473 211 276</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Zavrieť</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Zavřít</button>
 				</div>
 			</div>
 		</div>

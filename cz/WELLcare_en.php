@@ -410,7 +410,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktní informáce</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktní informace</h4>
 				</div>
 				<div class="modal-body">
 					<p>Nejaké otázky? Kontaktujte nás na:</p>

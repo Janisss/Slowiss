@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--S_K-------V_E_R_S_I_O_N----->
+<!--C-Z------V_E_R_S_I_O_N----->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Slowiss - Zdravotníctvo</title>
+	<title>Slowiss - Zdravotnictví</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
 </head>
@@ -18,7 +18,7 @@
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->
 	<!--header-->
 	<div class="container-fluid fix">
-		<h1 class="title">Zdravotníctvo</h1>
+		<h1 class="title">Zdravotnictví</h1>
 		<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
@@ -40,7 +40,7 @@
 		<!--MOBIL MENU END-->	
 	</div><!--header end-->
 	<section id="top">
-		<h1 class="hide">Zdravotníctvo</h1>
+		<h1 class="hide">Zdravotnictví</h1>
 		<div class="container-fluid first-content">
 			<ul data-limit-x="40" data-limit-y="20" id="scene">
 				<li class="layer" data-depth="0.00"><img alt="CARE" class="decoimg" src="scene1.2/1.jpg"></li>
@@ -53,7 +53,7 @@
 				<div class="row">
 					<div class="col-lg-3">
 						<div class="item-a">
-							<a href="#one">Prečo my?</a>
+							<a href="#one">Proč my?</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
@@ -63,51 +63,51 @@
 					</div>
 					<div class="col-lg-3">
 						<div class="item-c">
-							<a href="#three">Spolupráca</a>
+							<a href="#three">Spolupráce</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="item-d">
-							<a href="#four">Referencie</a>
+							<a href="#four">Reference</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container intro-text">
-			<h2 class="text-center">Máte problém nájsť kvalifikované zdravotné sestry, pôrodné asistentky alebo lekárov? Hľadáte spoľahlivého obchodného partnera, ktorý Vám s hľadaním pomôže? Nezúfajte, práve ste ho našli. </h2>
+			<h2 class="text-center">Máte problém najít kvalifikované zdravotní sestry, porodní asistentky nebo lékaře? Hledáte spolehlivého obchodního partnera, který Vám s hledáním pomůže? Nezoufejte, právě jste ho našli.</h2>
 		</div>
 	</section>
 	<section id="one">
 		<div class="green one" style="background:#222">
 			<div class="container">
-				<h1>Prečo my?</h1>
+				<h1>Proč my?</h1>
 				<div class="container">
 					<!-- flaticons -->
 					<div class="row icons">
 						<div class="col-md-4">
 							<i class="fa fa-thumbs-up fa-5x"></i>
-							<h3 class="text-center">Prvotriedna starostlivosť</h3>
+							<h3 class="text-center">Prvotřídní starostlivost</h3>
 						</div>
 						<div class="col-md-4">
 						    <i class="fa fa-eye fa-5x"></i>
-							<h3 class="text-center">Švajčiarska precíznosť</h3>
+							<h3 class="text-center">Švýcarská preciznost</h3>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-commenting fa-5x"></i>
-							<h3 class="text-center">Inovatívny spôsob náboru</h3>
+							<h3 class="text-center">Inovativní způsob náboru</h3>
 						</div>
 					</div>
 					<div class="article-finish"></div>
 					<div class="row icons">
 							<div class="col-md-4">
 							<i class="fa fa-group fa-5x"></i>
-							<h3 class="text-center">Skúsený a oddaný personál</h3>
+							<h3 class="text-center">Zkušený a oddaný personál</h3>
 
 						</div>
 						<div class="col-md-4">
 						    <i class="fa fa-refresh fa-5x"></i>
-							<h3 class="text-center">Garancia výmeny pre prípad nespokojnosti</h3>
+							<h3 class="text-center">Garance výměny pro případ nespokojenosti</h3>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-smile-o fa-5x"></i>
@@ -115,7 +115,7 @@
 						</div>
 					</div>
 					<div class="article-finish"></div>
-					<p style="text-align: center">Kvalita a spoľahlivosť nami ponúkaných služieb nás zaraďuje medzi TOP personálne spoločnosti na európskom trhu. Vďaka voľnému pohybu služieb v Európskej únii máte k dispozícii zdravotnícky personál z celej Európy. Pridajte sa k našim spokojným klientom a obchodným partnerom a oceníte jednoduchosť celého procesu, minimum námahy a právnu istotu, ktorú spoluprácou s nami získate. </p>
+					<p style="text-align: center">Kvalita a spolehlivost námi nabízených služeb nás zařazuje mezi TOP personální společnosti na evropském trhu. Díky volnému pohybu služeb v Evropské unii máte k dispozici zdravotnický personál z celé Evropy. Přidejte se k našim spokojeným klientům a obchodním partnerům a oceníte jednoduchost celého procesu, minimum námahy a právní jistotu, kterou získáte spoluprací s námi.</p>
 					
 					
 					<div class="article-finish"></div>
@@ -129,7 +129,7 @@
 			<div class="container">
 			<h1>Služby</h1>
 			<div class="container">
-			<p style="text-align: center">Spoločnosť Slowiss má centrá náboru personálu po celej strednej a východnej Európe. Poskytneme Vám komplexné služby v oblasti sprostredkovania práce alebo služby a zabezpečenia zdravotníckeho personálu. Počas výberového procesu dbáme predovšetkým na: </p>
+			<p style="text-align: center">Společnost Slowiss má náborové střediska personálu po celé střední a východní Evropě. Poskytneme Vám komplexní služby v oblasti zprostředkování práce nebo služby a zabezpečíme zdravotnický personál. Během výběrového procesu dbáme především na: </p>
 			
 			<div class="row">
 					<div class="col-lg-6 litem">
@@ -137,11 +137,11 @@
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="1."></div>
-						<h2 style="color: #222;"><br>Osobnostné predpoklady</h2>
+						<h2 style="color: #222;"><br>Osobnostní předpoklady</h2>
 						<div class="nmbrdiv" data-line="2."></div>
-						<h2 style="color: #222;"><br>Kvalifikačné predpoklady</h2>
+						<h2 style="color: #222;"><br>Kvalifikační předpoklady</h2>
 						<div class="nmbrdiv" data-line="3."></div>
-						<h2 style="color: #222;"><br>Predchádzajúce pôsobenie</h2>
+						<h2 style="color: #222;"><br>Předchozí působení</h2>
 						<div class="nmbrdiv" data-line="4."></div>
 						<h2 style="color: #222;"><br>Jazykové znalosti</h2>
 					</div>
@@ -156,21 +156,21 @@
 	<div class="green three" style="background: #222;">
 		<section id="three">
 		<div class ="container">
-			<h1 style="color:white;">Spolupráca</h1>
+			<h1 style="color:white;">Spolupráce</h1>
 			<div class="container">
-			<p style="text-align: center">Slowiss Vám ponúka viacero možností spolupráce v závislosti od Vašich potrieb a požiadaviek.</p>
+			<p style="text-align: center">Slowiss Vám nabízí několik možností spolupráce v závislosti od Vašich potřeb a požadavků.</p>
 			<div class="article-finish"></div>
 			
 			
 		<div class="btn-group btn-group-justified" role="group">
 		  <div class="btn-group" role="group">
-			<button type="button" class="btn btn-default country one">Sprostredkovanie</button>
+			<button type="button" class="btn btn-default country one">Zprostředkování</button>
 		  </div>
 		  <div class="btn-group" role="group">
 			<button type="button" class="btn btn-default country two">Try and Hire</button>
 		  </div>
 		  <div class="btn-group" role="group">
-			<button type="button" class="btn btn-default country three">Dočasné pridelenie</button>
+			<button type="button" class="btn btn-default country three">Dočasné přidělení</button>
 		  </div>
 		</div>
 		
@@ -179,34 +179,34 @@
 		<div class="country-type-one">
 			<div class="letter">
 				<button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
-	  			<h3 style="text-align: center; color: #222;">Výhody sprostredkovania</h3><br>
-		  		<p style="text-align: center; color: #222;">Ak sa rozhodnete využiť službu sprostredkovania, vyhľadáme pre Vás vhodných kandidátov, ktorí budú spĺňať Vami indivinduálne určené požiadavky, z ktorími môžete následne uzavrieť pracovný pomer. </p><hr><br>
+	  			<h3 style="text-align: center; color: #222;">Výhody zprostředkování</h3><br>
+		  		<p style="text-align: center; color: #222;">Pokud se rozhodnete využít službu zprostředkování, vyhledáme pro Vás vhodné kandidáty, kteří budou splňovat Vámi individuálně určené požadavky, s kterými můžete následně uzavřít pracovní poměr.</p><hr><br>
 		  
 		 
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Úspora času a nákladov</h2>
+					<h2 style="color: #222;">Úspora času a nákladů</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Optimalizácia výberového procesu</h2>
+					<h2 style="color: #222;">Optimalizace výběrového procesu</h2>
 			    </div>
 			  </div>
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Profesionálny a individuálny prístup</h2>
+					<h2 style="color: #222;">Profesionální a individuální přístup</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Kvalifikovaný výber personálu</h2>
+					<h2 style="color: #222;">Kvalifikovaný výběr personálu</h2>
 			    </div>
 			    </div>
 			    <div class="row">
 			    <div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Náhrada zamestnanca v prípade jeho odchodu</h2>
+					<h2 style="color: #222;">Náhrada zaměstnance v případě jeho odchodu</h2>
 			    </div>
 			    </div>
 			</div>
@@ -217,7 +217,7 @@
 		  <div class="letter">
 		  <button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
 		  	  <h3 style="text-align: center; color: #222;">Výhody try and hire</h3><br>
-		  		<p style="text-align: center; color: #222;">Ak si chcete overiť znalosti a schopnosti zamestnancov predtým, než s nimi uzavriete pracovný pomer, táto služba je určená práce Vám. Poskytuje Vám ešte väčšiu flexibilitu a elimináciu rizika výberu nevhodného kandidáta.</p><hr><br>
+		  		<p style="text-align: center; color: #222;">Pokud si chcete ověřit znalosti a schopnosti zaměstnanců předtím, než s nimi uzavřete pracovní poměr, tato služba je určena právě Vám. Poskytuje Vám ještě větší flexibilitu a eliminaci rizika výběru nevhodného kandidáta.</p><hr><br>
 		 
 			  <div class="row">
 			  	<div class="col-lg-6 litem">
@@ -226,21 +226,21 @@
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Možnosť výberu dĺžky skúšobnej doby</h2>
+					<h2 style="color: #222;">Možnost výběru délky zkušební doby</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Možnosť prevziať už zapracovaného zamestnanca</h2>
+					<h2 style="color: #222;">Možnost převzít už zapracovaného zaměstnance</h2>
 			    </div>
 			  </div>
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Personálna a mzdová agenda</h2>
+					<h2 style="color: #222;">Personální a mzdová agenda</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Garancia výmeny v prípade nespokojnosti</h2>
+					<h2 style="color: #222;">Garance výměny v případě nespokojenosti</h2>
 			    </div>
 			    </div>
 			</div>
@@ -250,8 +250,8 @@
 		<div class="country-type-three">
 		  <div class="letter">
 		  <button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
-	  			<h3 style="text-align: center; color: #222;">Výhody dočasného pridelenia</h3><br>
-		  		<p style="text-align: center; color: #222;">Dočasné pridelenie, tzv. personálny leasing je služba, ktorá Vám ponúka možnosť prenajať si zamestnancov v požadovanom čase a počte v prípadoch, kedy pre Vás nie je výhodné uzavrieť s nimi pracovný pomer.</p><hr><br>
+	  			<h3 style="text-align: center; color: #222;">Výhody dočasného přidělení</h3><br>
+		  		<p style="text-align: center; color: #222;">Dočasné přidělení, tzv. personální leasing je služba, která Vám nabízí možnost pronajat si zaměstnance v požadovaném čase a v počtě případů, kdy pro Vás není výhodné uzavřít s nimi pracovní poměr.</p><hr><br>
 		  
 		 
 			  <div class="row">
@@ -261,23 +261,23 @@
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Zníženie nákladov</h2>
+					<h2 style="color: #222;">Snížení nákladů</h2>
 			    </div>
 			  </div>
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Kvalifikovaný výber personálu</h2>
+					<h2 style="color: #222;">Kvalifikovaný výběr personálu</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Personálna a mzdová agenda</h2>
+					<h2 style="color: #222;">Personální a mzdová agenda</h2>
 			    </div>
 			    </div>
 			    <div class="row">
 			    <div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Garancia výmeny v prípade nespokojnosti</h2>
+					<h2 style="color: #222;">Garance výměny v případě nesokojenosti</h2>
 			    </div>
 			    </div>
 			</div>
@@ -291,12 +291,12 @@
 	
 	
 	<section id="four">
-	<h1 class="p">Referencie</h1><!-- AJAX LOADER -->
+	<h1 class="p">Reference</h1><!-- AJAX LOADER -->
 	<div class="container">
 	
 		<blockquote class="blockquote blackk">
-		  <p class="text-left">“Slowiss je naším partnerom od leta 2014. Poskytujú mimoriadne zákaznícke služby a rýchlu reakciu na naše požiadavky. Opatrovateľky zo Slowiss sú vždy milé a spoľahlivé s dostatočnými skúsenosťami. Sme presvedčení, že sme si vybrali tú správnu personálnu agentúru, po boku ktorej je naša práca omnoho  jednoduchšia.”</p>
-		  <p class="text-right"><strong>- Dominik Borner, vedúci HR oddelenia v Prime Human Resource, Švajčiarsko, WWW.PRIMECARE.CH</strong></p>
+		  <p class="text-left">“Slowiss je naším partnerem od léta 2014. Poskytují mimořádné zákaznické služby a rychlou reakci na naše požadavky. Pečovatelky ze Slowiss jsou vždy milé a spolehlivé s dostatečnými zkušenostmi. Jsme přesvědčeni, že jsme si vybrali tu správnou personální agenturu, po boku které je naše práce omnoho jednodušší.”</p>
+		  <p class="text-right"><strong>- Dominik Borner, vedoucí HR oddělení v Prime Human Resource, Švýcarsko, WWW.PRIMECARE.CH </strong></p>
 		</blockquote>
 		<div class="row"><!--MIESTO NA FOTKY-->
 
@@ -304,8 +304,8 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote blackk">
-		  <p class="text-left">“Chceli by sme sa vám poďakovať za bezchybnú spoluprácu. Sme veľmi spokojní s vašimi službami a určite by sme spoluprácu s Vami odporučili aj ďalej.  Tešíme sa vášmu priateľskému prístupu a rýchlosti celého procesu. Váš profesionálny tím zákazníckych služieb mnoho krát rýchlo vyriešil krízovú situáciu.”</p>
-		  <p class="text-right"><strong>- Zdenka Ulicna, riaditeľka Betreut, a.s., Slovensko</strong></p>
+		  <p class="text-left">“Chtěli bychom se Vám poděkovat za bezchybnou spolupráci. Jsme velmi spokojeni s Vašimi službami a určitě bychom spolupráci s Vámi doporučili i dále. Těšíme se Vašemu přátelskému přístupu a rychlosti celého procesu. Váš profesionální tým zákaznických služeb mnohokrát rychle vyřešil krizovou situaci.”</p>
+		  <p class="text-right"><strong>- Zdenka Ulicna, ředitelka Betreut, a.s., Slovensko</strong></p>
 		</blockquote>
 		<div class="row"><!--MIESTO NA FOTKY-->
 
@@ -313,8 +313,8 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote blackk">
-		  <p class="text-left">“So Slowiss agentúrou sa nám podarilo nadviazať veľmi úspešnú a dlhodobú spoluprácu. Aj na základe ich pozitívnych a priateľských zákazníckych služieb môžeme túto agentúru rozhodne odporúčať. Počas celej spolupráce sú pre nás dôležitá najmä spoľahlivosť a rýchlosť služby.”</p>
-		  <p class="text-right"><strong>- Erwin Schlipf, Konateľ, Nemecko, WWW.PFLEGEVERMITTLUNG-BADE-WUERTTEMBERG.DE</strong></p>
+		  <p class="text-left">“Se Slowiss agenturou se nám podařilo navázat velmi úspěšnou a dlouhodobou spolupráci. I na základě jejich pozitivních a přátelských zákaznických služeb můžeme tuto agenturu rozhodně doporučit. Během celé spolupráce je pro nás důležitá zejména spolehlivost a rychlost služby.”</p>
+		  <p class="text-right"><strong>- Erwin Schlipf, konatel, Německo, WWW.PFLEGEVERMITTLUNG-BADE-WUERTTEMBERG.DE</strong></p>
 		</blockquote>
 		<div class="row"><!--MIESTO NA FOTKY-->
 
@@ -382,14 +382,14 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktné informácie</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Kontaktní informace</h4>
 				</div>
 				<div class="modal-body">
 					<p>Nejaké otázky? Kontaktujte nás na:</p>
 					<h2 style="text-align: center;">+421 473 211 276</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Zavrieť</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Zavřít</button>
 				</div>
 			</div>
 		</div>
