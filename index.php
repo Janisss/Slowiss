@@ -24,6 +24,9 @@ if($lc == "sk"){
 } else if($lc == "en"){
     header("location: en/index.php");
     exit();
+} else if($lc == "cz"){
+	header("location: cz/index.php");
+	exit();
 }
 else{ // don't forget the default case if $lc is empty
     header("location: en/index.php");

@@ -57,7 +57,7 @@
 		</div>
 		<!--MOBIL MENU END-->
 	</div><!--header end-->
-	<!--UCHADZAT SA-->	
+	<!--UCHADZAT SA-->
 		<!--testovanie ci bol chceckbox zakliknuty. Ak nebol nepusti <form action=""....>-->
 			<script>
 			function testcheck(){
@@ -88,7 +88,7 @@
 			<input type="file" name="u-file"><hr>
 			<div class="row">
 	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SOUHLASÍM SO ZPRACOVÁNÍM OSOBNÍCH ÚDAJŮ</a></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SOUHLASÍM SE ZPRACOVÁNÍM OSOBNÍCH ÚDAJŮ</a></div>
 	        </div>
 			<hr><br> 
 			<input value="Odeslat" type="submit" name="u-submit" onClick="return testcheck()">

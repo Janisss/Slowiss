@@ -298,7 +298,7 @@
 			<input type="file" name="u-file"><hr>
 			<div class="row">
 	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SOUHLASÍM SO ZPRACOVÁNÍM OSOBNÍCH ÚDAJŮ</a></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">SOUHLASÍM SE ZPRACOVÁNÍM OSOBNÍCH ÚDAJŮ</a></div>
 	        </div>
 			<hr><br> 
 			<input value="Odeslat" type="submit" name="u-submit" onClick="return testcheck()">
@@ -330,7 +330,7 @@
 			<input placeholder="Telefonní číslo:" type="text" name="z-tel"> 
 			<input placeholder="Hledám:" type="text" name="z-find">
 			<textarea placeholder="Zpráva:" name="z-message"></textarea>  
-			<input value="Poslat" type="submit" name="z-submit">
+			<input value="Odeslat" type="submit" name="z-submit">
 		</form>
       </div>
       <div class="modal-footer">
@@ -389,7 +389,7 @@
 			</div>
 			<div class="modal-body">
 				<p>Ponuky jsou dostupné v jazyku: </p>
-				<a href="../sk/offers_en.php"><img src="../mini_flags/sk.png" alt="SK"> slovak</a>
+				<a href="../sk/offers_en.php"><img src="../mini_flags/sk.png" alt="SK"> slovensky</a>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
