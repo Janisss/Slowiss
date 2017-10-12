@@ -8,7 +8,6 @@
 	<title>Slowiss - HOME</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
-	<link href=".css/1024.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
 	function MM_validateForm() { //v4.0
 	  if (document.getElementById){
@@ -41,6 +40,33 @@
 		<div class="logo visible-lg">
 			<img src="../slowiss.svg" alt="Slowiss" style="width: 100%;">
 		</div>
+	<!--MOBIL MENU-->
+		<script>
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+		</script>
+		<div class="phone" id="mobil-menu" onclick="openNav()" style="left: 35px;">
+			<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+		</div>
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Uchazeči</h1>
+			<a href="./WELLcare_en.php">Pečovatelství</a>
+			<a href="./WELLmed_en.php">Zdravotnictví</a>
+			<a href="./WELLpro_en.php">Jiné odvetví</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Zaměstnavatelé</h1><br>
+			<a href="./sprostredkovanie_care.php">Pečovatelství</a>
+			<a href="./sprostredkovanie_med.php">Zdravotnictví</a>
+			<a href="./sprostredkovanie_other.php">Jiné odvetví</a>
+		  </div>
+		</div>
+	<!-- KONIEC MOBIL MENU-->
 		<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
@@ -49,14 +75,6 @@
 				<i aria-hidden="true" class="fa fa-phone fa-3x" data-target="#myModal" data-toggle="modal"></i>
 			</div>
 		</div>
-		<!--MOBIL MENU-->
-		<div class="mobil-menu">
-			<script src="https://www.w3schools.com/lib/w3.js"></script>
-			<script src="mobil-menu.js"></script>
-			<div id="mobil-menu" w3-include-html="mobil-menu.html"></div> 
-			<script>w3.includeHTML();</script>
-		</div>
-		<!--MOBIL MENU END-->
 	</div><!--header end-->
 	<section id="top">
 		<h1 class="hide">Home</h1>
@@ -397,8 +415,7 @@
 		</div>
 	</div>
 	</div>
-	<!--KONIEC modal na ziadost-->
-		
+	<!--KONIEC modal na ziadost-->	
 	<!--Start of Tawk.to Script-->
 	<script type="text/javascript">
 	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

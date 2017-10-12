@@ -4,7 +4,7 @@
 		display: none;	
 	}
 	#mobil-menu{
-		display: block !important;
+		display: block;
 	}
 	.hauptmenu{
 		display: none !important;

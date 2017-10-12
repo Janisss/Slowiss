@@ -130,3 +130,10 @@
 		max-height: auto !important;
 	}
 }
+
+/*INVERT*/
+@media (min-width: 1024px) {
+	#mobil-menu{
+		display: none;
+	}
+}
