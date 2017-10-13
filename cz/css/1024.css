@@ -129,6 +129,9 @@
 	.text.biginfo, .offer.biginfo{
 		max-height: auto !important;
 	}
+	.hauptmenu{
+		display: none;
+	}
 }
 
 /*INVERT*/

@@ -31,20 +31,32 @@
 			<a href="./index.php#zamestnavatel"><i aria-hidden="true" class="fa fa-home fa-3x home"></i></a>
 		</div><!--NAVIGATION END-->
 		<!--MOBIL MENU-->
-		<div class="mobil-menu">
-			<script src="https://www.w3schools.com/lib/w3.js"></script>
-			<script src="mobil-menu.js"></script>
-			<div id="mobil-menu" w3-include-html="mobil-menu.html"></div> 
-			<script>w3.includeHTML();</script>
+		<script>
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+		</script>
+		<div class="phone" id="mobil-menu" onclick="openNav()" style="left: 35px;">
+			<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
 		</div>
-		<!--MOBIL MENU END-->		<!--MOBIL MENU-->
-		<div class="mobil-menu">
-			<script src="https://www.w3schools.com/lib/w3.js"></script>
-			<script src="mobil-menu.js"></script>
-			<div id="mobil-menu" w3-include-html="mobil-menu.html"></div> 
-			<script>w3.includeHTML();</script>
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Looking for a job</h1>
+			<a href="./WELLcare_en.php">Healthcare</a>
+			<a href="./WELLmed_en.php">Medical</a>
+			<a href="./WELLpro_en.php">Other</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Looking for a personnel</h1><br>
+			<a href="./sprostredkovanie_care.php">Healthcare</a>
+			<a href="./sprostredkovanie_med.php">Medical</a>
+			<a href="./sprostredkovanie_other.php">Other</a>
+		  </div>
 		</div>
-		<!--MOBIL MENU END-->
+	<!-- KONIEC MOBIL MENU-->
 	</div><!--header end-->
 	<section id="top">
 		<h1 class="hide">Medical</h1>
