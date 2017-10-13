@@ -262,7 +262,7 @@
 						  <div class="panel-heading">
 						    <h2 class="panel-title" style="color: rgba(157, 11, 15, 1); font-size: 5rem;">Other</h2>
 								</div>	
-									<p style="text-align: justify;" class="panel-body">Wether you are looking for a temporary or permanent, full time or part time staff in other than healthcare or medical sector, we can help you in all personnel issues.</p>
+									<p style="text-align: justify;" class="panel-body">Whether you are looking for a temporary or permanent, full time or part time staff in other than healthcare or medical sector, we can help you in all personnel issues.</p>
 							     <!--tlacitka-->
 								  <ul class="menu-x c pull-right">
 								  	  <li><a href="./sprostredkovanie_other.php">More information</a></li>
@@ -280,7 +280,7 @@
 		<section id="three">
 			<h1 style="color: #222"><a id="onas" style="position: absolute; margin-top: -40px;"></a>About us</h1>
 			<div class="container">
-						<p style="color: #222">Slowiss was established at the beginning of 2013 by Marti's brothers and since than grew dynamically. Firstly it focused all its attention on health care sector. The number of required health care personnel increased considerably and Slowiss was unable to meet the high demand, thats when cooperation with other companies across the whole of Europe started and new opportunities were created.</p><p style="color: #222"> Gradually, there was an increasing demand for highly skilled professionals in other working sectors so  company started to recruit personnel also in logistics, gastronomy, hotels, construction and so on. Slowiss is committed to connecting good companies with good employees in Eastern European countries. Humanity, reliability, innovation and quality are our main values. </p>
+						<p style="color: #222">Slowiss was established at the beginning of 2013 by Marti's brothers and since then grew dynamically. Firstly it focused all its attention on health care sector. The number of required health care personnel increased considerably and Slowiss was unable to meet the high demand, that's when cooperation with other companies across the whole of Europe started and new opportunities were created.</p><p style="color: #222"> Gradually, there was an increasing demand for highly skilled professionals in other working sectors so the company started to recruit personnel also in logistics, gastronomy, hotels, construction and so on. Slowiss is committed to connecting good companies with good employees in Eastern European countries. Humanity, reliability, innovation and quality are our main values. </p>
 						
 				<div class="article-finish"></div>		
 				<div class="row" style="text-align: center">
