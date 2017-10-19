@@ -1,0 +1,60 @@
+<div class="article-finish"></div>
+<div class="container req">
+<div class="row">
+	<div class="col-lg-3"></div>
+	<div class="col-lg-2"><img src="./img/pl.png" alt="flag" class="flag"></div>
+	<div class="col-lg-2"><img src="./img/arrow.png" alt="flag" class="flag arrow"></div>
+	<div class="col-lg-2"><img src="./img/uk.png" alt="flag" class="flag"></div>
+	<div class="col-lg-3"></div>
+</div>
+<br><br>
+<p style ="text-align: justify;">To work as a nurse or midwife in the UK you are required to register with Nursing and Midwifery Council.</p>
+
+<h3>Professional qualification recognition</h3>
+
+<p style ="text-align: justify;">Ministry of Health validates equality of medical professions to applicants that achieved their qualification in Polish Republic  and want to practice their profession in other member state. </p>
+
+<p><strong>In case that your training programme started after 1 May 2004:</strong></p>
+<p style ="text-align: justify;">You do not  need Confirmation of qualification recognition, because of the automatic recognition based on Directive 2005/36/EC of the European Parliament and of the Council on the recognition of professional qualifications.</p>
+
+<p><strong>In case that your training programme started before 1 May 2004:</strong></p>
+<p style ="text-align: justify;">It is required to obtain a certificate from the Naczelna Izba Pielęgniarek i Położnych to confirm that you have effectively and lawfully been engaged in nursing practice for at least three consecutive years during the last five years. The certificate must state it was awarded to you in accordance with article 33(a) of Directive 2005/36/EC.</p>
+
+<div class="row">
+	<div class="col-lg-6">
+		<p><strong>Useful links</strong></p>
+		<a href="https://www.nmc.org.uk/globalassets/sitedocuments/registration/registering-as-a-nurse-or-midwife-in-the-uk-for-applicants-trained-in-eea-jan2016.pdf" target="_blank">Registration process</a>
+		<br>
+		<a href="https://www.nmc.org.uk/registration/joining-the-register/trained-in-the-eu-or-eea/supplying-documents/" target="_blank">Documents certification and their translation</a>
+		<br>
+		<a href="https://www.nmc.org.uk/registration/joining-the-register/trained-in-the-eu-or-eea/english-language-requirements/" target="_blank">English language requirements</a>
+		<br>
+		<a href="https://www.nmc.org.uk/registration/joining-the-register/trained-in-the-eu-or-eea/adaptation-and-aptitude-tests/" target="_blank">Adaptation and aptitude tests</a>
+	</div>
+</div>
+
+
+</div><!--containerEND-->
+
+<script type="text/javascript">
+	$("button.one").click(function(){
+		$(".country-type-one").addClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+	$("button.two").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").addClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+	$("button.three").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").addClass("opened");
+	});
+	$(".close-info").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+</script>

@@ -1,0 +1,67 @@
+<div class="article-finish"></div>
+<div class="container req">
+<div class="row">
+	<div class="col-lg-3"></div>
+	<div class="col-lg-2"><img src="./img/ro.png" alt="flag" class="flag"></div>
+	<div class="col-lg-2"><img src="./img/arrow.png" alt="flag" class="flag arrow"></div>
+	<div class="col-lg-2"><img src="./img/uk.png" alt="flag" class="flag"></div>
+	<div class="col-lg-3"></div>
+</div>
+<br><br>
+<p style="text-align: justify;">All doctors in the UK must have registration with a license to legally practice medicine and undertake activities restricted by law to doctors. The license to practice is issued by General Medical Council and applies to all doctors in the UK regardless of whether they are working in the NHS or independent sector. </p>
+
+
+<h3>Different types of registration</h3>
+<p>
+ - Provisional registration - this is granted to newly qualified doctors to undertake general clinical training needed for full   registration. Doctors with provision registration can only work in Foundation House Officer Year One (FHO1) posts<br>
+ - Full registration - if you want to undertake unsupervised medical practice in the NHS or private sector you will require full registration<br>
+ - Specialist registration - you must be on the specialist register to be able to take up substantive or honorary consultant posts in the UK<br>
+ - General Practitioner (GP) - all doctors working in general practice (excluding trainees) must be on the GP register<br>
+</p>
+<br>
+
+
+<div class="row">
+	<div class="col-lg-6">
+		<h3>How to register</h3>
+			<p>
+				- Complete an application<br>
+				- Pay a fee<br>
+				- Provide the required evidence<br>
+				- Attend an identity check
+	 		</p>	
+	</div>
+	<div class="col-lg-6">
+		<h3>Useful links</h3>
+			<a href ="http://www.gmc-uk.org/doctors/registration_applications/eea_evidence_romania.asp" target="_blank">Evidence of qualifications</a><br>
+ 			<a href ="http://www.gmc-uk.org/doctors/registration_applications/24985.asp" target="_blank">Knowledge of English</a><br>
+ 			<a href ="http://www.gmc-uk.org/doctors/registration_applications/join_the_register.asp" target="_blank">Applying to join the medical register</a>	
+   	</div>
+</div>
+
+<br>
+
+</div><!--containerEND-->
+
+<script type="text/javascript">
+	$("button.one").click(function(){
+		$(".country-type-one").addClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+	$("button.two").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").addClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+	$("button.three").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").addClass("opened");
+	});
+	$(".close-info").click(function(){
+		$(".country-type-one").removeClass("opened");
+		$(".country-type-two").removeClass("opened");
+		$(".country-type-three").removeClass("opened");
+	});
+</script>
