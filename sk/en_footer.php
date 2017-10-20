@@ -12,7 +12,7 @@ function MM_validateForm() { //v4.0
             min=test.substring(8,p); max=test.substring(p+1);
             if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
       } } } else if (test.charAt(0) == 'R') errors += '- '+' e-mail.\n'; }
-    } if (errors) alert('Nevyplnené pole alebo zle vyplnené pole:\n'+errors);
+    } if (errors) alert('Nevyplnené alebo nesprávne vyplnené pole:\n'+errors);
     document.MM_returnValue = (errors == '');
 } }
 </script>

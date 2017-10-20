@@ -5,14 +5,14 @@ function MM_validateForm() { //v4.0
     for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
       if (val) { nm=val.name; if ((val=val.value)!="") {
         if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
-          if (p<1 || p==(val.length-1)) errors+='- '+' must contain an e-mail address.\n';
+          if (p<1 || p==(val.length-1)) errors+='- '+' trebuie să conțină o adresă de e-mail.\n';
         } else if (test!='R') { num = parseFloat(val);
           if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
           if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
             min=test.substring(8,p); max=test.substring(p+1);
             if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-      } } } else if (test.charAt(0) == 'R') errors += '- '+' e-mail is required.\n'; }
-    } if (errors) alert('The following error(s) occurred:\n'+errors);
+      } } } else if (test.charAt(0) == 'R') errors += '- '+' este necesară introducerea unei adrese de e-mail.\n'; }
+    } if (errors) alert('A apărut următoarea eroare:\n'+errors);
     document.MM_returnValue = (errors == '');
 } }
 </script>
@@ -21,7 +21,7 @@ function MM_validateForm() { //v4.0
 	$url="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	$end = end(explode('/', $url));
 ?>
-	<a href="#">ENGLISH</a> | <a href="../sk/<?php echo $end ?>">SLOVENSKY</a>
+	<a href="../en/<?php echo $end?>">ENGLISH</a> | <a href="../sk/<?php echo $end ?>">SLOVENSKY</a> | <a href="../cz/<?php echo $end ?>">ČESKY</a> | <a href="#">ENGLISH</a> | <a href="#">ROMÂNĂ</a>
 </div>
 <br>
 <div class="container">

@@ -31,8 +31,8 @@
 							p=test.indexOf(':');
 							min=test.substring(8,p); max=test.substring(p+1);
 							if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-			  } } } else if (test.charAt(0) == 'R') errors += '- '+' este necesară o adresă de e-mail.\n'; }
-			} if (errors) alert('The following error(s) occurred:\n'+errors);
+			  } } } else if (test.charAt(0) == 'R') errors += '- '+' este necesară introducerea unei adrese de e-mail.\n'; }
+			} if (errors) alert('A apărut următoarea eroare:\n'+errors);
 			document.MM_returnValue = (errors == '');}}
     </script>
 </head>
@@ -291,7 +291,7 @@
 				<div class="row">
 					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem;">Din 2013</p></div>
 					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem">Mii de clienți mulțumiți în Europa</p></div>
-					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem">Posibilități de angajare în diferite sectoare</p></div>
+					<div class="col-lg-4"><p style="color: #222; font-size:2.5rem">Oportunități de angajare în diferite sectoare</p></div>
 				</div>
 			</div>
 			<div class="article-finish"></div>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--EN--VERSION-->
-<html lang="en">
+<!--R-O--VERSION-->
+<html lang="ro">
 <head>
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Slowiss - Healthcare</title>
+	<title>Slowiss - Îngrijiri medicale la domiciliu</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
@@ -20,7 +20,7 @@
 				  if ((val=val.value)!="") {
 					if (test.indexOf('isEmail')!=-1) {
 						p=val.indexOf('@');
-						if (p<1 || p==(val.length-1)) errors+='- '+' must contain an e-mail address.\n';
+						if (p<1 || p==(val.length-1)) errors+='- '+' trebuie să conțină o adresă de e-mail.\n';
 						} else if (test!='R') { 
 							num = parseFloat(val);
 						if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
@@ -28,8 +28,8 @@
 							p=test.indexOf(':');
 							min=test.substring(8,p); max=test.substring(p+1);
 							if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-			  } } } else if (test.charAt(0) == 'R') errors += '- '+' e-mail is required.\n'; }
-			} if (errors) alert('The following error(s) occurred:\n'+errors);
+			  } } } else if (test.charAt(0) == 'R') errors += '- '+' este necesară introducerea unei adrese de e-mail.\n'; }
+			} if (errors) alert('A apărut următoarea eroare:\n'+errors);
 			document.MM_returnValue = (errors == '');}}
     </script>
 </head>
@@ -42,7 +42,7 @@
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->
 	<!--header-->
 	<div class="container-fluid fix">
-		<h1 class="title">Healthcare</h1>
+		<h1 class="title">Îngrijiri medicale la domiciliu</h1>
 		<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
@@ -70,14 +70,14 @@
 		<div id="myNav" class="overlay">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  <div class="overlay-content">
-			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Looking for a job</h1>
-			<a href="./WELLcare_en.php">Healthcare</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">În căutarea unui loc de muncă</h1>
+			<a href="./WELLcare_en.php">Îngrijiri medicale la domiciliu</a>
 			<a href="./WELLmed_en.php">Medical</a>
-			<a href="./WELLpro_en.php">Other</a>
-			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Looking for a personnel</h1><br>
-			<a href="./sprostredkovanie_care.php">Healthcare</a>
+			<a href="./WELLpro_en.php">Altele</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">În căutarea unui personal de muncă</h1><br>
+			<a href="./sprostredkovanie_care.php">Îngrijiri medicale la domiciliu</a>
 			<a href="./sprostredkovanie_med.php">Medical</a>
-			<a href="./sprostredkovanie_other.php">Other</a>
+			<a href="./sprostredkovanie_other.php">Altele</a>
 		  </div>
 		</div>
 	<!-- KONIEC MOBIL MENU-->
@@ -87,49 +87,50 @@
 			<script>
 			function testcheck(){
     			if (!jQuery("#checkbox").is(":checked")) {
-        			alert("Consent to the processing of personal data is required!");
+        			alert("Este necesar consimţământul de prelucrare a datelor cu caracter personal!");
         			return false;
 					}
     			return true;
 				}
 			</script>
 				
-			<div id="Modaluchadzac" class="modal fade" role="dialog">
-			  <div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Application</h4>
-				  </div>
-				  <div class="modal-body">
-					<form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
-						<input placeholder="Name and surname:" type="text" name="u-person"> 
-						<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
-						<input placeholder="Phone number:" type="text" name="u-tel"> 
-						<input placeholder="Position interested in:" type="text" name="u-position">
-						<input placeholder="Where do you want to work:" type="text" name="u-work">
-						<textarea placeholder="Message:" name="u-message"></textarea><hr>
-						<p style="text-align: left; font-size: .7em;">IMPORT YOUR CV</p>
-						<input type="file" name="u-file"><hr>
-						<div class="row">
-							<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-							<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">CONSENT TO THE PROCESSING OF PERSONAL DATA</a></div>
-
-						</div>
-						<hr><br> 
-						<input value="Submit" type="submit" name="u-submit" onClick="return testcheck()">
-					</form>
-				  </div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				  </div>
-				</div>
-			  </div>
-			</div>
+<div id="Modaluchadzac" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="color:#222; text-align: center;">Aplicație</h4>
+      </div>
+      <div class="modal-body">
+        <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
+        	<input placeholder="Nume și prenume:" type="text" name="u-person"> 
+			<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
+			<input placeholder="Nr.telefon:" type="text" name="u-tel"> 
+			<input placeholder="Poziția interesată:" type="text" name="u-position">
+			<input placeholder="Unde doriți sa munciți:" type="text" name="u-work">
+			<textarea placeholder="Mesaj:" name="u-message"></textarea><hr>
+			<p style="text-align: left; font-size: .7em;">Încarcă CV</p>
+		    <input type="file" name="u-file"><hr>
+	        <div class="row">
+	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">Consimți la prelucrarea datelor cu caracter personal</a></div>
+	        
+	        </div>
+			<hr><br> 
+		  	<input value="Trimite" type="submit" name="u-submit" onClick="return testcheck()">
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Închide</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!--KONIEC UCHADZAT SA-->
+
 	<section id="top">
-		<h1 class="hide">Healthcare</h1>
+		<h1 class="hide">Îngrijiri medicale la domiciliu</h1>
 		<div class="container-fluid first-content">
 			<ul data-limit-x="40" data-limit-y="20" id="scene">
 				<li class="layer" data-depth="0.00"><img alt="CARE" class="decoimg" src="scene3/1.jpg"></li>
@@ -139,65 +140,65 @@
 		<div class="menu-jano" id="sticker">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-1"></div>
+				<div class="col-lg-1" style="width: 45px !important"></div>
 					<div class="col-lg-2">
 						<div class="item-a">
-							<a href="#one">Why us?</a>
+							<a href="#one">De ce noi?</a>
 						</div>
 					</div>
 					<div class="col-lg-2">
 						<div class="item-b">
-							<a href="#two">Process</a>
+							<a href="#two">Proces</a>
 						</div>
 					</div>
-					<div class="col-lg-2">
+					<div class="col-lg-3">
 						<div class="item-c">
-							<a href="#three">FAQ</a>
+							<a href="#three">Întrebări frecvente</a>
 						</div>
 					</div>
 					<div class="col-lg-2">
 						<div class="item-d">
-							<a href="#four">Requirements</a>
+							<a href="#four">Cerințe</a>
 						</div>
 					</div>
 					<div class="col-lg-2">
 						<div class="item-d">
-							<a href="#five">Testimonials</a>
+							<a href="#five">Testimoniale</a>
 						</div>
 					</div>
-					<div class="col-lg-1"></div>
+					
 				</div>
 			</div>
 		</div>
 		<div class="container intro-text">
-			<h2 class="text-center">Do you consider yourself to be empathetic and patient? Do you find helping others satisfying and rewarding? If you answered yes to both questions, than working in healthcare sector is the right choice for you. Whether you prefer an elderly care, a child care or a household care, we can help you. </h2>
+			<h2 class="text-center">Vă considerați empatic și răbdător? Gasiți satisfacție și recompensă în a-i ajuta pe ceilalți? Dacă ați răspuns afirmativ la ambele întrebări, atunci lucrul în sectorul îngrijirii la domiciliu este alegerea potrivită pentru dvs. Indiferent dacă preferați o îngrijire în vârstă, o îngrijire a copilului sau menaj, vă putem ajuta.</h2>
 		</div>
 	</section>
 	<section id="one">
 		<div class="green one" style="background: rgb(107, 40, 92);">
 			<div class="container">
-				<h1>Why us?</h1>
+				<h1>De ce noi?</h1>
 				<div class="container">
 					<!-- flaticons -->
 					<div class="row icons">
 						<div class="col-md-4">
 							<i class="fa fa-user-circle-o fa-5x"></i>
-							<h2 class="text-center">Individual approach</h2>
+							<h2 class="text-center">Abordare individuală</h2>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-money fa-5x"></i>
-							<h2 class="text-center">Competitive rates of pay</h2>
+							<h2 class="text-center">Salarii competitive</h2>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-car fa-5x"></i>
-							<h2 class="text-center">Transport from door to door</h2>
+							<h2 class="text-center">Transport de la adresă la adresă</h2>
 						</div>
 					</div>
 					<div class="article-finish"></div>
 					<div class="row icons">
 						<div class="col-md-4">
 							<i class="fa fa-cutlery fa-5x"></i>
-							<h2 class="text-center">FREE meals and accommodation</h2>
+							<h2 class="text-center">Cazarea și mesele gratuite</h2>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-phone-square fa-5x"></i>
@@ -205,11 +206,11 @@
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-thumbs-up fa-5x"></i>
-							<h2 class="text-center">No intermediary or registration fees</h2>
+							<h2 class="text-center">Linie de servicii online pentru clienți 24/7 în caz de urgență</h2>
 						</div>
 					</div>
 					<div class="article-finish"></div>
-					<p>Join our team of keen care assistants and find out about quality of our services and friendly approach that rank us between TOP personal consulting companies on the European market in the realm of mediating of jobs or services.</p>
+					<p>Alăturați-vă echipei noastre de asistenți de îngrijire și aflați despre calitatea serviciilor noastre și abordarea prietenoasă care ne poziționează în rândul companiilor de consultanță de TOP de pe piața europeană în domeniul medierii de locuri de muncă sau de servicii.</p>
 					<div class="article-finish"></div>
 				</div>
 			</div>
@@ -220,41 +221,41 @@
 	<div class="green two">
 		<section id="two">
 			<div class="container">
-				<h1>Process</h1>
+				<h1>Proces</h1>
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="1."></div>
-						<h2 style="color: #222;">Contact form</h2>
-						<p class="nmbrlist">Make the first step and complete our <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">contact form</a>, possibly upload your CV and we will contact you.</p>
+						<h2 style="color: #222;">Formular de contact</h2>
+						<p class="nmbrlist">Faceți primul pas și completați <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">formularul de contact</a>, eventual încărcați CV-ul dvs. și vă vom contacta.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="2."></div>
-						<h2 style="color: #222;">Phone call</h2>
-						<p class="nmbrlist">After receiving the contact form we will call you for add important information about you and to verify the level of your language skills.</p>
+						<h2 style="color: #222;">Telefon</h2>
+						<p class="nmbrlist">După primirea formularului de contact, vă sunăm pentru a adăuga informații importante despre dvs. și pentru a verifica nivelul abilităților lingvistice.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="3."></div>
-						<h2 style="color: #222;">Intermediary contract</h2>
-						<p class="nmbrlist">The contract that we send you to sign because of a consent to the processing of personal data for the purposes to mediate you an opportunity to provide jobs or services.</p>
+						<h2 style="color: #222;">Contract de Intermediere</h2>
+						<p class="nmbrlist">Contractul pe care vi-l trimitem să îl semnați în vederea consimțământului pentru prelucrarea datelor cu caracter personal în scopul de a vă media oportunitatea de a vă oferi locuri de muncă sau servicii.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="4."></div>
-						<h2 style="color: #222;">Offer</h2>
-						<p class="nmbrlist">You will receive a Description of demand for jobs or services including the information about the client and the conditions. In case you show an interest in the offer, we send your profile to the client.</p>
+						<h2 style="color: #222;">Oferta</h2>
+						<p class="nmbrlist">Veți primi o descriere a cererii de locuri de muncă sau de servicii, inclusiv informații despre client și condiții. În cazul în care manifestați interes pentru ofertă, vă trimitem profilul clientului.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="5."></div>
-						<h2 style="color: #222;">Client's consent</h2>
-						<p class="nmbrlist">The client has a maximum of 7 days on receipt of your profile to declare for or against. If they choose you, we proceed with all the necessary administration and you can travel over the next few days. If they do not choose you, process does not stop and we search further.</p>
+						<h2 style="color: #222;">Consimțământul clientului</h2>
+						<p class="nmbrlist">Clientul are maximum 7 zile la primirea profilului dvs. pentru a oferi un raspuns afirmativ sau negativ. Dacă vă aleg pe dvs., vom continua cu toată administrația necesară și veți putea călători în următoarele zile. Dacă nu vă aleg, procesul nu se oprește și căutăm mai departe.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="6."></div>
 						<h2 style="color: #222;">Transport</h2>
-						<p class="nmbrlist">We can arrange for you a comfortable transport from your home directly to the client's.</p>
+						<p class="nmbrlist">Vă asigurăm un transport confortabil de la casa dvs. direct la client.</p>
 					</div>
 				</div>
 			</div>
@@ -264,68 +265,68 @@
 	<div class="green three">
 		<section id="three">
 		<div class="red-med">
-			<h1 style="color:white;">FAQ</h1>
+			<h1 style="color:white;">Întrebări frecvente</h1>
 			<div class="container">
 			
 				<div class="bubbleinfo bubble-left">
-					<a class="cstm-acor" data-id="1">How much will it cost?</a><br>
-					<a class="cstm-acor" data-id="2">Is knowledge of a foreign language necessary?</a><br>
-					<a class="cstm-acor" data-id="3">Do I need  to have completed health care course?</a><br>
-					<a class="cstm-acor" data-id="4">What is the monthly salary?</a><br>
-					<a class="cstm-acor" data-id="5">Do you also have a job or service offers for male candidates?</a><br>
-					<a class="cstm-acor" data-id="6">How long are individual stays/rotations?</a><br>
-					<a class="cstm-acor" data-id="7">What type of employment would I conclude?</a><br>
-					<a class="cstm-acor" data-id="8">How can I improve my chances for fast positioning?</a><br>
+					<a class="cstm-acor" data-id="1">Cât costă?</a><br>
+					<a class="cstm-acor" data-id="2">Este necesară cunoașterea unei limbi străine?</a><br>
+					<a class="cstm-acor" data-id="3">Trebuie să fi terminat un curs de îngrijire?</a><br>
+					<a class="cstm-acor" data-id="4">Care este salariul lunar?</a><br>
+					<a class="cstm-acor" data-id="5">Aveți, de asemenea, oferte de muncă sau servicii pentru bărbați?</a><br>
+					<a class="cstm-acor" data-id="6">Cât timp durează un turnus?</a><br>
+					<a class="cstm-acor" data-id="7">Ce tip de angajare aș face?</a><br>
+					<a class="cstm-acor" data-id="8">Cum imi pot îmbunătăți șansele pentru o poziționare rapidă?</a><br>
 				</div>
 				<div class="bubbleinfo bubble-right pull-right">
 					<div class="q0 answ">
-						<p>Please select the question to see the answer.</p>
+						<p>Selectați întrebarea pentru a vedea răspunsul.</p>
 					</div>
 					<div class="q1 answ">
-						<p>Nothing, you do not pay any intermediary or registration fees. We offer you a free use of our services. </p>
+						<p>Nimic, nu plătiți nici o taxă de intermediere sau de înregistrare. Beneficiați gratuit de serviciile noastre. </p>
 					</div>
 					<div class="q2 answ">
-						<p>Yes, it is necessary to speak at least at a basic level of the foreign language required for the country that you want to travel to. The good knowledge of foreign language can be a huge advantage for fast positioning as well as better salary.</p>
+						<p>Da, este necesar să vorbiți cel puțin la un nivel de bază al limbii străine cerute pentru țara în care doriți să călătoriți. Cunoașterea bună a limbii străine poate fi un avantaj imens pentru o poziționare rapidă, precum și pentru un salariu mai bun.</p>
 					</div>
 					<div class="q3 answ">
-						<p>No, accredited certificate from a health care course is an advantage, but it is not essential, as well as experience with care giving, that need to be supported by references.</p>
+						<p>Nu, un certificat acreditat de la un curs de îngrijire reprezintă un avantaj, dar nu este esențial, precum și experiența cu acordarea de îngrijiri, care trebuie să fie susținută de referințe.</p>
 					</div>
 					<div class="q4 answ">
-						<p>The amount of your salary depends on the place of provision of job or service, your language skills and last but not least, care taker's health state, and thus the overall difficulty of an individual position.</p>
+						<p>Salariul dvs. variază în funcție de locul de prestare a serviciului, de competențele dvs. lingvistice și, nu în ultimul rând, de starea de sănătate a beneficiarului de îngrijiri și, prin urmare, de dificultatea generală a unei poziții individuale.</p>
 					</div>
 					<div class="q5 answ">
-						<p>Yes, we have offers for male candidates, however the waiting time for positioning might be a little longer. </p>
+						<p>Da, avem oferte și pentru bărbați, însă timpul de așteptare pentru poziționare ar putea fi puțin mai lung.</p>
 					</div>
 					<div class="q6 answ">
-						<p>1-3 months in principle, however the length of particular stay/rotation depends on the place of provision of job or service and individual clients' requirements.</p>
+						<p>1-3 luni în principiu, însă durata unui turnus depinde de locul de prestare a serviciului sau de servicii și de cerințele individuale ale clienților.</p>
 					</div>
 					<div class="q7 answ">
-						<p>Type of the employment depends on a particular job or service offer, as well as the country where you want to travel. You can find more detailed information in <a href="#four">Requirements.</a></p>
+						<p>Tipul de angajare depinde de o anumită ofertă de muncă sau de servicii, precum și de țara în care doriți să călătoriți. Puteți găsi mai multe informații detaliate în <a href="#four">Cerințe.</a></p>
 					</div>
 					<div class="q8 answ">
-						<p>Good knowledge of required foreign language, not smoking as well as driving licence are a huge advantage for candidate within the selection process. </p>
+						<p>Buna cunoaștere a limbii străine solicitate, sa fiți o persoană nefumătoare, precum și deținerea unui permis de conducere reprezintă un avantaj imens pentru candidatul în cadrul procesului de selecție.</p>
 					</div>
 				</div>
 			</div>
 			</div>
 			<div class="article-finish"></div>
 			<div class="container">
-				<h2 class="text-center" style="color: white;">Do you have another question?<br>
-				Please contact us at +421 473 211 276</h2>
+				<h2 class="text-center" style="color: white;">Aveți o altă întrebare?<br>
+				Vă rugăm să ne contactați la +421 473 211 276</h2>
 			</div>
 			<div class="article-finish"></div>
 			<img src="img/call.jpeg" alt="img" class="decoration">
 	</section>
 	</div>
 	<section id="four">
-		<h1 class="p">Requirements</h1><!-- AJAX LOADER -->
+		<h1 class="p">Cerințe</h1><!-- AJAX LOADER -->
 		<div class="container">
-		<p>When you want to provide jobs or services as a caregiver, there is certain criteria that have to be met. For more information please select:</p>
+		<p>Când doriți să lucrați ca îngrijitoare, există anumite criterii care trebuie îndeplinite. Pentru mai multe informații vă rugăm să selectați:</p>
 			<div class="row country-sel">
 				<div class="col-lg-6">
 					<select class="myselect" id="from" name="from">
 						<option disabled selected value="zero">
-							Where are you from:
+							De unde sunteți:
 						</option>
 						<option value="SK">
 							Slovakia
@@ -341,7 +342,7 @@
 				<div class="col-lg-6">
 					<select class="myselect" id="to" name="to">
 						<option disabled selected value="zero">
-							Where do you want to work:
+							Unde doriți să lucrați:
 						</option>
 						<option value="DE">
 							Germany
@@ -363,12 +364,12 @@
 		<div class="article-finish"></div><!-- AJAX LOADER END  -->
 	</section>
 	<section id="five">
-		<h1 class="p">Testimonials</h1><!-- AJAX LOADER -->
+		<h1 class="p">Testimoniale</h1><!-- AJAX LOADER -->
 		<div class="container">
 		
 		<blockquote class="blockquote purple">
-		  <p class="text-left">"I have started to cooperate with Slowiss agency from July 2014 and I am very satisfied with their services and professional approach. Consultants are available 24 hours every day, no matter what the problem is, or if I only need to talk to someone, when I am homesick. Thanks to the Slowiss agency I had a chance to see one of the most beautiful places in Europe, Luzern. Also, while working there, I have met amazing people that otherwise I would not meet. My client was a pleasant old woman, I like her a lot and also her family. I would like to say "Merci" to Slowiss for their human approach and high level of professionallity, for their willingness to help in difficult moments."</p>
-		  <p class="text-right"><strong>- Barbora Remperova, Caregiver</strong></p>
+		  <p class="text-left">"Am început să colaborez cu agenția Slowiss din iulie 2014 și sunt foarte mulțumită de serviciile și abordarea lor profesională. Consultanții sunt disponibili 24 de ore pe zi, indiferent de problemă sau dacă doar trebuie să vorbesc cu cineva. Datorită agenției Slowiss, am avut ocazia să văd unul dintre cele mai frumoase locuri din Europa, Luzern și, de asemenea, în timp ce lucram acolo, am întâlnit oameni uimitori pe care altfel nu le-aș fi întâlnit. Clienta mea a fost o batrană simpatică, îmi place foarte mult de ea și de familia ei. Vreau să spun "Merci" lui Slowiss pentru abordarea lor umană și nivelul ridicat de profesionalism, pentru dorința lor de a ajuta în momente dificile."</p>
+		  <p class="text-right"><strong>- Barbora Remperova, îngrijitoare</strong></p>
 		</blockquote>
 		<div class="row">
 			<div class="col-md-4"><img src="../main_img/remperova1.jpg" alt="img" style="width:100%"></div>
@@ -378,8 +379,8 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote purple">
-		  <p class="text-left">"My name is Ivona Sedajova and I have worked as a caregiver in Switzerland for 5 years already. I also worked  as a caregiver in Austria for a while. There has been also many nice and funny moments at my work, I could have written a bestseller with things I have experienced. I would like to say some words to the Slowiss agency and that is that the employees in the agency are very supportive and helpful. Whenever any problem has occurred they were there to sort it out. I will always recommend Slowiss agency to my friends."</p>
-		  <p class="text-right"><strong>- Ivona Sedajova, Caregiver</strong></p>
+		  <p class="text-left">"Ma numesc Ivona Sedajova și lucrez ca îngrijitoare în Elveția de 5 ani. De asemenea, am lucrat ca îngrijitoare și în Austria pentru o perioada. Am avut multe momente frumoase si amuzante in munca mea, încât aș fi putut să scriu un roman bestseller cu lucruri pe care le-am experimentat. Aș vrea să spun câteva cuvinte agenției Slowiss și anume că angajații din agenție sunt foarte susținători și de ajutor. În momentul în care au intervenit probleme, au fost acolo pentru a le rezolva. Voi recomanda întotdeauna agenția Slowiss prietenilor."</p>
+		  <p class="text-right"><strong>- Ivona Sedajova, îngrijitoare</strong></p>
 		</blockquote>
 		<div class="row">
 			<div class="col-md-4"><img src="../main_img/fotkasedajova.jpg" alt="img" style="width:100%"></div>
@@ -389,8 +390,8 @@
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote purple">
-		  <p class="text-left">"Thanks to the Slowiss agency I found work in Switzerland and I was very satisfied. It is a long time to work for three months, but Slowiss made it more pleasant for me, they gave me a contact for one nice woman and we have became great friends. We were helping each other and we had shared  some nice moments. Compare to the other agencies, Slowiss is always available and they do care not only about families and clients but also about us, the caregivers."</p>
-		  <p class="text-right"><strong>- Dana Gronkova, Caregiver</strong></p>
+		  <p class="text-left">"Mulțumită agenției Slowiss am găsit un loc de muncă în Elveția și am fost foarte mulțumită. Trei luni în străinătate înseamnă o perioadă lungă de lucru, dar Slowiss a făcut-o mai plăcută pentru mine, mi-au dat un contact al unei doamne drăguțe și am devenit prietene. Ne-am ajutat reciproc și am împărtășit câteva momente frumoase. În comparație cu celelalte agenții, Slowiss este întotdeauna disponibilă și nu se ocupă numai de familii și clienți, ci și de noi, îngrijitoarele."</p>
+		  <p class="text-right"><strong>- Dana Gronkova, îngrijitoare</strong></p>
 		</blockquote>
 		<div class="row">
 			<div class="col-md-4"><img src="../main_img/Fotogronkovaaa.jpg" alt="img" style="width:100%"></div>
@@ -430,14 +431,14 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Contact info</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Informații de contact</h4>
 				</div>
 				<div class="modal-body">
-					<p>Any question? Contact us at:</p>
+					<p>Aveți vreo întrebare? Contactați-ne la:</p>
 					<h2 style="text-align: center;">+421 473 211 276</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>
 				</div>
 			</div>
 		</div>
@@ -465,7 +466,7 @@
 	$(window).on("scroll", function() {
 	   $("section").each(function() {
 	       if($(window).scrollTop() >= $(this).offset().top) {
-	          if($("h1.title").text() === "Why us?"){
+	          if($("h1.title").text() === "De ce noi?"){
 	              $(".fix").css({"background":"#6B285C",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});
@@ -475,7 +476,7 @@
 	               $(".menu-jano a").css({"color":"white"});
 				   $(".hauptmenu i").css({"color":"white"});
 	              }
-	           else if($("h1.title").text() === "FAQ"){
+	           else if($("h1.title").text() === "Întrebări frecvente"){
 	               $(".fix").css({"background":"#ae394d",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});
