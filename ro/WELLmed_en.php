@@ -20,7 +20,7 @@
 				  if ((val=val.value)!="") {
 					if (test.indexOf('isEmail')!=-1) {
 						p=val.indexOf('@');
-						if (p<1 || p==(val.length-1)) errors+='- '+' must contain an e-mail address.\n';
+						if (p<1 || p==(val.length-1)) errors+='- '+' trebuie să conțină o adresă de e-mail.\n';
 						} else if (test!='R') { 
 							num = parseFloat(val);
 						if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
@@ -28,8 +28,8 @@
 							p=test.indexOf(':');
 							min=test.substring(8,p); max=test.substring(p+1);
 							if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
-			  } } } else if (test.charAt(0) == 'R') errors += '- '+' e-mail is required.\n'; }
-			} if (errors) alert('The following error(s) occurred:\n'+errors);
+			  } } } else if (test.charAt(0) == 'R') errors += '- '+' este necesară introducerea unei adrese de e-mail.\n'; }
+			} if (errors) alert('A apărut următoarea eroare:\n'+errors);
 			document.MM_returnValue = (errors == '');}}
     </script>
 </head>
@@ -70,14 +70,14 @@
 		<div id="myNav" class="overlay">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  <div class="overlay-content">
-			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Looking for a job</h1>
-			<a href="./WELLcare_en.php">Healthcare</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">În căutarea unui loc de muncă</h1>
+			<a href="./WELLcare_en.php">Îngrijiri medicale la domiciliu</a>
 			<a href="./WELLmed_en.php">Medical</a>
-			<a href="./WELLpro_en.php">Other</a>
-			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Looking for a personnel</h1><br>
-			<a href="./sprostredkovanie_care.php">Healthcare</a>
+			<a href="./WELLpro_en.php">Altele</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">În căutarea unui personal de muncă</h1><br>
+			<a href="./sprostredkovanie_care.php">Îngrijiri medicale la domiciliu</a>
 			<a href="./sprostredkovanie_med.php">Medical</a>
-			<a href="./sprostredkovanie_other.php">Other</a>
+			<a href="./sprostredkovanie_other.php">Altele</a>
 		  </div>
 		</div>
 	<!-- KONIEC MOBIL MENU-->
@@ -87,46 +87,46 @@
 			<script>
 			function testcheck(){
     			if (!jQuery("#checkbox").is(":checked")) {
-        			alert("Consent to the processing of personal data is required!");
+        			alert("Este necesar consimţământul de prelucrare a datelor cu caracter personal!");
         			return false;
 					}
     			return true;
 				}
 			</script>
 				
-			<div id="Modaluchadzac" class="modal fade" role="dialog">
-			  <div class="modal-dialog">
-				<!-- Modal content-->
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Application</h4>
-				  </div>
-				  <div class="modal-body">
-					<form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
-						<input placeholder="Name and surname:" type="text" name="u-person"> 
-						<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
-						<input placeholder="Phone number:" type="text" name="u-tel"> 
-						<input placeholder="Position interested in:" type="text" name="u-position">
-						<input placeholder="Where do you want to work:" type="text" name="u-work">
-						<textarea placeholder="Message:" name="u-message"></textarea><hr>
-						<p style="text-align: left; font-size: .7em;">IMPORT YOUR CV</p>
-						<input type="file" name="u-file"><hr>
-						<div class="row">
-							<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-							<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">CONSENT TO THE PROCESSING OF PERSONAL DATA</a></div>
-
-						</div>
-						<hr><br> 
-						<input value="Submit" type="submit" name="u-submit" onClick="return testcheck()">
-					</form>
-				  </div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				  </div>
-				</div>
-			  </div>
-			</div>
+<div id="Modaluchadzac" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="color:#222; text-align: center;">Aplicație</h4>
+      </div>
+      <div class="modal-body">
+        <form action="mailsender_application.php" method="post" enctype="multipart/form-data" style="font-size:2em" onSubmit="MM_validateForm('u-email','','RisEmail');return document.MM_returnValue">
+        	<input placeholder="Nume și prenume:" type="text" name="u-person"> 
+			<input name="u-email" type="text" id="u-email" placeholder="E-mail:">  
+			<input placeholder="Nr.telefon:" type="text" name="u-tel"> 
+			<input placeholder="Poziția interesată:" type="text" name="u-position">
+			<input placeholder="Unde doriți sa munciți:" type="text" name="u-work">
+			<textarea placeholder="Mesaj:" name="u-message"></textarea><hr>
+			<p style="text-align: left; font-size: .7em;">Încarcă CV</p>
+		    <input type="file" name="u-file"><hr>
+	        <div class="row">
+	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">Consimți la prelucrarea datelor cu caracter personal</a></div>
+	        
+	        </div>
+			<hr><br> 
+		  	<input value="Trimite" type="submit" name="u-submit" onClick="return testcheck()">
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Închide</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!--KONIEC UCHADZAT SA-->
 	<section id="top">
 		<h1 class="hide">Medical</h1>
@@ -142,69 +142,69 @@
 				<div class="row">
 					<div class="col-lg-3">
 						<div class="item-a">
-							<a href="#one">Why us?</a>
+							<a href="#one">De ce noi?</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="item-b">
-							<a href="#two">Process</a>
+							<a href="#two">Proces</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="item-c">
-							<a href="#three">FAQ</a>
+							<a href="#three">Întrebări frecvente</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="item-d">
-							<a href="#four">Requirements</a>
+							<a href="#four">Cerințe</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container intro-text">
-			<h2 class="text-center">Are you a nurse, a midwife or a doctor searching for an opportunity abroad? Do you feel not appreciated and rewarded at your current position? If you have chosen one of the above mentioned professions because of your desire to make a difference in real people's life, we have a solution for you.</h2>
+			<h2 class="text-center">Sunteți asistentă medicală, moașă sau doctor ăn cautarea unei oportunități în străinatate? Nu vă simțiți apreciată și recompensată în poziția curentă? Dacă aveți întrebări, nu ezitați să ne contactați.</h2>
 		</div>
 	</section>
 	<section id="one">
 		<div class="par one" style="background-color: #2A8575 !important;color: white !important;">
-			<h1>Why us?</h1><br>
+			<h1>De ce noi?</h1><br>
 			<div class="container">
 			
 				<!-- flaticons -->
 				<div class="row icons">
 					<div class="col-md-4">
 						<i class="fa fa-user-circle-o fa-5x"></i>
-						<h2 class="text-center">Individual approach</h2>
+						<h2 class="text-center">Abordare individuală</h2>
 					</div>
 					<div class="col-md-4">
 						<i class="fa fa-money fa-5x"></i>
-						<h2 class="text-center">Excellent rates of pay</h2>
+						<h2 class="text-center">Salarii excelente</h2>
 					</div>
 					<div class="col-md-4">
 						<i class="fa fa-handshake-o fa-5x"></i>
-						<h2 class="text-center">Assistance with registration procedure</h2>
+						<h2 class="text-center">Asistență cu procedura de înregistrare</h2>
 					</div>
 				</div>
 				<div class="article-finish"></div>
 				<div class="row icons">
 					<div class="col-md-4">
 						<i class="fa fa-refresh fa-5x"></i>
-						<h2 class="text-center">Reimbursment of registration  fee</h2>
+						<h2 class="text-center">Rambursarea taxei de înregistrare</h2>
 					</div>
 					<div class="col-md-4">
 						<i class="fa fa-phone-square fa-5x"></i>
-						<h2 class="text-center">24/7 online customer service line in case of an emergency</h2>
+						<h2 class="text-center">Linie de servicii online pentru clienți 24/7 în caz de urgență</h2>
 					</div>
 					<div class="col-md-4">
 						<i class="fa fa-thumbs-up fa-5x"></i>
-						<h2 class="text-center">No intermediary or registration fees</h2>
+						<h2 class="text-center">Fără costuri de înregistrare sau intermediere</h2>
 					</div>
 
 				</div>
 				<div class="article-finish"></div><!-- flaticons end-->
-				<p>We mediate an opportunity to provide jobs or services for all grades of nurses, midwives and doctors. No time to waste, join our professional team abroad and enjoy industry leading pay rates and excellent work environment. Our team of devoted recruitment consultants will assist you with finding the right position for you.</p>
+				<p>Vă mediem o oportunitate de a oferi locuri de muncă sau servicii pentru toate gradele de asistente medicale, moașe și medici. Nu mai pierdeți timpul, alăturați-vă echipei noastre profesioniste din străinătate și bucurați-vă de salarii motivante și de un mediu de lucru excelent. Echipa noastră de consultanți de recrutare vă va ajuta să găsiți poziția potrivită pentru dvs.</p>
 			    <div class="article-finish"></div>
 			</div>
 		</div>
@@ -212,25 +212,25 @@
 	</section>
 	<section id="two">
 		<div class="container">
-			<h1>Process</h1>
+			<h1>Proces</h1>
 			<div class="row">
-				<div class="col-lg-6 litem">
-					<div class="nmbrdiv" data-line="1."></div>
-					<h2 style="color: #222;">Contact form</h2>
-					<p class="nmbrlist">Make the first step and complete our <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">contact form</a> or upload your CV and we will contact you.</p>
-				</div>
-				<div class="col-lg-6 litem">
-					<div class="nmbrdiv" data-line="2."></div>
-					<h2 style="color: #222;">Phone call</h2>
-					<p class="nmbrlist">After receiving the contact form we will call you to add important information about you and to verify the level of your language skills.</p>
-				</div>
+					<div class="col-lg-6 litem">
+						<div class="nmbrdiv" data-line="1."></div>
+						<h2 style="color: #222;">Formular de contact</h2>
+						<p class="nmbrlist">Faceți primul pas și completați <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">formularul de contact</a>, eventual încărcați CV-ul dvs. și vă vom contacta.</p>
+					</div>
+					<div class="col-lg-6 litem">
+						<div class="nmbrdiv" data-line="2."></div>
+						<h2 style="color: #222;">Telefon</h2>
+						<p class="nmbrlist">După primirea formularului de contact, vă sunăm pentru a adăuga informații importante despre dvs. și pentru a verifica nivelul abilităților lingvistice.</p>
+					</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-6 litem">
-					<div class="nmbrdiv" data-line="3."></div>
-					<h2 style="color: #222;">Intermediary contract</h2>
-					<p class="nmbrlist">The contract  that we send you to sign because of a consent to the processing of personal data for the purposes to mediate you an opportunity to provide jobs or services.</p>
-				</div>
+					<div class="col-lg-6 litem">
+						<div class="nmbrdiv" data-line="3."></div>
+						<h2 style="color: #222;">Contract de Intermediere</h2>
+						<p class="nmbrlist">Contractul pe care vi-l trimitem să îl semnați în vederea consimțământului pentru prelucrarea datelor cu caracter personal în scopul de a vă media oportunitatea de a vă oferi locuri de muncă sau servicii.</p>
+					</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="4."></div>
 					<h2 style="color: #222;">Offer</h2>
@@ -266,7 +266,7 @@
 	</section>
 	<section id="three">
 		<div class="blue-med">
-			<h1 style="color:white;">FAQ</h1>
+			<h1 style="color:white;">Întrebări frecvente</h1>
 			<div class="container">
 				<div class="bubbleinfo bubble-left">
 					<a class="cstm-acor" data-id="1">Do I need to register as a nurse or doctor in the country where I want to work?</a><br>
@@ -309,7 +309,7 @@
 		<img src="img/doctors.jpeg" alt="img" class="decoration">
 	</section>
 	<section id="four">
-		<h1 class="p">Requirements</h1>
+		<h1 class="p">Cerințe</h1>
 		<div class="container">
 			<h2 style="text-align: center;">When you are planning to work in medical sector, there is certain criteria that have to be met, among others:</h2>
 			<div class="article-finish"></div>
@@ -389,21 +389,21 @@
 	<div class="container-fluid">
 		
 		<div class="article-finish"></div>
-	</div><!-- Modal -->
-	<div class="modal fade" id="myModal" role="dialog">
+	<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
 		<div class="modal-dialog">
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Contact info</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Informații de contact</h4>
 				</div>
 				<div class="modal-body">
-					<p>Any question? Contact us at:</p>
+					<p>Aveți vreo întrebare? Contactați-ne la:</p>
 					<h2 style="text-align: center;">+421 473 211 276</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>
 				</div>
 			</div>
 		</div>
@@ -454,7 +454,7 @@
 	$(window).on("scroll", function() {
 	   $("section").each(function() {
 	       if($(window).scrollTop() >= $(this).offset().top) {
-	          if($("h1.title").text() === "Why us?") {
+	          if($("h1.title").text() === "De ce noi?") {
 	              $(".fix").css({"background":"#2A8575",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});
@@ -466,7 +466,7 @@
 	               });
 				  $(".hauptmenu i").css({"color":"white"});
 	              }
-	           else if($("h1.title").text() === "FAQ"){
+	           else if($("h1.title").text() === "Întrebări frecvente"){
 	               $(".fix").css({"background":"#397ada",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});
