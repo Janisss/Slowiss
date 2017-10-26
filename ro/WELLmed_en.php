@@ -217,7 +217,7 @@
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="1."></div>
 						<h2 style="color: #222;">Formular de contact</h2>
-						<p class="nmbrlist">Faceți primul pas și completați <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">formularul de contact</a>, eventual încărcați CV-ul dvs. și vă vom contacta.</p>
+						<p class="nmbrlist">Faceți primul pas și completați <a data-toggle="modal" style="cursor: pointer;" data-target="#Modaluchadzac">FORMULARUL DE CONTACT</a>, sau încărcați CV-ul și vă vom contacta noi.</p>
 					</div>
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="2."></div>
@@ -229,36 +229,36 @@
 					<div class="col-lg-6 litem">
 						<div class="nmbrdiv" data-line="3."></div>
 						<h2 style="color: #222;">Contract de Intermediere</h2>
-						<p class="nmbrlist">Contractul pe care vi-l trimitem să îl semnați în vederea consimțământului pentru prelucrarea datelor cu caracter personal în scopul de a vă media oportunitatea de a vă oferi locuri de muncă sau servicii.</p>
+						<p class="nmbrlist">Contractul pe care vi-l trimitem să îl semnați în vederea consimțământului pentru prelucrarea datelor cu caracter personal în scopul medierii oportunității de a vă oferi locuri de muncă sau servicii.</p>
 					</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="4."></div>
-					<h2 style="color: #222;">Offer</h2>
-					<p class="nmbrlist">We e-mail you list of documents required for your qualification recognition and potential registration that allow you to perform your profession abroad.</p>
+					<h2 style="color: #222;">Documente</h2>
+					<p class="nmbrlist">Vă trimitem prin e-mail lista documentelor necesare pentru recunoașterea calificării dvs. și înregistrarea care vă permite să vă desfășurați profesia în străinătate.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="5."></div>
 					<h2 style="color: #222;">CV</h2>
-					<p class="nmbrlist">We create your professional curriculum vitae with your current photography that we will send to your potential employer.</p>
+					<p class="nmbrlist">Vă creăm un curriculum vitae profesional cu o fotografie actuală pe care îl vom trimite potențialului dvs. angajator.</p>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="6."></div>
-					<h2 style="color: #222;">Offer</h2>
-					<p class="nmbrlist">you receive a description of demand for jobs and services including the information about the vacancy as well as provision of job or service conditions.</p>
+					<h2 style="color: #222;">Oferta</h2>
+					<p class="nmbrlist">Veți primi o descriere a cererii de locuri de muncă sau de servicii, inclusiv informații despre post și alte condiții.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="7."></div>
-					<h2 style="color: #222;">Consent</h2>
-					<p class="nmbrlist">In case you are interested in the offer, we inform your potential employer and proceed with all the necessary administration including concluding an employment or any other similar contract.</p>
+					<h2 style="color: #222;">Consimțământ</h2>
+					<p class="nmbrlist">În cazul în care sunteți interesat/ă de oferta primită, vom informa potențialul angajator și continua cu toată administrarea necesară, inclusiv încheierea unui contract de muncă sau orice alt contract similar.</p>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="8."></div>
-					<h2 style="color: #222;">Start date</h2>
-					<p class="nmbrlist">After completing of all the necessary administration we arrange the date you can start to provide job or service and the transport.</p>
+					<h2 style="color: #222;">Data de începere</h2>
+					<p class="nmbrlist">După ce finalizăm toată administrarea necesară, aranjăm data la care puteți începe și transportul.</p>
 				</div>
 			</div>
 			<div class="article-finish"></div>
@@ -269,40 +269,40 @@
 			<h1 style="color:white;">Întrebări frecvente</h1>
 			<div class="container">
 				<div class="bubbleinfo bubble-left">
-					<a class="cstm-acor" data-id="1">Do I need to register as a nurse or doctor in the country where I want to work?</a><br>
-					<a class="cstm-acor" data-id="2">Am I eligible to apply?</a><br>
-					<a class="cstm-acor" data-id="3">How long is the process of application/registration?</a><br>
-					<a class="cstm-acor" data-id="4">How much is the fee for the application/registration?</a><br>
-					<a class="cstm-acor" data-id="5">Where can I get a job?</a><br>
-					<a class="cstm-acor" data-id="6">How much will I earn?</a><br>
+					<a class="cstm-acor" data-id="1">Trebuie să mă înregistrez ca asistenta sau medic în țara în care vreau să lucrez?</a><br>
+					<a class="cstm-acor" data-id="2">Sunt eligibil pentru a aplica?</a><br>
+					<a class="cstm-acor" data-id="3">Cât timp durează procesul de aplicare / înregistrare?</a><br>
+					<a class="cstm-acor" data-id="4">Cât este taxa pentru aplicare / înregistrare?</a><br>
+					<a class="cstm-acor" data-id="5">Unde pot obține un loc de muncă?</a><br>
+					<a class="cstm-acor" data-id="6">Cât de mult voi câștiga?</a><br>
 				</div>
 				<div class="bubbleinfo bubble-right pull-right">
 					<div class="q0 answ">
-						<p>Please select the question to see the answer.</p>
+						<p>Selectați întrebarea pentru a vedea răspunsul.</p>
 					</div>
 					<div class="q1 answ">
-						<p>Yes, If you want to work without any restrictions as a nurse or a doctor, you need a state licence. The competent authorities will assess the equivalence of your qualification with the corresponding foreign qualifications within the framework of a licencing procedure.</p>
+						<p>Da, dacă doriți să lucrați fără restricții în calitate de asistentă medicală sau de medic, aveți nevoie de o licență din partea statului. Autoritățile competente vor evalua echivalența calificării dvs. cu calificările străine corespunzătoare în cadrul unei proceduri de licențiere.</p>
 					</div>
 					<div class="q2 answ">
-						<p>Based on your qualifications, training and experience, you may be eligible to apply. For a specific information about eligibility go to <a href="#four">Requirements.</a></p>
+						<p>Pe baza calificărilor, a pregătirii și a experienței dvs., este posibil să fiți eligibil pentru a aplica. Pentru informații specifice despre eligibilitate, accesați <a href="#four">Cerințe.</a></p>
 					</div>
 					<div class="q3 answ">
-						<p>3-4 months is the standard application/registration process, depending on where and when was your qualification taken. </p>
+						<p>3-4 luni este procesul standard de aplicare / înregistrare, în funcție de locul și momentul când a fost efectuată calificarea.</p>
 					</div>
 					<div class="q4 answ">
-						<p>The fee depends upon the individual country that you wish to register at, however we will help you with the registration and the cost.</p>
+						<p>Taxa depinde de țara în care doriți să vă înregistrați, cu toate acestea vă vom ajuta cu înregistrarea și cu costul acesteia.</p>
 					</div>
 					<div class="q5 answ">
-						<p>You can get a job in various healthcare centres, private hospitals, schools, universities, nursing home etc. in Switzerland, Germany, Austria or United Kingdom. </p>
+						<p>Puteți obține un loc de muncă într-o varietate de centre de asistență medicală, spitale private, școli, universități, case de îngrijire medicală etc. în Elveția, Germania, Austria sau Regatul Unit al Marii Britanii.</p>
 					</div>
 					<div class="q6 answ">
-						<p>The amount of your salary depends on the place of provision of job or service and your profession. </p>
+						<p>Valoarea salariului dvs. depinde de locul de prestare a serviciului sau de serviciu și de profesia dvs.</p>
 					</div>
 				</div>
 			</div>
 			<div class="article-finish"></div>
 			<div class="container">
-				<h2 class="text-center" style="color: white;">Do you have another question Please contact us at +421 473 211 276</h2>
+				<h2 class="text-center" style="color: white;">Aveți o altă întrebare? Vă rugăm să ne contactați la +421 473 211 276</h2>
 			</div>
 			<div class="article-finish"></div>
 		</div>
@@ -311,34 +311,34 @@
 	<section id="four">
 		<h1 class="p">Cerințe</h1>
 		<div class="container">
-			<h2 style="text-align: center;">When you are planning to work in medical sector, there is certain criteria that have to be met, among others:</h2>
+			<h2 style="text-align: center;">Când doriți să lucrați în sectorul medical, există anumite criterii care trebuie îndeplinite, printre altele:</h2>
 			<div class="article-finish"></div>
 			<div class="row">
 				<div class="col-lg-4">
 					<span class="glyphicon glyphicon-globe" style="font-size: 4em; text-align: center; display: block;"></span>
-					<h2 style="text-align: center;">Your ability to speak the language</h2>
+					<h2 style="text-align: center;">Abilitatea de a vorbi limba</h2>
 				</div>
 				<div class="col-lg-4">
 					<span class="glyphicon glyphicon-education" style="font-size: 4em; text-align: center; display: block;"></span>
-					<h2 style="text-align: center;">Your current qualifications and the country which you obtain them</h2>
+					<h2 style="text-align: center;">Calificările actuale și țara din care le obțineți</h2>
 				</div>
 				<div class="col-lg-4">
 					<span class="glyphicon glyphicon-briefcase" style="font-size: 4em; text-align: center; display: block;"></span>
-					<h2 style="text-align: center;">Registration at appropriate association</h2>
+					<h2 style="text-align: center;">Înregistrarea la asociația corespunzătoare</h2>
 				</div>
 			</div>
 			<div class="article-finish"></div>
-			<h2 style="text-align: center; padding-bottom: 10px;">For more detailed information please select:</h2>
+			<h2 style="text-align: center; padding-bottom: 10px;">Pentru mai multe informații vă rugăm să selectați:</h2>
 		</div><!-- AJAX LOADER -->
 		<div class="container">
 			<div class="row country-sel">
 				<div class="col-lg-4">
 					<select class="myselect" id="who" name="who">
 						<option disabled selected value="zero">
-							Position:
+							Poziţie:
 						</option>
 						<option value="NURSE">
-							Nurse
+							Asistent medical
 						</option>
 						<option value="DOCTOR">
 							Doctor
@@ -348,7 +348,7 @@
 				<div class="col-lg-4">
 					<select class="myselect" id="from" name="from">
 						<option disabled selected value="zero">
-							Where are you from:
+							De unde sunteți:
 						</option>
 						<option value="SK">
 							Slovakia
@@ -364,7 +364,7 @@
 				<div class="col-lg-4">
 					<select class="myselect" id="to" name="to">
 						<option disabled selected value="zero">
-							Where do you want to go:
+							Unde doriți să lucrați:
 						</option>
 						<option value="DE">
 							Germany
