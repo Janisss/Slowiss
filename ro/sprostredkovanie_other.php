@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--E-N-G-L-I-S-H----V-E-R-S-I-O-N-->
+<!--R-O-M-A-N-A----V-E-R-S-I-O-N-->
 <head>
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -173,24 +173,23 @@
 	
 	
 	<div class="green three" style="background: #222;">
-		<section id="three">
+<section id="three">
 		<div class ="container">
 			<h1 style="color:white;">Colaborare</h1>
+			<p>Slowiss vă oferă posibilități diferite de colaborare, în funcție de nevoile și cerințele dumneavoastră.</p>
 			<div class="container">
-			<p style="text-align: center">Slowiss vă oferă posibilități diferite de colaborare, în funcție de nevoile și cerințele dumneavoastră.</p>
-			<div class="article-finish"></div>
 			
 			
 			
 		<div class="btn-group btn-group-justified" role="group">
 		  <div class="btn-group" role="group">
-			<button type="button" class="btn btn-default country one">Mediation</button>
+			<button type="button" class="btn btn-default country one">Mediere</button>
 		  </div>
 		  <div class="btn-group" role="group">
-			<button type="button" class="btn btn-default country two">Try and Hire</button>
+			<button type="button" class="btn btn-default country two">Testați și angajați</button>
 		  </div>
 		  <div class="btn-group" role="group">
-			<button type="button" class="btn btn-default country three">Temporary workers</button>
+			<button type="button" class="btn btn-default country three">Lucrători temporari</button>
 		  </div>
 		</div>
 		
@@ -200,33 +199,33 @@
 			<div class="letter">
 				<button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
 
-		  		<p style="text-align: center; color: #222;">In case you decide to use mediation service, we search for you suitable candidates that meet your requirements and subsequently you can conclude an employment contract with them.</p><hr><br>
-		  		<h3 style="text-align: center; color: #222;">Benefits of mediation</h3><br>
+		  		<p style="text-align: center; color: #222;">În cazul în care decideți să utilizați serviciul de mediere, vă căutăm candidați potriviți care îndeplinesc cerințele dvs., iar ulterior puteți încheia un contract de muncă cu aceștia.</p><hr><br>
+		  		<h3 style="text-align: center; color: #222;">Beneficiile medierii</h3><br>
 		 
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Time and cost saving</h2>
+					<h2 style="color: #222;">Economie de timp și costuri</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Optimisation of recruitment process</h2>
+					<h2 style="color: #222;">Optimizarea procesului de recrutare</h2>
 			    </div>
 			  </div>
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Professional and individual approach</h2>
+					<h2 style="color: #222;">Abordare profesională și individuală</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Qualified  personnel selection</h2>
+					<h2 style="color: #222;">Selecția personalului calificat</h2>
 			    </div>
 			    </div>
 			    <div class="row">
 			    <div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Employee exchange in case of leaving</h2>
+					<h2 style="color: #222;">Schimb de angajați în cazul plecării</h2>
 			    </div>
 			    </div>
 			</div>
@@ -237,26 +236,26 @@
 		  <div class="letter">
 		  <button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
 		  	 
-		  		<p style="text-align: center; color: #222;">If you wish to verify employee's skills before concluding an employment contract with them, this service is aimed for you. It offers you even bigger flexibility and elimination of risk to select unsuitable candidate.</p><hr><br>
-		 		<h3 style="text-align: center; color: #222;">Benefits of try and hire</h3><br>
+		  		<p style="text-align: center; color: #222;">Dacă doriți să verificați abilitățile angajatului înainte de a încheia un contract de muncă cu acesta, acest serviciu este pentru dvs. Vă oferă o flexibilitate mai mare și eliminați riscul de a selecta candidatul necorespunzător.</p><hr><br>
+		 		<h3 style="text-align: center; color: #222;">Beneficiile testării și angajarii</h3><br>
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Flexibility</h2>
+					<h2 style="color: #222;">Flexibilitate</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Possibility to choose the length of probationary period</h2>
+					<h2 style="color: #222;">Posibilitatea de a alege durata perioadei de probă</h2>
 			    </div>
 			  </div>
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Personnel and salary agenda</h2>
+					<h2 style="color: #222;">Personal și agenda salariilor</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Exchange guarantee in case of dissatisfaction</h2>
+					<h2 style="color: #222;">Garanția schimbului în caz de nemulțumire</h2>
 			    </div>
 			    </div> 
 		</div>
@@ -267,33 +266,33 @@
 		  <div class="letter">
 		  <button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
 	  			
-		  		<p style="text-align: center; color: #222;">Temporary work, so called personal leasing is a service that offers you an opportunity to lease employees at required time and quantity at times when it it not worth for you to conclude an employment contract with them.</p><hr><br>
-		  		<h3 style="text-align: center; color: #222;">Benefits of temporary workers</h3><br>
+		  		<p style="text-align: center; color: #222;">Munca temporară, așa-numita leasing de personal, este un serviciu care vă oferă o oportunitate de a avea angajați pentru timpul și cantitatea necesară în momentele în care nu este oportun pentru dvs. să încheiați un contract de muncă cu aceștia.</p><hr><br>
+		  		<h3 style="text-align: center; color: #222;">Beneficiile lucrătorilor temporari</h3><br>
 		 
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Flexibility</h2>
+					<h2 style="color: #222;">Flexibilitate</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Cost's reduction </h2>
+					<h2 style="color: #222;">Reducerea costurilor</h2>
 			    </div>
 			  </div>
 			  <div class="row">
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Qualified personnel selection</h2>
+					<h2 style="color: #222;">Selectarea personalului calificat</h2>
 				</div>
 				<div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Personnel and salary agenda </h2>
+					<h2 style="color: #222;">Personal și agenda salariilor</h2>
 			    </div>
 			    </div>
 			    <div class="row">
 			    <div class="col-lg-6 litem">
 					<div class="nmbrdiv" data-line="✪"></div>
-					<h2 style="color: #222;">Exchange guarantee in case of dissatisfaction</h2>
+					<h2 style="color: #222;">Garanția schimbului în caz de nemulțumire</h2>
 			    </div>
 			    </div>
 			</div>
@@ -305,37 +304,36 @@
 	
 	
 	<section id="four">
-			<h1 class="p">Testimonials</h1><!-- AJAX LOADER -->
-		<div class="container">
-		
+	<h1 class="p">Testimoniale</h1><!-- AJAX LOADER -->
+	<div class="container">
+	
 		<blockquote class="blockquote blackk">
-		  <p class="text-left">„Slowiss has been our partner since summer 2014. They provide an outstanding customer service and fast reaction to our requests. Caregivers from Slowiss are always nice and dependable with good experience. We are convinced that we have picked the right personnel agency to make our side of work much easier.“</p>
+		  <p class="text-left">„Slowiss este partenerul nostru din vara anului 2014. Aceștia oferă un serviciu de relații cu clienții remarcabil și o reacție rapidă la cererile noastre. Îngrijitoarele de la Slowiss sunt întotdeauna cumsecade și de încredere, cu o vastă experiență. Suntem convinși că am selectat agenția de personal potrivită pentru a ne ușura partea noastră de lucru.“</p>
 		  <p class="text-right"><strong>- Dominik Borner, head of the recruitment of Prime Human Resource, Switzerland, WWW.PRIMECARE.CH</strong></p>
 		</blockquote>
-		<div class="row">
+		<div class="row"><!--MIESTO NA FOTKY-->
 
 		</div>
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote blackk">
-		  <p class="text-left">„We would like to thank you for the flawless cooperation. We have been very satisfied with your services and would recommend your personnel agency further. We are pleased with your friendly communication and speed of the whole process. Your team of professional customer services has many times solved critical situation very fast.“</p>
+		  <p class="text-left">„Aș dori să vă mulțumesc pentru cooperarea impecabilă. Am fost foarte mulțumiți de serviciile dvs. și va vom recomanda mai departe. Suntem mulțumiți de comunicarea prietenoasă și de viteza întregului proces. Echipa dvs. profesionistă de serviciu clienți a rezolvat de foarte multe ori și foarte rapid o situațiile critice.“</p>
 		  <p class="text-right"><strong>- Zdenka Ulicna, director of Betreut, a.s, Slovakia, WWW.GUTES-HERZ.CH</strong></p>
 		</blockquote>
-		<div class="row">
+		<div class="row"><!--MIESTO NA FOTKY-->
 
 		</div>
 		<div class="article-finish"></div>
 		
 		<blockquote class="blockquote blackk">
-		  <p class="text-left">„With the Slowiss agency we have managed very succesful and long lasting cooperation. We highly recommend this agency also due to the fact of their positive approach and friendly customer service. Their reliability and the speed of the service have been important aspects for us during the whole time.“</p>
-		  <p class="text-right"><strong>- Erwin Schlipf, CEO , Germany, WWW.PFLEGEVERMITTLUNG-BADEN-WUERTTEMBERG-BAYERN.DE </strong></p>
+		  <p class="text-left">„Cu agenția Slowiss avem o colaborare foarte reușită și de lungă durată. Recomandăm în mod deosebit această agenție datorită abordării pozitive și a serviciului de relații cu clienții. Fiabilitatea și viteza serviciului au fost aspecte importante pentru noi pe tot parcursul timpului.“</p>
+		  <p class="text-right"><strong>- Erwin Schlipf, CEO , Germany, WWW.PFLEGEVERMITTLUNG-BADEN-WUERTTEMBERG-BAYERN.DE</strong></p>
 		</blockquote>
-		<div class="row">
+		<div class="row"><!--MIESTO NA FOTKY-->
 
 		</div>
 	
-		</div>
-		<!-- AJAX LOADER END  -->
+	</div>
 	</section>
 	
 	
@@ -397,14 +395,14 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title" style="color:#222; text-align: center;">Contact info</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Informații de contact</h4>
 				</div>
 				<div class="modal-body">
-					<p>Any question? Contact us at:</p>
+					<p>Aveți vreo întrebare? Contactați-ne la:</p>
 					<h2 style="text-align: center;">+421 473 211 276</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>
 				</div>
 			</div>
 		</div>
@@ -432,7 +430,7 @@
 	$(window).on("scroll", function() {
 	   $("section").each(function() {
 	       if($(window).scrollTop() >= $(this).offset().top) {
-	          if($("h1.title").text() === "Why us?"){
+	          if($("h1.title").text() === "De ce noi?"){
 	              $(".fix").css({"background":"#222",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});
@@ -442,7 +440,7 @@
 	               $(".menu-jano a").css({"color":"white"});
 				   $(".hauptmenu i").css({"color":"white"});
 	              }
-	           else if($("h1.title").text() === "Cooperation"){
+	           else if($("h1.title").text() === "Colaborare"){
 	               $(".fix").css({"background":"#222",
 	                            "color":"white",
 	                            "border-bottom":"1px solid white"});
