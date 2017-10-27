@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>Slowiss - Other</title>
+	<title>Slowiss - Altele</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="../bs_template.css" rel="stylesheet" type="text/css">
 </head>
@@ -18,7 +18,7 @@
 	<div class="loading"><img alt="" class="loadimg" src="loading.svg"></div><!--LOADING END-->
 	<!--header-->
 	<div class="container-fluid fix">
-		<h1 class="title">Other</h1>
+		<h1 class="title">Altele</h1>
 		<div class="phone">
 			<div class="small-call">
 				<i aria-hidden="true" class="fa fa-phone fa-3x"></i>
@@ -46,20 +46,20 @@
 		<div id="myNav" class="overlay">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  <div class="overlay-content">
-			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Looking for a job</h1>
-			<a href="./WELLcare_en.php">Healthcare</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">În căutarea unui loc de muncă</h1>
+			<a href="./WELLcare_en.php">Îngrijiri medicale la domiciliu</a>
 			<a href="./WELLmed_en.php">Medical</a>
-			<a href="./WELLpro_en.php">Other</a>
-			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">Looking for a personnel</h1><br>
-			<a href="./sprostredkovanie_care.php">Healthcare</a>
+			<a href="./WELLpro_en.php">Altele</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">În căutarea unui personal de muncă</h1><br>
+			<a href="./sprostredkovanie_care.php">Îngrijiri medicale la domiciliu</a>
 			<a href="./sprostredkovanie_med.php">Medical</a>
-			<a href="./sprostredkovanie_other.php">Other</a>
+			<a href="./sprostredkovanie_other.php">Altele</a>
 		  </div>
 		</div>
 	<!-- KONIEC MOBIL MENU-->
 	</div><!--header end-->
 	<section id="top">
-		<h1 class="hide">Other</h1>
+		<h1 class="hide">Altele</h1>
 		<div class="container-fluid first-content">
 			<ul data-limit-x="40" data-limit-y="20" id="scene">
 				<li class="layer" data-depth="0.00"><img alt="CARE" class="decoimg" src="scene1/1.jpg"></li>
@@ -72,69 +72,69 @@
 				<div class="row">
 					<div class="col-lg-3">
 						<div class="item-a">
-							<a href="#one">Why us?</a>
+							<a href="#one">De ce noi?</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="item-b">
-							<a href="#two">Services</a>
+							<a href="#two">Servicii</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="item-c">
-							<a href="#three">Cooperation</a>
+							<a href="#three">Colaborare</a>
 						</div>
 					</div>
 					<div class="col-lg-3">
 						<div class="item-d">
-							<a href="#four">Testimonials</a>
+							<a href="#four">Testimoniale</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container intro-text">
-			<h2 class="text-center">Are you searching for a permanent or temporary personnel? Do you have higher demand for employees at certain periods that you need to cover? Are you looking for quality people that are professionals in their field of work? We are here for you with complex agenda within all personnel tasks.</h2>
+			<h2 class="text-center">Sunteți in căutarea unui personal permanent sau temporar? Aveți cerere mai mare pentru angajați în anumite perioade pe care trebuie să le acoperiți? Căutați oameni de calitate care sunt profesioniști în domeniul lor de activitate? Suntem aici pentru dvs., cu o agendă complexă în cadrul tuturor sarcinilor de personal.</h2>
 		</div>
 	</section>
 	<section id="one">
 		<div class="green one" style="background:#222">
 			<div class="container">
-				<h1>Why us?</h1>
+				<h1>De ce noi?</h1>
 				<div class="container">
 					<!-- flaticons -->
 					<div class="row icons">
 						<div class="col-md-4">
 							<i class="fa fa-thumbs-up fa-5x"></i>
-							<h3 class="text-center">First class care</h3>
+							<h3 class="text-center">Asistență medicală de primă clasă</h3>
 						</div>
 						<div class="col-md-4">
 						    <i class="fa fa-eye fa-5x"></i>
-							<h3 class="text-center">Swiss precision</h3>
+							<h3 class="text-center">Precizie elvețiană</h3>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-commenting fa-5x"></i>
-							<h3 class="text-center">Inovative recruitment process</h3>
+							<h3 class="text-center">Proces de recrutare inovator</h3>
 						</div>
 					</div>
 					<div class="article-finish"></div>
 					<div class="row icons">
 							<div class="col-md-4">
 							<i class="fa fa-group fa-5x"></i>
-							<h3 class="text-center">Experienced and devoted personnel</h3>
+							<h3 class="text-center">Personal experimentat și devotat</h3>
 
 						</div>
 						<div class="col-md-4">
 						    <i class="fa fa-refresh fa-5x"></i>
-							<h3 class="text-center">Exchange guarantee in case of dissatisfaction</h3>
+							<h3 class="text-center">Garanția schimbului în caz de nemulțumire</h3>
 						</div>
 						<div class="col-md-4">
 							<i class="fa fa-smile-o fa-5x"></i>
-							<h3 class="text-center">With ease</h3>
+							<h3 class="text-center">Ușurință</h3>
 						</div>
 					</div>
 					<div class="article-finish"></div>
-					<p style="text-align: center">Quality and reliability of our services is ranking us among the top personnel mediation companies on the European market. We have available for you personnel from whole Europe thanks to free movement of services in the European union. Join our satisfied clients and business partners to appreciate the simplicity of whole process, minimum effort and legal security that you get from us.</p>
+					<p style="text-align: center">Calitatea și fiabilitatea serviciilor noastre ne poziționează printre companiile de mediere a personalului de top pe piața europeană. Avem la dispoziție personal din întreaga Europă datorită liberei circulații a serviciilor în Uniunea Europeană. Alăturați-vă clienților mulțumiți și partenerilor de afaceri pentru a aprecia simplitatea întregului proces, efortul minim și securitatea juridică pe care o obțineți de la noi.</p>
 					
 					
 					<div class="article-finish"></div>
@@ -146,9 +146,9 @@
 	<div class="green two">
 		<section id="two">
 			<div class="container">
-			<h1>Services</h1>
+			<h1>Servicii</h1>
 			<div class="container">
-			<p style="text-align: center">Slowiss has headquarters within whole Middle and Eastern Europe. We provide you complex services in the area of mediation of jobs or services and provision of qualified personnel. Within the recruitment process we put emphasis on:</p>
+			<p style="text-align: center">Slowiss are sedii în toată Europa Centrală și de Est. Vă oferim servicii complexe în domeniul medierii locurilor de muncă sau al serviciilor, precum și furnizarea de personal medical. În cadrul procesului de recrutare, punem accentul pe:</p>
 			
 			
 			<div class="row">
@@ -156,14 +156,13 @@
 					<img src="../main_img/AdobeStock_99592662.jpeg" alt="IMG" style="width: 100%;">
 					</div>
 					<div class="col-lg-6 litem">
-						<div class="nmbrdiv" data-line="1."></div>
-						<h2 style="color: #222;"><br>Interpersonnal skills</h2>
+						<h2 style="color: #222;"><br>Competențe interpersonale</h2>
 						<div class="nmbrdiv" data-line="2."></div>
-						<h2 style="color: #222;"><br>Achieved qualification</h2>
+						<h2 style="color: #222;"><br>Experiența anterioară</h2>
 						<div class="nmbrdiv" data-line="3."></div>
-						<h2 style="color: #222;"><br>Previous experience</h2>
+						<h2 style="color: #222;"><br>Aptitudini lingvistice</h2>
 						<div class="nmbrdiv" data-line="4."></div>
-						<h2 style="color: #222;"><br>Language skills</h2>
+						<h2 style="color: #222;"><br>Interviu personal</h2>
 					</div>
 				</div>
 			<div class="article-finish">
@@ -176,9 +175,9 @@
 	<div class="green three" style="background: #222;">
 		<section id="three">
 		<div class ="container">
-			<h1 style="color:white;">Cooperation</h1>
+			<h1 style="color:white;">Colaborare</h1>
 			<div class="container">
-			<p style="text-align: center">Slowiss offers you many different possibilities of cooperation depending on your needs and requirements.</p>
+			<p style="text-align: center">Slowiss vă oferă posibilități diferite de colaborare, în funcție de nevoile și cerințele dumneavoastră.</p>
 			<div class="article-finish"></div>
 			
 			
