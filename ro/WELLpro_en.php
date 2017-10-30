@@ -310,6 +310,9 @@
 			<div class="article-finish"></div>
 		<p><strong>Există diferite posibilități în care puteți lucra sau presta servicii mediate în funcție de o ofertă specifică și de cerințele clientului specificate individual.</strong></p>
 	
+  <p style="text-align: center;"><strong>Există diferite posibilități în care puteți lucra sau presta servicii mediate în funcție de o ofertă specifică și de cerințele individuale ale clientului.</strong></p>
+
+
 <div class="btn-group btn-group-justified" role="group">
   <div class="btn-group" role="group">
     <button type="button" class="btn btn-default country one">PFA</button>
@@ -330,16 +333,16 @@
   <div class="row">
             <div class="col-lg-6 litem">
             <div class="nmbrdiv" data-line="1."></div>
-            <h2 style="color: #222;">Trade Licensing Office</h2>
+            <h2 style="color: #222;">Registrul Comerțulu</h2>
              <p class="nmbrlist">
-              Visit Trade Licensing Office appropriate to the residential address of the natural person.
+             	Vizitarea Registrul Comerțului corespunzător adresei de rezidență a persoanei fizice.
             </p>
             </div>
             <div class="col-lg-6 litem">
             <div class="nmbrdiv" data-line="2."></div>
-            <h2 style="color: #222;">Form</h2>
+            <h2 style="color: #222;">Formular</h2>
               <p class="nmbrlist">
-              Complete a form for a natural person <a href="http://www.minv.sk/?natural-persons" target="_blank">http://www.minv.sk/?natural-persons.</a> 
+            	Completarea formularelor pentru PFA (Persoană Fizică Autorizată) <a href="https://www.onrc.ro/index.php/ro/inmatriculari/persoane-fizice/persoane-fizice-autorizate-pfa" target="_blank">https://www.onrc.ro/index.php/ro/inmatriculari/persoane-fizice/persoane-fizice-autorizate-pfa.</a> 
             </p>
             </div>
            </div>
@@ -347,16 +350,16 @@
            <div class="row">
             <div class="col-lg-6 litem">
             <div class="nmbrdiv" data-line="3."></div>
-            <h2 style="color: #222;">Health insurance</h2>
+            <h2 style="color: #222;">Asigurări medicale</h2>
             <p class="nmbrlist">
-              Register in the system of mandatory health insurance.
+              Înregistrarea în sistemul de asigurări medicale obligatorii.
             </p>
             </div>
             <div class="col-lg-6 litem">
             <div class="nmbrdiv" data-line="4."></div>
-            <h2 style="color: #222;">Tax</h2>
+            <h2 style="color: #222;">ANAF</h2>
             <p class="nmbrlist">
-              Register with the tax administrator.
+              Înregistrarea la ANAF.
             </p>
       </div>
             </div>
@@ -364,16 +367,16 @@
             <div class="row">
             <div class="col-lg-6 litem">
             <div class="nmbrdiv" data-line="5."></div>
-            <h2 style="color: #222;">Administrative fee</h2>
+            <h2 style="color: #222;">Taxa administrativa</h2>
             <p class="nmbrlist">
-              Pay the administrative fee and attach the receipt to the completed form <a href="http://www.minv.sk/?trade-licencing" target="_blank">Administrative fees related to Trade Licensing.</a>
+              Achitarea taxei de administrare și atașarea chitanței la formularul completat (taxele administrative legate de PFA).
             </p>
             </div>
             <div class="col-lg-6 litem">
             <div class="nmbrdiv" data-line="6."></div>
-            <h2 style="color: #222;">Authorisation</h2>
+            <h2 style="color: #222;">Autorizația</h2>
             <p class="nmbrlist">
-              The authorisation to carry on a notifiable trade shall become effective for the natural person registered in the Commercial Register as of the date of notification if the notice is without errors. 
+              Autorizația de a desfășura o activitate devine efectivă pentru persoana fizică înscrisă în Registrul Comerțului de la data notificării, dacă notificarea este fără erori. 
             </p>
       </div>
             </div>
@@ -384,7 +387,7 @@
 <div class="country-type-two">
   <div class="letter">
   <button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
-  <p style="text-align: center;">Înainte de a începe activitatea la un loc de muncă, veți primi un contract de muncă încheiat conform Codului Muncii.</p><hr><br>
+  <p style="text-align: center;">Înainte de a începe activitatea la un loc de muncă, veți primi un contract de muncă încheiat conform Codului Muncii (Legea nr. 53/2003).</p><hr><br>
   <p>Avantajele pe care le obțineți:</p>
 			<div class="row">
            		<div class="col-lg-6 litem">
@@ -404,7 +407,7 @@
            	    </div>
             	<div class="col-lg-6 litem">
             		<div class="nmbrdiv" data-line="✪"></div>
-            		<h2 style="color: #222;">Dreptul la contribuțiile sociale de stat.</h2>
+            		<h2 style="color: #222;">Dreptul la contribuțiile sociale de stat</h2>
 				</div>
            	</div>
            	<div class="row">
@@ -422,7 +425,7 @@
 <div class="country-type-three">
   <div class="letter">
   <button class="close-info pull-right"><span class="glyphicon glyphicon-remove" style="color: #dadada"></span></button>
-  <p style="text-align: center;">Înainte de a începe activitatea la un loc de muncă, veți primi un contract de muncă încheiat conform Codului Muncii.</p><hr><br>
+  <p style="text-align: center;">Înainte de a începe un loc de muncă, veți primi un contract de muncă încheiat în conformitate cu Codul Muncii al țării în care urmează să îndepliniți atribuțiile de muncă.</p><hr><br>
   <p>Avantajele pe care le obțineți:</p>
 			<div class="row">
            		<div class="col-lg-6 litem">
@@ -431,29 +434,30 @@
             	</div>
             	<div class="col-lg-6 litem">
             		<div class="nmbrdiv" data-line="✪"></div>
-           		    <h2 style="color: #222;">Dreptul la concediu</h2>
+           		    <h2 style="color: #222;">Dreptul la concediu.</h2>
 				</div>
            	</div>
 
            	<div class="row">
            		<div class="col-lg-6 litem">
            			<div class="nmbrdiv" data-line="✪"></div>
-           			<h2 style="color: #222;">Veți face parte din sistemul social al țării în care ați încheiat contractul de muncă.</h2>
+           			<h2 style="color: #222;">Veți face parte din sistemul social al țării în care ați încheiat contractul de.</h2>
             	</div>
         		<div class="col-lg-6 litem">
            			<div class="nmbrdiv" data-line="✪"></div>
-           			<h2 style="color: #222;">Având aceleași beneficii ale sistemului social ca și angajații locali.</h2>
+           			<h2 style="color: #222;">Muncă având aceleași beneficii ale sistemului social ca și angajații locali.</h2>
             	</div>
            	</div>
            	<div class="row">
             	<div class="col-lg-6 litem">
            			<div class="nmbrdiv" data-line="✪"></div>
-           			<h2 style="color: #222;">Care au lucrat ani contributori cu dreptul la pensie de stat.</h2>
+           			<h2 style="color: #222;">Care au lucrat ani contributori cu dreptul la pensia de stat.</h2>
             	</div>        		
            	</div>
 </div>
 </div>
-</div>		
+</div>
+		
 			
 		<div class="article-finish"></div>
 		<div class="article-finish"></div><!-- AJAX LOADER END  -->	

@@ -21,7 +21,7 @@ function MM_validateForm() { //v4.0
 	$url="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	$end = end(explode('/', $url));
 ?>
-	<a href="../en/<?php echo $end?>">ENGLISH</a> | <a href="../sk/<?php echo $end ?>">SLOVENSKY</a> | <a href="../cz/<?php echo $end ?>">ČESKY</a> | <a href="#">ENGLISH</a> | <a href="#">ROMÂNĂ</a>
+	<a href="../en/<?php echo $end?>">ENGLISH</a> | <a href="../sk/<?php echo $end ?>">SLOVENSKY</a> | <a href="../cz/<?php echo $end ?>">ČESKY</a> | <a href="#">ROMÂNĂ</a>
 </div>
 <br>
 <div class="container">

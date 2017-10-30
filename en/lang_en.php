@@ -20,6 +20,8 @@
 				<li><img src="../mini_flags/us.png" alt="EN"><a href="#"> English</a></li>
 				<li><img src="../mini_flags/sk.png" alt="SK"><a href="../sk/<?php echo $end ?>"> Slovensky</a></li>
 				<li><img src="../mini_flags/cz.png" alt="CZ"><a href="../cz/<?php echo $end ?>"> Česky</a></li>
+				<li><img src="../mini_flags/ro.png" alt="RO"><a href="../ro/<?php echo $end ?>"> Română</a></li>
+
 				</ul>
 			  </div>
 			  <div class="modal-footer">
