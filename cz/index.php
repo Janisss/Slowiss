@@ -373,7 +373,7 @@
 	<script>
 	try{Typekit.load({ async: true });}catch(e){}
 	</script>
-	<footer>
+	<footer class="foot">
 	<?php
 		include "en_footer.php";
 		include "sitemap.php";

@@ -399,7 +399,7 @@
 				</div>
 				<div class="modal-body">
 					<p>Aveți vreo întrebare? Contactați-ne la:</p>
-					<h2 style="text-align: center;">+421 473 211 276</h2><br>
+					<h2 style="text-align: center;">+40 771 711 064</h2><br>
 				</div>
 				<div class="modal-footer">
 					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>

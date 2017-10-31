@@ -98,29 +98,25 @@
 	   var parallax = new Parallax(scene);
 	</script> <!-- parallax end -->
 	<!-- Modal -->
-	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal fade" id="myModal" role="dialog">
 		<div class="modal-dialog">
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title">Contact info</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Informații de contact</h4>
 				</div>
 				<div class="modal-body">
-					<p>Any questions?</p>
-					<h2 style="text-align: center;"> +421 473 211 276</h2><br>
-					<p>Form:</p>
-					<form action="" method="post" style="font-size:2em">
-						<input placeholder="Name:" type="text"> <input placeholder="Email:" type="text"> <input type="submit">
-					</form>
+					<p>Aveți vreo întrebare? Contactați-ne la:</p>
+					<h2 style="text-align: center;">+40 771 711 064</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>
 				</div>
 			</div>
 		</div>
 	</div><!-- modal ends -->
-	<footer>
+	<footer class="foot">
 	<?php
 		include "en_footer.php";		
 		include "sitemap.php";

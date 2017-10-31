@@ -326,7 +326,7 @@
 				</div>
 				<div class="modal-body">
 					<p>Any questions?</p>
-					<h2 style="text-align: center;"> +421 473 211 276</h2><br>
+					<h2 style="text-align: center;"> +40 771 711 064</h2><br>
 					<p>Form:</p>
 					<form action="" method="post" style="font-size:2em">
 						<input placeholder="Name:" type="text"> <input placeholder="Email:" type="text"> <input type="submit">

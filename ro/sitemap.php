@@ -60,6 +60,6 @@
 		</div>
 	</div>
 
-		<h3 style="text-align: center;">+421 473 211 276</h3>
+		<h3 style="text-align: center;">+40 771 711 064</h3>
 		<p>Toate drepturile sunt rezervate Slowiss Slovakia s.r.o | <a href="impressum.php" target="_blank">Aviz juridic</a> | <a href="http://brickstone.design/sk/g-index.html" target="_blank">Web design de Brickstone Design s.r.o.</a></p><br>
 </div>

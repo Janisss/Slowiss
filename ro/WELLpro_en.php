@@ -114,7 +114,7 @@
 					<input type="file" name="u-file"><hr>
 					<div class="row">
 						<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-						<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">Consimți la prelucrarea datelor cu caracter personal</a></div>
+						<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">Consimțământ cu privire la prelucrarea datelor cu caracter personal</a></div>
 
 					</div>
 					<hr><br> 
@@ -267,7 +267,7 @@
 				</div>
 				<div class="bubbleinfo bubble-right pull-right">
 					<div class="q0 answ">
-						<p>Selectați întrebarea pentru a vedea răspunsul.</p>
+						<p>Vă rugam selectați întrebarea pentru a vedea răspunsul.</p>
 					</div>
 					<div class="q1 answ">
 						<p>În diverse sectoare, în special în industria construcțiilor, logistică, gastronomie și agricultură. Pentru locurile vacante curente, vă rugăm să faceți clic <a href="offers_en.php">aici.</a></p>
@@ -294,7 +294,7 @@
 			</div>
 			<div class="article-finish"></div>
 			<div class="container">
-				<h2 class="text-center">Aveți o altă întrebare? Vă rugăm să ne contactați la +421 473 211 276</h2>
+				<h2 class="text-center">Aveți o altă întrebare? Vă rugăm să ne contactați la +40 771 711 064</h2>
 			</div>
 			<div class="article-finish"></div>
 		</section>
@@ -333,7 +333,7 @@
   <div class="row">
             <div class="col-lg-6 litem">
             <div class="nmbrdiv" data-line="1."></div>
-            <h2 style="color: #222;">Registrul Comerțulu</h2>
+            <h2 style="color: #222;">Registrul Comerțului</h2>
              <p class="nmbrlist">
              	Vizitarea Registrul Comerțului corespunzător adresei de rezidență a persoanei fizice.
             </p>
@@ -528,7 +528,7 @@
 				</div>
 				<div class="modal-body">
 					<p>Aveți vreo întrebare? Contactați-ne la:</p>
-					<h2 style="text-align: center;">+421 473 211 276</h2><br>
+					<h2 style="text-align: center;">+40 771 711 064</h2><br>
 				</div>
 				<div class="modal-footer">
 					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>

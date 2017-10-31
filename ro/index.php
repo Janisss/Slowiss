@@ -92,7 +92,7 @@
 			<div id="slider" class="nivoSlider">
 <img src="slider-home/a.jpg" data-thumb="slider-home/a.jpg" alt="" title="<h2>Ajutor la domiciliu, bonă, dădacă<h2><p><a href='./offers_en.php'>arată oferte</a></p>"/>
 <img src="slider-home/b.jpg" data-thumb="slider-home/b.jpg" alt="" title="<h2>Chelneriță, chelner, bucătar</h2><p><a href='./offers_en.php'>arată oferte</a></p>"/>
-<img src="slider-home/c.jpg" data-thumb="slider-home/c.jpg" alt="" title="<h2>Babysitting</h2><p><a href='./offers_en.php'>zobraziť ponuky</a></p>"/>
+<img src="slider-home/c.jpg" data-thumb="slider-home/c.jpg" alt="" title="<h2>Îngrijire copil</h2><p><a href='./offers_en.php'>arată oferte</a></p>"/>
 <img src="slider-home/d.jpg" data-thumb="slider-home/d.jpg" alt="" title="<h2>Doctor, asistent medical, moașă</h2><p><a href='./offers_en.php'>arată oferte</a></p>"/>
 <img src="slider-home/e.jpg" data-thumb="slider-home/e.jpg" alt="" title="<h2>Îngrijitoare, îngrijitoare la domiciliu</h2><p><a href='./offers_en.php'>arată oferte</a></p>"/>
 <img src="slider-home/f.jpg" data-thumb="slider-home/f.jpg" alt="" title="<h2>Construcții, constructor</h2><p><a href='./offers_en.php'>arată oferte</a></p>"/>
@@ -122,7 +122,7 @@
 			</div>
 		</div>
 		<div class="container intro-text">
-			<p>Bine ați venit la Slowiss, compania dumneavoastră de recrutare. Slowiss este un grup de recrutori pasionați care livrează o gamă largă de soluții de talent și muncă. Credem în plasamentul persoanelor potrivite pentru rolurile potrivite. Fie că sunteți un candidat în căutarea unei oportunități sau o companie în căutarea unui angajat, noi vă putem ajuta.</p>
+			<p>Bine ați venit la Slowiss, compania dumneavoastră de recrutare. Slowiss este un grup de recrutori pasionați care livrează o gamă largă de soluții de talent și de muncă. Credem în plasamentul persoanelor potrivite pentru rolurile potrivite. Fie că sunteți un candidat în căutarea unei oportunități sau o companie în căutarea unui angajat, noi vă putem ajuta.</p>
 		</div>
 	</section>
 	<!-- scroll here --><a name="fromcare"></a>
@@ -130,7 +130,7 @@
 		<div class="container">
 		<h1><a id="uchadzac" style="position: absolute; margin-top: -20px;"></a>În căutarea unui loc de muncă</h1>
 		<br>
-		<p>Vă oferim multe oportunități cu locuri de muncă sau servicii în diferite sectoare. Puteți găsi aici nu doar locurile vacante actuale, ci și sfaturi utile, care vă pot ajuta să obțineți un loc de muncă ideal. Vă rugăm să vă alegeți profesia mai jos pentru a afla mai multe.</p><br>
+		<p>Vă oferim multe oportunități cu locuri de muncă sau servicii în diferite sectoare. Puteți găsi aici nu doar locurile vacante actuale, ci și sfaturi utile, care vă pot ajuta să obțineți un loc de muncă ideal. Vă rugăm să vă alegeți profesia mai jos pentru a afla mai multe detalii.</p><br>
 		
 					<div class="row">
 						<div class="col-md-3">
@@ -141,7 +141,7 @@
 						  <div class="panel-heading">
 						    <h2 class="panel-title" style="color: #6B285C; font-size: 5rem;">Îngrijiri medicale la domiciliu</h2>
 								</div>
-									<p style="text-align: justify;" class="panel-body">Sunteți îngrijitoare, babysitter sau o menajeră care caută o oportunitate pentru locuri de muncă sau servicii în străinătate? Aceasta este alegerea potrivită pentru dvs.</p>
+									<p style="text-align: justify;" class="panel-body">Sunteți îngrijitoare, babysitter sau o menajeră în căutarea unei oportunități de angajare în străinătate? Noi suntem alegerea potrivită pentru dvs.</p>
 								<!--tlacitka-->
 								  <ul class="menu-x pull-right">
 								  	  <li><a href="./WELLcare_en.php">Mai multe informații</a></li>
@@ -165,7 +165,7 @@
 						  <div class="panel-heading">
 						    <h2 class="panel-title" style="color: rgba(57, 122, 218, 1); font-size: 5rem;"><a name="sempod"></a>Medical</h2>
 								</div>	
-									<p style="text-align: justify;" class="panel-body">Dacă sunteți o asistentă medicală sau un medic care caută o oportunitate de angajare în străinătate pe baza educației realizate, acesta este locul potrivit pentru dumneavoastră.</p>
+									<p style="text-align: justify;" class="panel-body">Dacă sunteți o asistentă medicală sau un medic în căutarea unei oportunități de angajare în străinătate pe baza pregătirii dvs., acesta este locul potrivit pentru dumneavoastră.</p>
 								  <!--tlacitka-->
 								  <ul class="menu-x b pull-right">
 								  	  <li><a href="./WELLmed_en.php">Mai multe informații</a></li>
@@ -189,7 +189,7 @@
 						  <div class="panel-heading" style="background-color: transparent;">
 						    <h2 class="panel-title" style="color: rgba(157, 11, 15, 1); font-size: 5rem;">Altele</h2>
 						  </div>	
-									<p style="text-align: justify;" class="panel-body">În cazul în care sunteți un șofer profesionist, chelner, bucătar-șef, constructor etc., care caută o oportunitate pentru locuri de muncă sau servicii, avem și pentru dumneavoastră.</p>
+									<p style="text-align: justify;" class="panel-body">În cazul în care sunteți un șofer profesionist, chelner, bucătar-șef, constructor etc., în căutarea unei oportunități de angajare, avem posibilități și pentru dumneavoastră.</p>
 								<!--tlacitka-->
 								  <ul class="menu-x c pull-right">
 								  	  <li><a href="./WELLpro_en.php">Mai multe informații</a></li>
@@ -211,7 +211,7 @@
 			<div class="container">
 				<h1><a id="zamestnavatel" style="position: absolute; margin-top: -20px;"></a>În căutarea unui personal de muncă</h1>
 					<br>
-					<p>Colaborarea cu Slowiss vă oferă calitatea și flexibilitatea serviciilor oferite. În ultimii ani ne-am dovedit a fi un partener de încredere și stabil pentru multe companii străine. Alegeți mai jos o profesie a personalului dorit. Echipa noastră de recrutori va căuta oameni calitate, în conformitate cu cerințele dumneavoastră.</p><br>
+					<p>Colaborarea cu Slowiss vă oferă calitatea și flexibilitatea serviciilor oferite. În ultimii ani ne-am dovedit a fi un partener de încredere și stabil pentru multe companii străine. Alegeți mai jos profesia personalului dorit. Echipa noastră de recrutare va căuta oameni de calitate, în conformitate cu cerințele dumneavoastră.</p><br>
 					<div class="row">
 						<div class="col-md-3">
 								<img src="../main_img/AdobeStock_122549282_WM.jpeg" alt="IMG" style="width: 100%;">
@@ -221,7 +221,7 @@
 						  <div class="panel-heading">
 						    <h2 class="panel-title" style="color: #6B285C; font-size: 5rem;">Îngrijiri medicale la domiciliu</h2>
 								</div>
-									<p style="text-align: justify;" class="panel-body">Dacă sunteți în căutarea unei persoane de încredere și competentă pentru a avea grijă de membrii familiei, de un client sau de gospodăria acestora, vă putem ajuta.</p>
+									<p style="text-align: justify;" class="panel-body">Dacă sunteți în căutarea unei persoane de încredere și competentă pentru a avea grijă de membrii familiei, de un client sau de gospodăria acestora, noi vă putem ajuta.</p>
 							     <!--tlacitka-->
 								  <ul class="menu-x pull-right">
 								  	  <li><a href="./sprostredkovanie_care.php">Mai multe informații</a></li>
@@ -242,7 +242,7 @@
 						  <div class="panel-heading">
 						    <h2 class="panel-title" style="color: rgba(57, 122, 218, 1); font-size: 5rem;"><a name="sempod"></a>Medical</h2>
 								</div>	
-									<p style="text-align: justify;" class="panel-body">Dacă aveți nevoie de o asistentă medicală generalistă sau specializată, de o moașă sau de un medic care se dedică profesiei, ne angajăm să vă oferim un personal excelent.</p>
+									<p style="text-align: justify;" class="panel-body">Dacă aveți nevoie de o asistentă medicală generalistă sau specializată, de o moașă sau de un medic dedicat profesiei, ne angajăm să vă oferim personal excelent.</p>
 							     <!--tlacitka-->
 								  <ul class="menu-x b pull-right">
 								  	  <li><a href="./sprostredkovanie_med.php">Mai multe informații</a></li>
@@ -262,7 +262,7 @@
 						  <div class="panel-heading">
 						    <h2 class="panel-title" style="color: rgba(157, 11, 15, 1); font-size: 5rem;">Altele</h2>
 								</div>	
-									<p style="text-align: justify;" class="panel-body">Fie că sunteți în căutarea unui angajat temporar sau permanent, cu normă întreagă sau cu normă parțială, în alte domenii decât cel de îngrijire la domiciliu sau medical, vă putem ajuta în orice situație.</p>
+									<p style="text-align: justify;" class="panel-body">Fie că sunteți în căutarea unui angajat temporar sau permanent, cu normă întreagă sau cu normă parțială, în alte domenii decât cel de îngrijire la domiciliu sau medical, noi vă putem ajuta în orice situație.</p>
 							     <!--tlacitka-->
 								  <ul class="menu-x c pull-right">
 								  	  <li><a href="./sprostredkovanie_other.php">Mai multe informații</a></li>
@@ -280,7 +280,7 @@
 		<section id="three">
 			<h1 style="color: #222"><a id="onas" style="position: absolute; margin-top: -40px;"></a>Despre noi</h1>
 			<div class="container">
-						<p style="color: #222">Slowiss a fost înființată la începutul anului 2013 de către frații Marti și de atunci a crescut dinamic. În primul rând, și-a concentrat toată atenția asupra sectorului sănătății. Numărul de personal medical necesar a crescut considerabil, iar Slowiss nu a reușit să răspundă cererii mari, și atunci a început colaborarea cu alte companii din întreaga Europă și s-au creat noi oportunități.</p><p style="color: #222"> Treptat, a existat o creștere în cererea de profesioniști cu înaltă calificare în alte sectoare, astfel încât compania a început să recruteze personal și în logistică, gastronomie, hoteluri, construcții și așa mai departe. Slowiss se angajează să socieze companii bune cu angajați buni din țările din Europa de Est. Omenirea, încrederea, inovația și calitatea sunt principalele noastre valori.</p>
+						<p style="color: #222">Slowiss a fost înființată la începutul anului 2013 de către frații Marti și de atunci a crescut dinamic. În primul rând, și-a concentrat toată atenția asupra sectorului de îngrijire. Numărul solicitărilor de personal medical necesar a crescut considerabil, iar Slowiss nu a reușit să răspundă cererii mari, și atunci a început colaborarea cu alte companii din întreaga Europă și s-au creat noi oportunități.</p><p style="color: #222"> Treptat, a existat o creștere în cererea de profesioniști din alte sectoare, astfel încât compania a început să recruteze personal și în logistică, gastronomie, hoteluri, construcții și altele. Slowiss se angajează să asocieze companii de calitate cu angajați buni din țările Europei de Est. Omenia, încrederea, inovația și calitatea sunt principalele noastre valori.</p>
 						
 				<div class="article-finish"></div>		
 				<div class="row" style="text-align: center">
@@ -329,7 +329,7 @@
 		    <input type="file" name="u-file"><hr>
 	        <div class="row">
 	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">Consimți la prelucrarea datelor cu caracter personal</a></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">Consimțământ cu privire la prelucrarea datelor cu caracter personal</a></div>
 	        
 	        </div>
 			<hr><br> 
@@ -403,7 +403,7 @@
 				</div>
 				<div class="modal-body">
 					<p>Aveți vreo întrebare? Contactați-ne la:</p>
-					<h2 style="text-align: center;">+421 473 211 276</h2><br>
+					<h2 style="text-align: center;">+40 771 711 064</h2><br>
 				</div>
 				<div class="modal-footer">
 					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>

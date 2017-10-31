@@ -23,13 +23,32 @@
 			</div>
 		</div><!--NAVIGATION-->
 		<!--MOBIL MENU-->
-		<div class="mobil-menu">
-			<script src="https://www.w3schools.com/lib/w3.js"></script>
-			<script src="mobil-menu.js"></script>
-			<div id="mobil-menu" w3-include-html="mobil-menu.html"></div> 
-			<script>w3.includeHTML();</script>
+		<script>
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+		</script>
+		<div class="phone" id="mobil-menu" onclick="openNav()" style="left: 35px;">
+			<i class="fa fa-bars fa-3x" aria-hidden="true"></i>
 		</div>
-		<!--MOBIL MENU END-->
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">În căutarea unui loc de muncă</h1>
+			<a href="./WELLcare_en.php">Îngrijiri medicale la domiciliu</a>
+			<a href="./WELLmed_en.php">Medical</a>
+			<a href="./WELLpro_en.php">Altele</a>
+			<h1 style="font-size: 40px; color: rgba(157, 11, 15, 1); font-weight: bold;">În căutarea unui personal de muncă</h1><br>
+			<a href="./sprostredkovanie_care.php">Îngrijiri medicale la domiciliu</a>
+			<a href="./sprostredkovanie_med.php">Medical</a>
+			<a href="./sprostredkovanie_other.php">Altele</a>
+		  </div>
+		</div>
+	<!-- KONIEC MOBIL MENU-->
 		<div class="hauptmenu">
 			<a href="./index.php"><i aria-hidden="true" class="fa fa-home fa-3x home"></i></a>
 		</div><!--NAVIGATION END-->
@@ -51,79 +70,74 @@
 			<div class="container" style="text-align: left;">
 				<h3 style="text-align: left;">IMPRESSUM</h3><br>
 				
-				<p style="text-align: left"><strong>General provisions</strong></p>
+				<p style="text-align: left"><strong>Dispoziții generale</strong></p>
 				<p style="text-align: left">
-					The website www.slowiss.eu is created to provide general information about Slowiss Slovakia s.r.o., especially about services of the company.
+					Site-ul web www.slowiss.eu este creat pentru a oferi informații generale despre Slowiss Slovakia s.r.o., în special despre serviciile companiei.
 				</p>
 				<p style="text-align: left">
-					Slowiss Slovakia s.r.o., with registered office at M. Razusa 59, 984 01 Lucenec, Company Registration Number: 50 047 612, registered in the Commercial Register of the District Court Banska Bystrica, Section: Sro, File number 28841/S (hereinafter referred to as „Operator“) is the operator of the website www.slowiss.eu (hereinafter referred to as “website”) and the provider of services on the website.
+					Slowiss Slovakia sro, cu sediul social la M. Razusa 59, 984 01 Lucenec, Număr de înregistrare: 50 047 612, înregistrată în Registrul Comercial al Judecătoriei Banska Bystrica, Secțiunea:Sro, dosar nr. 28841/S (denumit în continuare &quot;operator&quot;) este operatorul site-ului web www.slowiss.eu (denumit în continuare &quot;site web&quot;) și furnizorul de servicii de pe site-ul web.
 				</p>
 				<p style="text-align: left">
-					The texts, images and other content of the website are property of the Operator or the operator holds a user privileges based on Licence Agreement. The use, duplication, distribution or reproduction of the websites’ content can be done only with a prior Operator’s consent.
+					Textele, imaginile și alt conținut al site-ului web sunt proprietatea Operatorului sau operatorul deține un privilegiu de utilizator bazat pe Acordul de Licență. Utilizarea, duplicarea, distribuirea sau reproducerea conținutului site-urilor web se poate face numai cu acordul prealabil al Operatorului.
 				</p>
 				<p style="text-align: left">
-					The website may contain links to other websites. The operator does not take any responsibility for their content or functionality.
+					Site-ul web poate conține linkuri către alte site-uri web. Operatorul nu își asumă nicio responsabilitate pentru conținutul sau funcționalitatea acestora.
 				</p><br>
 				
-				<p style="text-align: left"><strong>General business terms and conditions</strong></p>
+				<p style="text-align: left"><strong>Termeni și condiții generale de afaceri</strong></p>
 				<p style="text-align: left">
-					General business terms and conditions of Slowiss Slovakia s.r.o. (hereinafter referred to as „GBTC“) are governing rights and obligations of the Operator and third parties in the provision and use of services on the website. The GBTC are an integral part of the contract with the operator and are binding for all users of the Services. Deviating contract provisions take precedence over GBTC. 
+					Termenii și condiții generale de afaceri ale Slowiss Slovakia s.r.o. (denumite în continuare &quot;TCGA&quot;) reglementează drepturile și obligațiile Operatorului și ale terților în furnizarea și utilizarea serviciilor pe site. TCGA fac parte integrantă din contract și sunt obligatorii pentru toți utilizatorii serviciilor. Dispozițiile privind abrogarea contractelor au prioritate față de TCGA. 
 				</p>
 				<p style="text-align: left">
-					The business activity of the Operator is not a recruitment for reimbursement under Act. 5/2004 Coll. on employment services and on the amendment of certain acts as amended.
+					Activitatea comercială a Operatorului nu este recrutarea pentru rambursare în temeiul Legii. 5/2004 coloana privind serviciile de ocupare a forței de muncă și modificarea anumitor acte, astfel cum a fost modificată.
 				</p>
 				<p style="text-align: left">
-					For the purposes of GBTC and origin, change and termination of the legal relationship between the Operator and the Client or the Applicant for job or service provision are interpreted as follows:
+					În sensul TCGA și al originii, modificarea și încetarea relației juridice dintre Operator și Client sau Solicitantul unui loc de muncă sau prestări de servicii sunt interpretate după cum urmează:
 				</p>
 				<p style="text-align: left">
-					Operator is a person that alone or together with others defines the purpose of processing personal data, determines conditions to process them and processes personal data in his/her own name. For purposes of this document the Operator is Slowiss Slovakia s.r.o.
-					Candidate is only a natural person who uses the services provided on the website in order to find a suitable opportunity for a provision of jobs or services.
-					Client is a natural person or a legal entity that uses or intends to use the services provided on the website, especially in order to find a suitable employee or a service provider. 
-					Curriculum Vitae is a summary of Candidate‘s personal data.
-					Database of candidates is a database that contains personal data about Candidates‘ CVs.
+					Operatorul este o persoană care singur sau împreună cu alții definește scopul prelucrării datelor cu caracter personal, stabilește condițiile de procesare a acestora și prelucrează datele personale în nume propriu. În sensul prezentului document, Operatorul este Slowiss Slovakia s.r.o. Candidatul este doar o persoană fizică care utilizează serviciile oferite pe site pentru a găsi o oportunitate potrivită pentru furnizarea de locuri de muncă sau servicii. Clientul este o persoană fizică sau persoană juridică care utilizează sau intenționează să utilizeze serviciile furnizate pe site, în special pentru a găsi un angajat sau un furnizor de servicii adecvat. Curriculum Vitae este un rezumat al datelor personale ale candidatului. Baza de date a candidaților este o bază de date care conține date personale despre CV-urile candidaților.
 				</p>
 				<p style="text-align: left">
-					Services are services that Operator provides to Clients and Candidates especially through the website.
-					Offer is an advertisement published by the Operator on the website in order to find a suitable employee or a service provider.
+					Serviciile sunt servicii pe care Operatorul le oferă clienților și candidaților, în special prin intermediul site-ului web. Oferta este un anunț publicat de către Operator pe site pentru a găsi un angajat sau un furnizor de servicii adecvat.
 				</p><br>
 				
-				<p style="text-align: left"><strong>Personal data protection</strong></p>
+				<p style="text-align: left"><strong>Protecția datelor personale</strong></p>
 				<p style="text-align: left">
-					Within the scope of Services provided to Candidates, the Operator records Candidate’s responses to Offers published on the website.
+					În cadrul serviciilor furnizate Candidaților, Operatorul înregistrează răspunsurile Candidaților la ofertele publicate pe site.
 				</p>
 				<p style="text-align: left">
-					Responses sent by Candidates may include information that are, according to §4 of Act no. 122/2013 Coll. Act on Personal Data Protection and on amendments to certain laws as amended (hereinafter referred to as “Act on Personal Data Protection”), considered personal information. 
+					Răspunsurile trimise de către candidați pot include informații care, potrivit articolului 4 din Legea nr. 122/2013 coloana Legea privind protecția datelor cu caracter personal și modificarea unor legi, astfel cum a fost modificată (denumită în continuare &quot;Legea privind protecția datelor cu caracter personal&quot;), au inclus informații personale. 
 				</p>
 				<p style="text-align: left">
-					Before sending or by sending a response to the Offer, Candidate declares that all the provided data are true.
+					Înainte de a trimite sau prin trimiterea unui răspuns la Ofertă, Candidatul declară că toate datele furnizate sunt adevărate.
 				</p>
 				<p style="text-align: left">
-					Candidate’s contact form or response to the Offer includes mainly:<br>
-					a)	Name and surname,<br>
-					b)	At least one contact information (e-mail address or phone number),<br>
-					c)	Specification of the job area or position interested in,<br>
-					d)	Specification of the vacancy location.
+					Formularul de contact al candidatului sau răspunsul la Ofertă include în principal:<br>
+					a)	Numele și prenumele<br>
+					b)	Cel puțin o informație de contact (adresa de e-mail sau numărul de telefon)<br>
+					c)	Specificarea locului de muncă sau a poziției interesate<br>
+					d)	Specificarea locului vacant
 				</p>
 				<p style="text-align: left">
-					Providing additional data in response to the Offer or in the CV is at the sole discretion of each Candidate. It includes following information that may be a part of Candidate’s CV:<br>
-					a)	Highest level of achieved education,<br>
-					b)	Vocational certificate,<br>
-					c)	Work experience, certificate,<br>
-					d)	Language and other skills.
+					Furnizarea datelor suplimentare ca răspuns la ofertă sau în CV este la discreția fiecărui candidat. Acestea includ următoarele informații care pot face parte din CV-ul candidatului:<br>
+					a)	Cel mai înalt nivel de educație realizat<br>
+					b)	Certificat profesional<br>
+					c)	Experiența de muncă, certificat<br>
+					d)	Limba și alte abilități
 				</p>
 				<p style="text-align: left">
-					A part of Candidate’s CV is a questionnaire whose filling is based on voluntariness and enables the Operator to better search of an opportunity for the candidate.
+					O parte din CV-ul Candidatului este un chestionar a cărui completare se bazează pe voluntariat și permite Operatorului să caute mai bine o oportunitate pentru candidat.
 				</p>
 				<p style="text-align: left">
-					The Operator does not require in any way from the Candidate to provide the information covered in a separate category defined in §13 of the Act on Personal Data Protection. 
+					Operatorul nu solicită în niciun fel din partea Candidatului să furnizeze informațiile cuprinse într-o categorie separată definită în articolul 13 din Legea privind protecția datelor cu caracter personal. 
 				</p>
 				<p style="text-align: left">
-					Without the express consent of the Candidate, the Operator and the Client of the Operator shall not be entitled to process the data of the Candidate. Before sending a response to the offer published on the website, the Candidate shall provide demonstrable consent that such data may be processed by the Operator. The Operator processes the Candidate’s data solely for the purposes of providing assistance to Candidates with search of an opportunity to provide jobs or services. Candidate’s consent is provided for an unlimited period of time and can be retracted at any time by a written request addressed to the Operator. 
+					Fără consimțământul expres al Candidatului, Operatorul și Clientul Operatorului nu vor avea dreptul să proceseze datele Candidatului. Înainte de a trimite un răspuns la oferta publicată pe site-ul web, Candidatul va furniza un consens demonstrat că aceste date pot fi prelucrate de către Operator. Operatorul procesează datele candidatului numai în scopul de a oferi asistență candidaților care caută o oportunitate de a presta locuri de muncă sau servicii. Consimțământul candidatului este acordat pentru o perioadă nelimitată de timp și poate fi retras în orice moment printr-o solicitare scrisă adresată Operatorului. 
 				</p><br>
 				
-				<p style="text-align: left"><strong>General and final provisions</strong></p>
+				<p style="text-align: left"><strong>Dispoziții generale și finale</strong></p>
 				<p style="text-align: left">
-					The operator reserves the rights to amend and supplement the GBTS while informing the Client immediately by publishing the changes on the website. All relations that are not stipulated within this document are governed by the GBTC and by the valid legal enactments of the Slovak Republic. 
+					Operatorul își rezervă dreptul de a modifica și de a completa TCGA atâta timp cât informează Clientul imediat prin publicarea modificărilor de pe site. Toate relațiile care nu sunt stipulate în acest document sunt guvernate de TCGA și de actele normative legale în vigoare ale Republicii Slovace. 
 				</p>
 				
 				
@@ -152,35 +166,35 @@
 	   var scene = document.getElementById("scene");
 	   var parallax = new Parallax(scene);
 	</script> <!-- parallax end -->
-	<!-- Modal -->
+<!-- Modal -->
 	<div class="modal fade" id="myModal" role="dialog">
 		<div class="modal-dialog">
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
 					<button class="close" data-dismiss="modal" type="button">&times;</button>
-					<h4 class="modal-title">Contact info</h4>
+					<h4 class="modal-title" style="color:#222; text-align: center;">Informații de contact</h4>
 				</div>
 				<div class="modal-body">
-					<p>Any questions?</p>
-					<h2 style="text-align: center;"> +421 473 211 276</h2><br>
-					<p>Form:</p>
-					<form action="" method="post" style="font-size:2em">
-						<input placeholder="Name:" type="text"> <input placeholder="Email:" type="text"> <input type="submit">
-					</form>
+					<p>Aveți vreo întrebare? Contactați-ne la:</p>
+					<h2 style="text-align: center;">+40 771 711 064</h2><br>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>
 				</div>
 			</div>
 		</div>
 	</div><!-- modal ends -->
-	<footer>
+	<footer class="foot">
 	<?php
 		include "en_footer.php";		
 		include "sitemap.php";
 	?>
 	</footer><!-- Modal -->
+	<?php
+		include "lang_en.php";
+		include "../scrollTop.php";
+	?>
 	<script type="text/javascript">
 	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 	(function(){

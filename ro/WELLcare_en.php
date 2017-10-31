@@ -114,7 +114,7 @@
 		    <input type="file" name="u-file"><hr>
 	        <div class="row">
 	        	<div class="col-sm-1"><input name="u-checkbox" value="ano" id="checkbox" type="checkbox" style="display: block; margin: 18px 0px 18px 0px;"></div>
-	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">Consimți la prelucrarea datelor cu caracter personal</a></div>
+	        	<div class="col-sm-11"><a href="impressum.php" style="text-align: left; font-size: .7em; margin-left: -25px;">Consimțământ cu privire la prelucrarea datelor cu caracter personal</a></div>
 	        
 	        </div>
 			<hr><br> 
@@ -280,7 +280,7 @@
 				</div>
 				<div class="bubbleinfo bubble-right pull-right">
 					<div class="q0 answ">
-						<p>Selectați întrebarea pentru a vedea răspunsul.</p>
+						<p>Vă rugam selectați întrebarea pentru a vedea răspunsul.</p>
 					</div>
 					<div class="q1 answ">
 						<p>Nimic, nu plătiți nici o taxă de intermediere sau de înregistrare. Beneficiați gratuit de serviciile noastre. </p>
@@ -312,7 +312,7 @@
 			<div class="article-finish"></div>
 			<div class="container">
 				<h2 class="text-center" style="color: white;">Aveți o altă întrebare?<br>
-				Vă rugăm să ne contactați la +421 473 211 276</h2>
+				Vă rugăm să ne contactați la +40 771 711 064</h2>
 			</div>
 			<div class="article-finish"></div>
 			<img src="img/call.jpeg" alt="img" class="decoration">
@@ -435,7 +435,7 @@
 				</div>
 				<div class="modal-body">
 					<p>Aveți vreo întrebare? Contactați-ne la:</p>
-					<h2 style="text-align: center;">+421 473 211 276</h2><br>
+					<h2 style="text-align: center;">+40 771 711 064</h2><br>
 				</div>
 				<div class="modal-footer">
 					<button class="btn btn-default" data-dismiss="modal" type="button">Închide</button>
