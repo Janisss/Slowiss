@@ -38,7 +38,7 @@ function MM_validateForm() { //v4.0
 			</div>
 			<div class="col-xs-6">
 				<h3>Sediul central</h3>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2652.379504186679!2d19.65959525154252!3d48.33401037913768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ff88c67540cf9%3A0x3328a04fd2f94481!2sMartina+R%C3%A1zusa+1593%2F59%2C+984+01+Lu%C4%8Denec!5e0!3m2!1ssk!2ssk!4v1499763626754" width="505" height="205" frameborder="0" style="border:0;" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.7702328270598!2d24.149043315849262!3d45.79583071927375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c6790e4ef14b5%3A0xe434ae195d871dfd!2sStrada+Nicolae+B%C4%83lcescu+3%2C+Sibiu+557260%2C+Rumunsko!5e0!3m2!1ssk!2ssk!4v1509455618563" width="505" height="205" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 			<!--   <div class="col-xs-2">
 						<h3>Membru al grupului</h3>
